@@ -1,0 +1,23 @@
+1 pwd 
+
+2 cd /tmp
+
+3 cd ~
+   or
+  cd
+
+4 ls -la
+
+5 ls /usr > usr.txt
+
+6 sort -r usr.txt
+
+7 ls /usr/bin | more
+   or
+  ls /usr/bin | less
+
+8  grep -r "log" /etc
+
+9 wc -l /etc/profile 
+10. 27
+

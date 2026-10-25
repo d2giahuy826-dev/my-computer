@@ -1,0 +1,593 @@
+--
+Lab01 ,Lab02
+---
+MASM_ Microsoft Macro Assembler:
+------
+1. Which directive is used to define a constant in MASM?
+a. .EQU
+b. .CONST
+c. .DEFINE
+d. .CONSTANT
+Answer: a
+
+2. Which of the following is not a valid register in MASM?
+a. EAX
+b. EBX
+c. ECX
+d. EDXZ
+Answer: d
+
+3. Which directive is used to specify the start of a program in MASM?
+a. .CODE
+b. .START
+c. .MAIN
+d. .BEGIN
+Answer: a
+
+4. Which of the following is not a valid segment register in MASM?
+a. DS
+b. CS
+c. SS
+d. ESX
+Answer: d
+
+5. Which directive is used to define a new segment in MASM?
+a. .SEGMENT
+b. .DATA
+c. .STACK
+d. .CODE
+Answer: a
+
+6. Which of the following is not a valid data type in MASM?
+a. BYTE
+b. WORD
+c. DWORD
+d. QWORDZ
+Answer: d
+
+7. Which register is used as a pointer to the base address of a segment in MASM?
+a. EAX
+b. EBX
+c. ECX
+d. ESI
+Answer: b
+
+8. Which directive is used to include an external file in MASM?
+a. .INCLUDE
+b. .IMPORT
+c. .EXTERN
+d. .USE
+Answer: a
+
+9. Which of the following is not a valid addressing mode in MASM?
+a. Immediate
+b. Direct
+c. Register
+d. Indirect-Indexed
+Answer: d
+
+10. Which of the following directives is used to reserve space for uninitialized data in MASM?
+a. .DATA
+b. .CONST
+c. .SPACE
+d. .UNINIT
+Answer: c
+
+11. Which register is used to store the return value of a function in MASM?
+a. EAX
+b. EBX
+c. ECX
+d. EDX
+Answer: a
+
+12. Which of the following is not a valid instruction operand size in MASM?
+a. BYTE
+b. WORD
+c. DWORD
+d. QWORD
+Answer: d
+
+13. Which directive is used to define a procedure in MASM?
+a. .PROC
+b. .FUNCTION
+c. .SUB
+d. .PROCEDURE
+Answer: a
+
+14. Which of the following is not a valid conditional jump instruction in MASM?
+a. JE
+b. JG
+c. JLZ
+d. JNE
+Answer: c
+
+15. Which directive is used to define a label in MASM?
+a. .LABEL
+b. .DEFINE
+c. .NAME
+d. None of the above
+Answer: d
+
+16. Which register is used to store the address of the next instruction in MASM?
+a. EAX
+b. c
+c. ECX
+d. EIP
+Answer: d
+--
+17. What does MASM stand for?
+a. Macro Assembly Language
+b. Microsoft Assembly Language
+c. Minimalist Assembly Language
+d. Mainframe Assembly Language
+Answer: b. Microsoft Assembly Language
+
+18. Which of the following registers are general-purpose registers in MASM?
+a. AX, BX, CX, DX
+b. SP, BP, SI, DI
+c. CS, DS, ES, SS
+d. IP, FLAGS, AH, AL
+Answer: a. AX, BX, CX, DX
+
+19. Which directive is used to define a byte variable in MASM?
+a. WORD
+b. DWORD
+c. BYTE
+d. QWORD
+Answer: c. BYTE
+
+20. Which of the following statements is true about MASM syntax?
+a. It is case-sensitive.
+b. It is not possible to use labels in MASM.
+c. It does not support macros.
+d. It uses semicolons for commenting.
+Answer: a. It is case-sensitive.
+
+21. Which directive is used to define a word variable in MASM?
+a. WORD
+b. DWORD
+c. BYTE
+d. QWORD
+Answer: a. WORD
+
+22. Which of the following instructions is used to move a value into a register?
+a. ADD
+b. SUB
+c. MOV
+d. CMP
+Answer: c. MOV
+
+23. Which directive is used to define a doubleword variable in MASM?
+a. WORD
+b. DWORD
+c. BYTE
+d. QWORD
+Answer: b. DWORD
+
+24. Which of the following instructions is used to jump to a label?
+a. JMP
+b. JNE
+c. JE
+d. JG
+Answer: a. JMP
+
+25. Which directive is used to reserve a block of memory in MASM?
+a. .DATA
+b. .CODE
+c. .STACK
+d. .CONST
+Answer: c. .STACK
+
+26. Which of the following instructions is used to compare two values?
+a. ADD
+b. SUB
+c. MOV
+d. CMP
+Answer: d. CMP
+
+27. Which directive is used to include a file in MASM?
+a. .INCLUDE
+b. .DEFINE
+c. .MACRO
+d. .IF
+Answer: a. .INCLUDE
+
+28. Which of the following instructions is used to add two values?
+a. ADD
+b. SUB
+c. MOV
+d. CMP
+Answer: a. ADD
+
+29. Which directive is used to define a constant in MASM?
+a. .DATA
+b. .CODE
+c. .STACK
+d. .CONST
+Answer: d. .CONST
+
+30. Which of the following instructions is used to subtract two values?
+a. ADD
+b. SUB
+c. SUB
+d. CMP
+Answer: b. SUB
+
+31. Which directive is used to define a floating-point variable in MASM?
+a. REAL4
+b. REAL8
+c. DWORD
+d. QWORD
+Answer: b. REAL8
+
+32. Which of the following instructions is used to perform bitwise operations?
+a. ADD
+b. SUB
+c. MOV
+d. AND
+Answer: d. AND
+
+33. Which directive is used to define a string variable in MASM?
+a. BYTE
+b. WORD
+c. DWORD
+d. QWORD
+Answer: a. BYTE
+
+34. Which of the following instructions is used to perform a logical OR operation?
+a. OR
+b. AND
+c. XOR
+d. NOT
+Answer: a. OR
+---
+35. What does MASM stand for?
+a) Microsoft Assembly
+b) Macro Assembler
+c) Machine Assembly
+d) Multi-platform Assembly
+Answer: b) Macro Assembler
+
+36. Which command is used to define a macro in MASM?
+a) .IF
+b) .ENDIF
+c) .MACRO
+d) .ENDM
+Answer: c) .MACRO
+
+37. Which of the following is NOT a MASM directive?
+a) .MODEL
+b) .INCLUDE
+c) .CODE
+d) .DATA
+Answer: c) .CODE
+
+38. What is the purpose of the .MODEL directive in MASM?
+a) To specify the type of processor to assemble code for
+b) To specify the type of output file format
+c) To specify the size of the stack to allocate for the program
+d) To specify the type of memory model to use
+Answer: d) To specify the type of memory model to use
+
+39. Which of the following is the correct syntax for declaring a label in MASM?
+a) label:
+b) :label
+c) .label
+d) #label
+Answer: a) label:
+
+40. Which of the following registers is used as the stack pointer in MASM?
+a) AX
+b) BX
+c) CX
+d) SP
+Answer: d) SP
+
+41. Which of the following commands is used to define a variable in MASM?
+a) .VAR
+b) .DEF
+c) .WORD
+d) .DWORD
+Answer: d) .DWORD
+
+42. Which of the following commands is used to define a byte variable in MASM?
+a) .BYTE
+b) .WORD
+c) .DWORD
+d) .QWORD
+Answer: a) .BYTE
+
+43. Which of the following commands is used to define a string variable in MASM?
+a) .ASC
+b) .STRING
+c) .DB
+d) .DW
+Answer: c) .DB
+
+44. Which of the following commands is used to output a string to the console in MASM?
+a) print
+b) display
+c) mov
+d) invoke
+Answer: d) invoke
+
+45. Which of the following commands is used to read input from the console in MASM?
+a) read
+b) input
+c) cin
+d) invoke
+Answer: d) invoke
+
+46. Which of the following commands is used to jump to a label conditionally in MASM?
+a) jmp
+b) jne
+c) jnz
+d) je
+Answer: b) jne
+
+47. Which of the following commands is used to jump to a label unconditionally in MASM?
+a) jmp
+b) jne
+c) jnz
+d) je
+Answer: a) jmp
+
+48. Which of the following commands is used to call a subroutine in MASM?
+a) call
+b) invoke
+c) jump
+d) push
+Answer: a) call
+
+49. Which of the following commands is used to return from a subroutine in MASM?
+a) ret
+b) return
+c) exit
+d) jmp
+Answer: a) ret
+
+50. Which of the following commands is used to set the value of a register in MASM?
+a) mov
+b) lea
+c) push
+d) pop
+Answer: a) mov
+
+51. Which of the following commands is used to load the address of a variable into a register in MASM?
+a) mov
+b) lea
+c) push
+d) pop
+Answer: b) lea
+---
+52. Which of the following is a valid MASM syntax for declaring a label?
+a) label
+b) label:
+c) :label
+d) :label:
+Answer: b) label:
+
+53. Which of the following is a valid MASM syntax for declaring a variable?
+a) variable
+b) variable db
+c) db variable
+d) db variable 10
+Answer: b) variable db
+
+54. Which of the following is a valid MASM syntax for declaring an array of 10 bytes?
+a) myArray BYTE 10
+b) myArray DB 10
+c) myArray 10 BYTE
+d) BYTE myArray 10
+Answer: a) myArray BYTE 10
+
+55. Which of the following is a valid MASM syntax for defining a macro?
+a) macro myMacro
+b) myMacro MACRO
+c) macro
+d) MACRO myMacro
+Answer: b) myMacro MACRO
+
+56. Which of the following is a valid MASM syntax for invoking a macro?
+a) myMacro
+b) macro myMacro
+c) invoke myMacro
+d) call myMacro
+Answer: a) myMacro
+
+57. Which of the following is a valid MASM syntax for defining a procedure?
+a) procedure myProc
+b) myProc PROC
+c) procedure
+d) PROC myProc
+Answer: b) myProc PROC
+
+58. Which of the following is a valid MASM syntax for invoking a procedure?
+a) myProc
+b) invoke myProc
+c) call myProc
+d) execute myProc
+Answer: c) call myProc
+
+59. Which of the following is a valid MASM syntax for defining a segment?
+a) mySegment SEGMENT
+b) SEGMENT mySegment
+c) segment
+d) segment mySegment
+Answer: d) segment mySegment
+
+60. Which of the following is a valid MASM syntax for declaring a code segment?
+a) myCode SEGMENT
+b) CODE myCode
+c) myCode CODE
+d) CODE SEGMENT myCode
+Answer: d) CODE SEGMENT myCode
+
+61. Which of the following is a valid MASM syntax for declaring a data segment?
+a) myData SEGMENT
+b) DATA myData
+c) myData DATA
+d) DATA SEGMENT myData
+Answer: d) DATA SEGMENT myData
+
+62. Which of the following is a valid MASM syntax for declaring a stack segment?
+a) myStack SEGMENT
+b) STACK myStack
+c) myStack STACK
+d) STACK SEGMENT myStack
+Answer: d) STACK SEGMENT myStack
+
+63. Which of the following is a valid MASM syntax for defining a byte?
+a) myByte BYTE 10
+b) BYTE myByte 10
+c) myByte 10 BYTE
+d) BYTE 10 myByte
+Answer: a) myByte BYTE 10
+
+64. Which of the following is a valid MASM syntax for defining a word?
+a) myWord WORD 10
+b) WORD myWord 10
+c) myWord 10 WORD
+d) WORD 10 myWord
+Answer: a) myWord WORD 10
+
+65. Which of the following is a valid MASM syntax for defining a doubleword?
+a) myDouble DWORD 10
+b) DWORD myDouble 10
+c) myDouble 10 DWORD
+d) DWORD 10 myDouble
+Answer: a) myDouble DWORD 10
+--
+66. What does MASM stand for?
+a) Macro Assembler
+b) Microsoft Assembler
+c) Master Assembler
+d) Machine Assembler
+Answer: b) Microsoft Assembler
+
+67. Which file extension is used for MASM source code files?
+a) .masm
+b) .mas
+c) .asm
+d) .assembler
+Answer: c) .asm
+
+68. Which directive is used to include external files in MASM?
+a) .inc
+b) .ext
+c) .add
+d) .imp
+Answer: a) .inc
+
+69. Which register is used to store the memory address of a variable in MASM?
+a) EAX
+b) EBX
+c) ECX
+d) EDX
+Answer: b) EBX
+
+70. Which directive is used to define a constant in MASM?
+a) .const
+b) .define
+c) .equ
+d) .var
+Answer: c) .equ
+
+71. Which instruction is used to move data from one register to another in MASM?
+a) MOV
+b) ADD
+c) SUB
+d) XOR
+Answer: a) MOV
+
+72. Which instruction is used to perform an arithmetic addition operation in MASM?
+a) MOV
+b) ADD
+c) SUB
+d) XOR
+Answer: b) ADD
+
+73. Which instruction is used to perform an arithmetic subtraction operation in MASM?
+a) MOV
+b) ADD
+c) SUB
+d) XOR
+Answer: c) SUB
+
+74. Which instruction is used to perform an exclusive OR operation in MASM?
+a) MOV
+b) ADD
+c) SUB
+d) XOR
+Answer: d) XOR
+
+75. Which instruction is used to compare two values in MASM?
+a) CMP
+b) TEST
+c) AND
+d) OR
+Answer: a) CMP
+
+76. Which directive is used to specify the starting address of a program in MASM?
+a) .start
+b) .begin
+c) .entry
+d) .main
+Answer: c) .entry
+
+77. Which instruction is used to jump to a different part of the program in MASM?
+a) JMP
+b) CALL
+c) RET
+d) INT
+Answer: a) JMP
+
+78. Which instruction is used to call a subroutine in MASM?
+a) JMP
+b) CALL
+c) RET
+d) INT
+Answer: b) CALL
+
+79. Which instruction is used to return from a subroutine in MASM?
+a) JMP
+b) CALL
+c) RET
+d) INT
+Answer: c) RET
+
+80. Which directive is used to define a data segment in MASM?
+a) .data
+b) .code
+c) .stack
+d) .const
+Answer: a) .data
+
+81. Which directive is used to define a code segment in MASM?
+a) .data
+b) .code
+c) .stack
+d) .const
+Answer: b) .code
+
+82. Which directive is used to define a stack segment in MASM?
+a) .data
+b) .code
+c) .stack
+d) .const
+Answer: c) .stack
+
+83. Which instruction is used to push a value onto the stack in MASM?
+a) PUSH
+b) POP
+c) MOV
+d) ADD
+Answer: a) PUSH
+
+84. Which instruction is used to pop a value off the stack in MASM?
+a) PUSH
+b) POP
+c) MOV
+d) ADD
+Answer: b) POP
+---

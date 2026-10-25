@@ -1,0 +1,10 @@
+1 nano user.txt
+
+2 cat user.txt
+
+3 sort user.txt
+  
+  sort user.txt > suser.txt
+
+4 wc -l user.txt
+

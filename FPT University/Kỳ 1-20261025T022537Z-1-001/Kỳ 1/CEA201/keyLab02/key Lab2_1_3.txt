@@ -1,0 +1,56 @@
+;-----------------7-May-24
+;Lab2_3
+;  Develop a procedure for computing n! using the following prototype:
+;  factorial PROTO : DWORD
+;  In the procedure main of the ASM program, the integer n will be accepted then value of n! will be printed out
+;  n! = 1* 2 * 3* …. * n
+;
+include \masm32\include\masm32rt.inc
+factorial PROTO :DWORD          ;initial prototype of factorial procedure
+.code
+start:
+    call main
+    exit
+main proc
+    LOCAL n: DWORD                    ;initialize variable n
+    LOCAL result: DWORD               ;initialize variable result
+    mov n, sval(input("Enter n: "))   ;allow users input a value of n
+    mov ecx, n                        ;store a value of n in ecx register
+    cmp ecx, 0                        ;compare n with 0
+    je equal                          ;if n=0
+    jg greater                        ;if n>0
+    jl smaller                        ;if n<0
+    equal:
+        mov result, 1                 ;result = 1
+        print chr$("Factorial of ")   ;print line "Factorial of "  
+        print str$(n)                 ;print value of n
+        print chr$(": ")
+        print str$(result)            ;print value of result
+        jmp STOP                      ;jump to STOP condition
+    greater:
+        invoke factorial,n            ;carry out factorial procedure by input value of n  
+        mov result, eax               ;result = the value in register eax
+        print chr$("Factorial of ")   ;print line "Factorial of "
+        print str$(n)                 ;print value of n
+        print chr$(": ")
+        print str$(result)            ;print value of result
+        jmp STOP                      ;jump to STOP condition
+    smaller:
+        print chr$("Invalid !")       ;print line "Invalid !" because it doesn't receive negative value
+        jmp STOP                      ;jump to STOP condition
+    STOP:
+        ret                           ;return nothing
+main endp                             ;end main procedure
+
+factorial proc n: DWORD               ;initialize factorial procedure with parameter n
+    LOCAL a: DWORD                    ;initialize variable a 
+    mov ecx, n                        ;value of n will be stored in ecx register
+    mov a, 1                          ;a=1
+    mov eax, a                        ;store value of a in eax register
+    fact:                             ;label of loop
+        mul a                         ;multiply a
+        INC a                         ;a=a+1
+        LOOP fact                     ;loop until n=0
+    ret
+factorial endp                        ;end procedure
+end start                             ;end start and terminate a program

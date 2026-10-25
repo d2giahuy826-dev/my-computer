@@ -1,0 +1,230 @@
+
+--
+Chapter 8: Digital logic
+---
+
+1. What is digital logic?
+a. The study of electronic circuits that operate on digital signals
+b. The study of electronic circuits that operate on analog signals
+c. The study of mechanical circuits that operate on digital signals
+d. The study of mechanical circuits that operate on analog signals
+Answer: a
+
+2. What is a digital signal?
+a. A signal that has a continuous range of values
+b. A signal that has a discrete set of values
+c. A signal that is not quantized
+d. A signal that is not processed by a computer
+Answer: b
+
+3. What is a logic gate?
+a. An electronic component that performs a logical operation on one or more binary inputs
+b. An electronic component that amplifies a signal
+c. An electronic component that filters a signal
+d. An electronic component that generates a signal
+Answer: a
+
+4. What is a truth table?
+a. A table that shows the output of a logic gate for all possible input combinations
+b. A table that shows the input of a logic gate for all possible output combinations
+c. A table that shows the truth of a logical statement for all possible input combinations
+d. A table that shows the falsity of a logical statement for all possible input combinations
+Answer: a
+
+5. What is a logic circuit?
+a. An electronic circuit that implements a logical function
+b. An electronic circuit that amplifies a signal
+c. An electronic circuit that filters a signal
+d. An electronic circuit that generates a signal
+Answer: a
+
+6. What is a combinational logic circuit?
+a. A logic circuit in which the output depends only on the current input
+b. A logic circuit in which the output depends on the current input and the previous output
+c. A logic circuit in which the output depends on a clock signal
+d. A logic circuit in which the output depends on an external input
+Answer: a
+
+7. What is a sequential logic circuit?
+a. A logic circuit in which the output depends on the current input and the previous output
+b. A logic circuit in which the output depends only on the current input
+c. A logic circuit in which the output depends on a clock signal
+d. A logic circuit in which the output depends on an external input
+Answer: a
+
+8. What is a flip-flop?
+a. A sequential logic circuit that stores one bit of information
+b. A combinational logic circuit that performs a logical operation
+c. A combinational logic circuit that stores one bit of information
+d. A sequential logic circuit that performs a logical operation
+Answer: a
+
+9. What is a latch?
+a. A sequential logic circuit that stores one bit of information
+b. A combinational logic circuit that performs a logical operation
+c. A combinational logic circuit that stores one bit of information
+d. A sequential logic circuit that performs a logical operation
+Answer: a
+
+10. What is a decoder?
+a. A combinational logic circuit that converts a binary code into a decimal code
+b. A sequential logic circuit that converts a binary code into a decimal code
+c. A combinational logic circuit that converts a decimal code into a binary code
+d. A sequential logic circuit that converts a decimal code into a binary code
+Answer: a
+
+11. What is digital logic?
+a. The use of digital signals to represent logical operations
+b. The use of analog signals to represent logical operations
+c. The use of digital signals to represent continuous signals
+d. The use of analog signals to represent digital signals
+Answer: a
+
+12. What is a logic gate?
+a. A device that performs a logical operation on one or more binary inputs to produce a binary output
+b. A device that performs an arithmetic operation on one or more binary inputs to produce a binary output
+c. A device that performs a logical operation on one or more analog inputs to produce an analog output
+d. A device that performs an arithmetic operation on one or more analog inputs to produce an analog output
+Answer: a
+
+13. What is a NOT gate?
+a. A gate that produces the opposite of the input signal
+b. A gate that produces the same as the input signal
+c. A gate that produces a signal that is the sum of the input signals
+d. A gate that produces a signal that is the product of the input signals
+Answer: a
+
+14. What is an AND gate?
+a. A gate that produces a signal that is the product of the input signals
+b. A gate that produces a signal that is the sum of the input signals
+c. A gate that produces a signal that is the difference of the input signals
+d. A gate that produces a signal that is the opposite of the input signal
+Answer: a
+
+15. What is an OR gate?
+a. A gate that produces a signal that is the sum of the input signals
+b. A gate that produces a signal that is the product of the input signals
+c. A gate that produces a signal that is the difference of the input signals
+d. A gate that produces a signal that is the opposite of the input signal
+Answer: a
+
+16. What is a NAND gate?
+a. A gate that produces the opposite of the product of the input signals
+b. A gate that produces the product of the input signals
+c. A gate that produces the opposite of the sum of the input signals
+d. A gate that produces the sum of the input signals
+Answer: a
+
+17. What is a NOR gate?
+a. A gate that produces the opposite of the sum of the input signals
+b. A gate that produces the sum of the input signals
+c. A gate that produces the opposite of the product of the input signals
+d. A gate that produces the product of the input signals
+Answer: a
+
+18. What is an XOR gate?
+a. A gate that produces a signal that is 1 if the input signals are different and 0 if they are the same
+b. A gate that produces a signal that is 1 if the input signals are the same and 0 if they are different
+c. A gate that produces a signal that is the sum of the input signals
+d. A gate that produces a signal that is the product of the input signals
+Answer: a
+
+19. What is a half adder?
+a. A circuit that adds two bits and produces a sum and a carry output
+b. A circuit that adds two bits and produces a difference output
+c. A circuit that subtracts two bits and produces a borrow output
+d. A circuit that multiplies two bits and produces a product output
+Answer: a
+
+20. What is digital logic?
+a. The logic used in digital devices
+b. The logic used in analog devices
+c. The logic used in mechanical devices
+d. The logic used in chemical devices
+Answer: a
+
+21. What is a logic gate?
+a. A device that performs a logic operation on one or more inputs and produces a single output
+b. A device that converts analog signals to digital signals
+c. A device that amplifies electronic signals
+d. A device that stores data
+Answer: a
+
+22. Which of the following is not a logic gate?
+a. AND gate
+b. OR gate
+c. NOT gate
+d. XOR gate
+Answer: d
+
+23. What is a truth table?
+a. A table that shows the inputs and outputs of a logic gate
+b. A table that shows the inputs and outputs of a computer program
+c. A table that shows the inputs and outputs of an electrical circuit
+d. A table that shows the inputs and outputs of a mechanical system
+Answer: a
+
+24. What is a logic circuit?
+a. A circuit that performs a logic operation
+b. A circuit that stores data
+c. A circuit that amplifies electronic signals
+d. A circuit that converts analog signals to digital signals
+Answer: a
+
+25. What is a combinational logic circuit?
+a. A circuit that performs a logic operation on the inputs and produces an output
+b. A circuit that stores data
+c. A circuit that amplifies electronic signals
+d. A circuit that converts analog signals to digital signals
+Answer: a
+
+26. What is a sequential logic circuit?
+a. A circuit that performs a logic operation on the inputs and produces an output
+b. A circuit that stores data
+c. A circuit that amplifies electronic signals
+d. A circuit that converts analog signals to digital signals
+Answer: b
+
+27. What is a flip-flop?
+a. A device that stores one bit of data
+b. A device that performs a logic operation
+c. A device that amplifies electronic signals
+d. A device that converts analog signals to digital signals
+Answer: a
+
+28. What is a register?
+a. A device that stores multiple bits of data
+b. A device that performs a logic operation
+c. A device that amplifies electronic signals
+d. A device that converts analog signals to digital signals
+Answer: a
+
+29. What is a decoder?
+a. A device that converts binary code to decimal code
+b. A device that converts analog signals to digital signals
+c. A device that amplifies electronic signals
+d. A device that converts a binary code to a specific output
+Answer: d
+
+30. What is a multiplexer?
+a. A device that selects one of several inputs and outputs it on a single line
+b. A device that stores data
+c. A device that amplifies electronic signals
+d. A device that converts analog signals to digital signals
+Answer: a
+
+31. What is a demultiplexer?
+a. A device that selects one of several outputs and inputs it on a single line
+b. A device that performs a logic operation
+c. A device that amplifies electronic signals
+d. A device that converts analog signals to digital signals
+Answer: a
+
+32. What is a counter?
+a. A device that counts the number of times an event occurs
+b. A device that performs a logic operation
+c. A device that amplifies electronic signals
+d. A device that converts analog signals to digital signals
+Answer: a
+
+---

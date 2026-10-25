@@ -1,0 +1,353 @@
+----
+Chapter 3: Memory management
+---
+1. What is Memory management in operating system?
+a) The process of loading and executing a program
+b) The process of managing the storage space of a system
+c) The process of managing the memory of a system
+d) The process of scheduling tasks in a system
+Answer: c) The process of managing the memory of a system
+
+2. Which of the following is not a component of Memory management?
+a) Memory allocation
+b) Memory protection
+c) Memory mapping
+d) Disk defragmentation
+Answer: d) Disk defragmentation
+
+3. What is a memory address?
+a) A unique identifier for a process
+b) A location in main memory where data can be stored
+c) A type of CPU instruction
+d) A type of system call
+Answer: b) A location in main memory where data can be stored
+
+4. Which of the following is not a type of memory allocation?
+a) Fixed partitioning
+b) Dynamic partitioning
+c) Static partitioning
+d) Virtual partitioning
+Answer: d) Virtual partitioning
+
+5. Which of the following is not a problem associated with fixed partitioning?
+a) Internal fragmentation
+b) External fragmentation
+c) Memory waste
+d) Overhead
+Answer: b) External fragmentation
+
+6. Which of the following is not a problem associated with dynamic partitioning?
+a) Internal fragmentation
+b) External fragmentation
+c) Memory waste
+d) Thrashing
+Answer: d) Thrashing
+
+7. Which of the following is not a method of memory allocation in dynamic partitioning?
+a) Best fit
+b) Worst fit
+c) First fit
+d) Next fit
+Answer: d) Next fit
+
+8. What is paging in memory management?
+a) The process of dividing memory into fixed-size pages
+b) The process of allocating memory to multiple processes
+c) The process of swapping out inactive processes
+d) The process of swapping data between main memory and secondary storage
+Answer: a) The process of dividing memory into fixed-size pages
+
+9. What is a page fault?
+a) A type of memory corruption
+b) A type of system error
+c) An exception raised when a process attempts to access a page that is not in main memory
+d) A type of security vulnerability
+Answer: c) An exception raised when a process attempts to access a page that is not in main memory
+
+10. Which of the following is not a method of handling page faults?
+a) Demand paging
+b) Pre-paging
+c) Swapping
+d) Paging in
+Answer: c) Swapping
+---
+11. What is memory management in operating system?
+a) It is the process of allocating and deallocating memory to various processes
+b) It is the process of managing the storage of data on a computer system
+c) It is the process of managing the input/output devices on a computer system
+d) None of the above
+Answer: a
+
+12. What is virtual memory?
+a) It is the process of dividing physical memory into several smaller blocks
+b) It is the process of allocating memory to various processes
+c) It is the process of using secondary storage as an extension of main memory
+d) None of the above
+Answer: c
+
+13. What is a page fault?
+a) It is an error that occurs when a process tries to access a page that is not present in physical memory
+b) It is an error that occurs when a process tries to access a page that is present in physical memory
+c) It is an error that occurs when a process tries to access a page that is in secondary storage
+d) None of the above
+Answer: a
+
+14. What is a TLB?
+a) It is a table used to map virtual addresses to physical addresses
+b) It is a table used to store pages that are frequently used by processes
+c) It is a table used to store information about processes
+d) None of the above
+Answer: a
+
+15. What is fragmentation?
+a) It is the process of dividing a program into smaller parts
+b) It is the process of allocating memory to various processes
+c) It is the process of dividing physical memory into several smaller blocks
+d) None of the above
+Answer: c
+
+16. What is compaction?
+a) It is the process of merging smaller memory blocks into larger ones
+b) It is the process of dividing a program into smaller parts
+c) It is the process of allocating memory to various processes
+d) None of the above
+Answer: a
+
+17. What is a buddy system?
+a) It is a method of memory allocation that uses two equal-sized blocks of memory
+b) It is a method of memory allocation that uses two unequal-sized blocks of memory
+c) It is a method of memory allocation that uses a combination of virtual and physical memory
+d) None of the above
+Answer: a
+
+18. What is a free list?
+a) It is a list of all the memory blocks that are currently in use
+b) It is a list of all the memory blocks that are currently free
+c) It is a list of all the processes that are currently running
+d) None of the above
+Answer: b
+
+19. What is a first-fit algorithm?
+a) It is a memory allocation algorithm that allocates the first available memory block that is large enough to satisfy a request
+b) It is a memory allocation algorithm that allocates the largest available memory block that is large enough to satisfy a request
+c) It is a memory allocation algorithm that allocates the smallest available memory block that is large enough to satisfy a request
+d) None of the above
+Answer: a
+
+20. What is a best-fit algorithm?
+a) It is a memory allocation algorithm that allocates the largest available memory block that is large enough to satisfy a request
+b) It is a memory allocation algorithm that allocates the smallest available memory block that is large enough to satisfy a request
+c) It is a memory allocation algorithm that allocates the memory block that leaves the smallest amount of unused memory
+d) None of the above
+Answer: c
+---
+21. What is memory management in operating systems?
+a) The process of managing the physical memory available in a computer
+b) The process of managing virtual memory
+c) The process of managing cache memory
+d) The process of managing secondary memory
+Answer: a
+
+22. What is the primary function of memory management in operating systems?
+a) To allocate memory to running processes
+b) To protect memory from unauthorized access
+c) To prevent memory leaks
+d) All of the above
+Answer: d
+
+23. Which of the following is not a component of memory management in operating systems?
+a) Virtual memory
+b) Cache memory
+c) Secondary memory
+d) None of the above
+Answer: d
+
+24. What is the purpose of virtual memory?
+a) To provide additional memory to processes when physical memory is low
+b) To prevent unauthorized access to memory
+c) To speed up access to frequently used data
+d) All of the above
+Answer: a
+
+25. What is a page fault?
+a) A software error
+b) A hardware error
+c) An interrupt that occurs when a process needs to access data that is not in physical memory
+d) A type of cache miss
+Answer: c
+
+26. Which of the following is not a memory allocation scheme used by operating systems?
+a) First-fit
+b) Best-fit
+c) Worst-fit
+d) Perfect-fit
+Answer: d
+
+27. What is fragmentation?
+a) The process of breaking up data into smaller pieces
+b) The process of combining data from multiple sources
+c) The process of dividing memory into small chunks that cannot be used for larger processes
+d) None of the above
+Answer: c
+
+28. Which of the following is not a memory management algorithm?
+a) First-in, first-out (FIFO)
+b) Least recently used (LRU)
+c) Shortest job next (SJN)
+d) Round-robin
+Answer: c
+
+29. What is the purpose of a page table?
+a) To map virtual memory addresses to physical memory addresses
+b) To protect memory from unauthorized access
+c) To store frequently used data
+d) None of the above
+Answer: a
+
+30. What is thrashing?
+a) The process of creating new pages in virtual memory
+b) The process of deleting old pages from virtual memory
+c) The process of excessive page swapping due to high demand for memory
+d) The process of allocating memory to processes in a non-optimal manner
+Answer: c
+
+31. Which of the following is not a memory management unit (MMU) component?
+a) Address translation
+b) Protection
+c) Interrupt handling
+d) Cache management
+Answer: c
+
+32. What is a memory leak?
+a) A software bug that causes memory to be allocated but never released
+b) A hardware error that causes memory to be lost
+c) A type of page fault
+d) A type of cache miss
+Answer: a
+
+33. Which of the following is not a method of reducing fragmentation?
+a) Compaction
+b) Paging
+c) Segmentation
+d) None of the above
+Answer: b
+
+34. What is the purpose of a memory manager?
+a) To allocate and manage physical memory
+b) To allocate and manage virtual memory
+c) To protect memory from unauthorized access
+d) All of the above
+Answer: d
+
+35. What is the purpose of a memory pool?
+a) To allocate memory to processes
+b) To provide a pool of memory that can be allocated dynamically
+c) To prevent memory leaks
+d) All of the above
+Answer: b
+--
+36. What is memory management in an operating system?
+a. The process of allocating and deallocating memory to processes
+b. The process of managing computer hardware
+c. The process of scheduling processes
+d. The process of managing input/output operations
+Answer: a
+
+37. Which of the following is an advantage of using virtual memory?
+a. Reduced memory fragmentation
+b. Faster access times
+c. More reliable memory allocation
+d. Easier memory management
+Answer: a
+
+38. Which of the following is not a function of a memory manager?
+a. Allocating memory to processes
+b. Deallocating memory from processes
+c. Monitoring memory usage
+d. Managing input/output operations
+Answer: d
+
+39. Which of the following is an example of a memory allocation algorithm?
+a. First Fit
+b. Time Sharing
+c. Round Robin
+d. Shortest Job First
+Answer: a
+
+40. Which of the following is a disadvantage of using a paging scheme for memory management?
+a. Increased disk I/O overhead
+b. Higher memory fragmentation
+c. Poor memory allocation
+d. Difficulty in memory management
+Answer: a
+
+41. Which of the following is a common problem in memory management known as "thrashing"?
+a. When the system runs out of physical memory
+b. When the system has too much virtual memory
+c. When the system experiences frequent page faults
+d. When the system experiences frequent disk I/O operations
+Answer: c
+
+42. Which of the following is an advantage of using a segmentation scheme for memory management?
+a. Better memory utilization
+b. Reduced memory fragmentation
+c. Faster access times
+d. Easier memory management
+Answer: b
+
+43. Which of the following is a disadvantage of using a fixed partition scheme for memory management?
+a. Poor memory utilization
+b. Increased memory fragmentation
+c. Difficulty in memory management
+d. All of the above
+Answer: d
+
+44. Which of the following is an example of a memory deallocation algorithm?
+a. Best Fit
+b. Shortest Job First
+c. Round Robin
+d. None of the above
+Answer: d
+
+45. Which of the following is an advantage of using a buddy system for memory allocation?
+a. Reduced memory fragmentation
+b. Faster access times
+c. Easier memory management
+d. All of the above
+Answer: a
+
+46. Which of the following is a disadvantage of using a swapping scheme for memory management?
+a. Increased disk I/O overhead
+b. Higher memory fragmentation
+c. Poor memory allocation
+d. Difficulty in memory management
+Answer: a
+
+47. Which of the following is an example of a demand paging algorithm?
+a. First Fit
+b. Round Robin
+c. LRU (Least Recently Used)
+d. Shortest Job First
+Answer: c
+
+48. Which of the following is an advantage of using a page table for memory management?
+a. Better memory utilization
+b. Reduced memory fragmentation
+c. Faster access times
+d. Easier memory management
+Answer: c
+
+49. Which of the following is a disadvantage of using a buddy system for memory allocation?
+a. Poor memory utilization
+b. Increased memory fragmentation
+c. Difficulty in memory management
+d. All of the above
+Answer: b
+
+50. Which of the following is an example of a memory allocation policy?
+a. LRU (Least Recently Used)
+b. Time Sharing
+c. Round Robin
+d. None of the above
+Answer: d
+----

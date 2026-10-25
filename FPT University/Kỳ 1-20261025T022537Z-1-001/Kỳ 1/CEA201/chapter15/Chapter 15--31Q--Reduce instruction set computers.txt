@@ -1,0 +1,192 @@
+---
+Chapter 15: Reduce instruction set computers
+---
+1. What is the main advantage of a Reduced Instruction Set Computer (RISC) over a Complex Instruction Set Computer (CISC)?
+a) Better performance
+b) Smaller code size
+c) More features
+d) More instruction sets
+Answer: a) Better performance
+
+2. Which of the following is a characteristic of a RISC processor?
+a) Large instruction set
+b) Emphasis on hardware-based instructions
+c) Simplified instruction set
+d) Emphasis on microcode
+Answer: c) Simplified instruction set
+
+3. Which of the following is a characteristic of a CISC processor?
+a) Simplified instruction set
+b) Emphasis on hardware-based instructions
+c) Large instruction set
+d) Emphasis on microcode
+Answer: c) Large instruction set
+
+4. Which type of processor tends to have a larger die size?
+a) RISC
+b) CISC
+c) They have similar die sizes
+d) It depends on the manufacturer
+Answer: b) CISC
+
+5. Which of the following is a benefit of a larger instruction set in a processor?
+a) Better performance
+b) Easier programming
+c) Smaller code size
+d) Less energy consumption
+Answer: b) Easier programming
+
+6. Which type of processor tends to have a smaller code size?
+a) RISC
+b) CISC
+c) They have similar code sizes
+d) It depends on the manufacturer
+Answer: a) RISC
+
+7. Which type of processor tends to have a higher clock speed?
+a) RISC
+b) CISC
+c) They have similar clock speeds
+d) It depends on the manufacturer
+Answer: a) RISC
+
+8. Which type of processor tends to consume less power?
+a) RISC
+b) CISC
+c) They consume similar amounts of power
+d) It depends on the manufacturer
+Answer: a) RISC
+
+9. Which type of processor architecture is used in most modern smartphones?
+a) RISC
+b) CISC
+c) They both have equal usage
+d) It depends on the manufacturer
+Answer: a) RISC
+
+10. Which type of processor architecture is used in most desktop and laptop computers?
+a) RISC
+b) CISC
+c) They both have equal usage
+d) It depends on the manufacturer
+Answer: b) CISC
+
+11. Which type of processor architecture is generally more efficient at handling complex instructions?
+a) RISC
+b) CISC
+c) They both have equal efficiency
+d) It depends on the manufacturer
+Answer: b) CISC
+
+12. Which of the following is a benefit of a simplified instruction set in a processor?
+a) Better performance
+b) Easier programming
+c) Smaller code size
+d) Less energy consumption
+Answer: c) Smaller code size
+
+13. Which type of processor architecture tends to have a smaller transistor count?
+a) RISC
+b) CISC
+c) They have similar transistor counts
+d) It depends on the manufacturer
+Answer: a) RISC
+
+14. Which of the following is a disadvantage of a large instruction set in a processor?
+a) Better performance
+b) Easier programming
+c) Larger code size
+d) Less energy consumption
+Answer: c) Larger code size
+
+15. Which type of processor architecture tends to have a higher instruction throughput?
+a) RISC
+b) CISC
+c) They have similar instruction throughput
+d) It depends on the manufacturer
+Answer: a) RISC
+
+16. What is the main goal of a Reduced Instruction Set Computer (RISC)?
+a) To execute complex instructions
+b) To execute simple instructions quickly
+c) To support multiple operating systems
+d) To increase the clock speed of the processor
+Answer: b) To execute simple instructions quickly
+
+17. Which of the following is a characteristic of RISC architecture?
+a) Large instruction set
+b) Complex instruction decoding
+c) Emphasis on pipelining
+d) Emphasis on microcode
+Answer: c) Emphasis on pipelining
+
+18. Which of the following is a characteristic of Complex Instruction Set Computing (CISC) architecture?
+a) Small instruction set
+b) Simple instruction decoding
+c) Emphasis on pipelining
+d) Emphasis on microcode
+Answer: d) Emphasis on microcode
+
+19. Which of the following is an advantage of RISC architecture?
+a) It can handle complex instructions
+b) It can execute instructions quickly
+c) It is compatible with a wide range of software
+d) It is more power-efficient than CISC architecture
+Answer: b) It can execute instructions quickly
+
+20. Which of the following is a disadvantage of RISC architecture?
+a) It requires more memory than CISC architecture
+b) It is not compatible with a wide range of software
+c) It is more expensive to produce than CISC architecture
+d) It cannot handle complex instructions
+Answer: b) It is not compatible with a wide range of software
+
+21. Which of the following is an example of a RISC-based processor?
+a) Intel Pentium
+b) AMD Ryzen
+c) ARM Cortex-A53
+d) NVIDIA GeForce GTX
+Answer: c) ARM Cortex-A53
+
+22. Which of the following is an example of a CISC-based processor?
+a) Intel Pentium
+b) AMD Ryzen
+c) ARM Cortex-A53
+d) NVIDIA GeForce GTX
+Answer: a) Intel Pentium
+
+23. Which of the following is a characteristic of pipelining in a RISC processor?
+a) It allows multiple instructions to be executed simultaneously
+b) It reduces the number of stages in the instruction pipeline
+c) It increases the complexity of instruction decoding
+d) It uses a large instruction set to improve performance
+Answer: a) It allows multiple instructions to be executed simultaneously
+
+24. Which of the following is a characteristic of instruction encoding in RISC architecture?
+a) Instructions are of variable length
+b) Instructions are of fixed length
+c) Instructions are decoded by microcode
+d) Instructions are highly complex
+Answer: b) Instructions are of fixed length
+
+25. Which of the following is a characteristic of branch prediction in RISC architecture?
+a) It reduces the performance of the processor
+b) It predicts which branch of an instruction will be executed
+c) It uses microcode to improve performance
+d) It is not used in RISC architecture
+Answer: b) It predicts which branch of an instruction will be executed
+
+26. Which of the following is an example of a RISC-based instruction set?
+a) x86
+b) ARM
+c) SPARC
+d) PowerPC
+Answer: b) ARM
+
+27. Which of the following is an example of a CISC-based instruction set?
+a) x86
+b) ARM
+c) SPARC
+d) PowerPC
+Answer: a) x86
+---

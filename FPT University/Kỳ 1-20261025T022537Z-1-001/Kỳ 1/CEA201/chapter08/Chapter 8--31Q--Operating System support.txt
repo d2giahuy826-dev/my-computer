@@ -1,0 +1,222 @@
+
+--
+Chapter 8: Operating System support
+---
+
+1. What is an operating system?
+a. A software application that runs on a computer
+b. A physical component of a computer system
+c. A type of storage device
+d. A type of memory module
+Answer: a
+
+2. Which of the following is not an operating system?
+a. Windows
+b. iOS
+c. Linux
+d. Photoshop
+Answer: d
+
+3. Which of the following is not a function of an operating system?
+a. Managing hardware resources
+b. Managing software applications
+c. Providing a user interface
+d. Performing mathematical calculations
+Answer: d
+
+4. Which of the following is an example of a user interface?
+a. Command line interface
+b. Graphical user interface
+c. Web-based interface
+d. All of the above
+Answer: d
+
+5. Which of the following is not a type of user interface?
+a. Text-based interface
+b. Menu-based interface
+c. Icon-based interface
+d. Sound-based interface
+Answer: d
+
+6. What is the kernel of an operating system?
+a. The central processing unit of a computer system
+b. The most important part of the operating system
+c. The part of the operating system that interacts with hardware
+d. The part of the operating system that manages software applications
+Answer: c
+
+7. What is a device driver?
+a. A software application that interacts with hardware
+b. A physical component of a computer system
+c. A type of storage device
+d. A type of memory module
+Answer: a
+
+8. Which of the following is not a type of device driver?
+a. Printer driver
+b. Keyboard driver
+c. Network driver
+d. Sound card
+Answer: d
+
+9. What is virtual memory?
+a. A type of memory module
+b. A type of storage device
+c. A feature of the operating system that allows a computer to use more memory than it physically has
+d. A type of processor architecture
+Answer: c
+
+10. What is a file system?
+a. A system for organizing files on a storage device
+b. A type of memory module
+c. A feature of the operating system that allows a computer to use more memory than it physically has
+d. A type of processor architecture
+Answer: a
+
+11. Which of the following is not a type of file system?
+a. NTFS
+b. FAT32
+c. EXT3
+d. AGP
+Answer: d
+
+12. What is a process in an operating system?
+a. A physical component of a computer system
+b. A type of memory module
+c. A software application that is currently running
+d. A type of processor architecture
+Answer: c
+
+13. What is a thread in an operating system?
+a. A physical component of a computer system
+b. A type of memory module
+c. A component of a process that can run independently of other components
+d. A type of processor architecture
+Answer: c
+
+14. What is a scheduler in an operating system?
+a. A component of the operating system that manages the execution of processes and threads
+b. A type of memory module
+c. A type of storage device
+d. A type of processor architecture
+Answer: a
+
+15. What is a system call in an operating system?
+a. A request by a process for a service from the operating system
+b. A physical component of a computer system
+c. A type of storage device
+d. A type of processor architecture
+Answer: a
+
+16. What is an operating system?
+a. A set of instructions that tells a computer what to do
+b. A software that runs on top of hardware to provide services to other software
+c. A physical device that stores data
+d. A program that allows you to access the internet
+Answer: b
+
+17. What is the role of the operating system?
+a. To manage the computer hardware and software resources
+b. To provide access to the internet
+c. To allow the user to interact with the computer
+d. To provide security to the computer
+Answer: a
+
+18. What is a kernel?
+a. A type of operating system
+b. A component of the operating system that manages the hardware resources
+c. A software application
+d. A type of virus
+Answer: b
+
+19. Which of the following is not an example of an operating system?
+a. Windows
+b. MacOS
+c. Linux
+d. Microsoft Office
+Answer: d
+
+20. Which of the following is an example of a mobile operating system?
+a. Windows
+b. Linux
+c. Android
+d. MacOS
+Answer: c
+
+21. Which of the following is an example of a real-time operating system?
+a. Windows
+b. Linux
+c. Android
+d. VxWorks
+Answer: d
+
+22. Which of the following is not a function of an operating system?
+a. Managing memory
+b. Providing security
+c. Providing internet access
+d. Managing processes
+Answer: c
+
+23. What is process management?
+a. The management of computer hardware resources
+b. The management of computer software resources
+c. The management of computer security
+d. The management of computer memory
+Answer: b
+
+24. What is memory management?
+a. The management of computer hardware resources
+b. The management of computer software resources
+c. The management of computer security
+d. The management of computer memory
+Answer: d
+
+25. What is file management?
+a. The management of computer hardware resources
+b. The management of computer software resources
+c. The management of computer security
+d. The management of computer files
+Answer: d
+
+26. What is device management?
+a. The management of computer hardware resources
+b. The management of computer software resources
+c. The management of computer security
+d. The management of computer devices
+Answer: a
+
+27. What is a device driver?
+a. A software that manages the computer hardware resources
+b. A software that manages the computer software resources
+c. A software that manages computer security
+d. A software that manages computer files
+Answer: a
+
+28. What is a shell?
+a. A software that provides access to the internet
+b. A software that allows the user to interact with the computer
+c. A type of virus
+d. A type of hardware
+Answer: b
+
+29. What is a GUI?
+a. A type of operating system
+b. A type of virus
+c. A type of shell
+d. A graphical user interface
+Answer: d
+
+30. What is a command-line interface?
+a. A type of operating system
+b. A type of shell
+c. A graphical user interface
+d. A type of hardware
+Answer: b
+
+31. What is a batch processing system?
+a. A system that processes one task at a time
+b. A system that processes multiple tasks simultaneously
+c. A system that processes tasks in batches
+d. A system that processes tasks on demand
+Answer: c
+---

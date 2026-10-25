@@ -1,0 +1,180 @@
+
+---
+Chapter 1:Computer organization and architecture
+--
+1. What is the purpose of computer organization and architecture?
+a) To design efficient computer systems
+b) To develop software applications
+c) To perform data analysis
+d) To create web-based applications
+Answer: a) To design efficient computer systems
+
+2. Which of the following is not a primary function of a computer processor?
+a) Fetching instructions from memory
+b) Decoding instructions
+c) Storing data in memory
+d) Executing instructions
+Answer: c) Storing data in memory
+
+3. What is the main difference between a RISC and CISC processor?
+a) RISC processors have simpler instruction sets than CISC processors
+b) CISC processors have simpler instruction sets than RISC processors
+c) RISC processors use more power than CISC processors
+d) CISC processors use more power than RISC processors
+Answer: a) RISC processors have simpler instruction sets than CISC processors
+
+4. What is a cache in a computer system?
+a) A temporary storage area for frequently used data
+b) A type of processor
+c) A type of memory
+d) A type of input/output device
+Answer: a) A temporary storage area for frequently used data
+
+5. Which of the following is not an example of a computer input device?
+a) Keyboard
+b) Mouse
+c) Printer
+d) Scanner
+Answer: c) Printer
+
+6. What is the purpose of the system bus in a computer system?
+a) To connect the processor to the memory and input/output devices
+b) To store data in memory
+c) To execute instructions
+d) To decode instructions
+Answer: a) To connect the processor to the memory and input/output devices
+
+7. Which of the following is not a type of computer memory?
+a) ROM
+b) RAM
+c) CPU
+d) Cache
+Answer: c) CPU
+
+8. What is the main function of the operating system in a computer system?
+a) To manage the computer hardware and software resources
+b) To execute instructions
+c) To store data in memory
+d) To decode instructions
+Answer: a) To manage the computer hardware and software resources
+
+9. Which of the following is not an example of a secondary storage device?
+a) Hard disk drive
+b) Solid-state drive
+c) CD-ROM
+d) Keyboard
+Answer: d) Keyboard
+
+10. What is the purpose of the control unit in a processor?
+a) To fetch instructions from memory
+b) To decode instructions
+c) To execute instructions
+d) To manage the flow of data between the processor and memory
+Answer: b) To decode instructions
+
+11. What is the difference between parallel and serial communication?
+a) Parallel communication uses a single communication line, while serial communication uses multiple communication lines
+b) Parallel communication uses multiple communication lines, while serial communication uses a single communication line
+c) Parallel communication is faster than serial communication
+d) Serial communication is faster than parallel communication
+Answer: b) Parallel communication uses multiple communication lines, while serial communication uses a single communication line
+
+12. Which of the following is not an example of a computer output device?
+a) Printer
+b) Monitor
+c) Keyboard
+d) Speaker
+Answer: c) Keyboard
+
+13. What is the purpose of the arithmetic logic unit (ALU) in a processor?
+a) To execute arithmetic and logic operations
+b) To store data in memory
+c) To fetch instructions from memory
+d) To manage the flow of data between the processor and memory
+Answer: a) To execute arithmetic and logic operations
+
+14. What is the purpose of Computer organization and architecture?
+a) To design efficient computer systems
+b) To develop software applications
+c) To perform data analysis
+d) To create web-based applications
+Answer: a) To design efficient computer systems
+
+15. What is a bit in computer terminology?
+a) A unit of data storage
+b) A type of processor
+c) A type of memory
+d) A type of input/output device
+Answer: a) A unit of data storage
+
+16. What is the purpose of a compiler in software development?
+a) To convert high-level language code to machine language
+b) To execute instructions
+c) To store data in memory
+d) To decode instructions
+Answer: a) To convert high-level language code to machine language
+
+17. What is the role of the processor in a computer system?
+a) To execute instructions and perform calculations
+b) To store data in memory
+c) To manage the flow of data between the processor and memory
+d) To manage the input/output operations
+Answer: a) To execute instructions and perform calculations
+
+18. Which of the following is an example of a computer peripheral device?
+a) Processor
+b) Memory
+c) Hard disk drive
+d) Keyboard
+Answer: d) Keyboard
+
+19. What is the purpose of an operating system in a computer system?
+a) To manage the computer hardware and software resources
+b) To execute instructions
+c) To store data in memory
+d) To decode instructions
+Answer: a) To manage the computer hardware and software resources
+
+20. Which of the following is not an example of a computer programming language?
+a) Java
+b) C++
+c) Ruby
+d) Microsoft Word
+Answer: d) Microsoft Word
+
+21. What is the difference between a compiler and an interpreter?
+a) A compiler translates the entire program into machine code, while an interpreter translates code line-by-line as it runs.
+b) A compiler is used for high-level languages, while an interpreter is used for low-level languages.
+c) A compiler executes the program, while an interpreter translates the code.
+d) A compiler is used for low-level languages, while an interpreter is used for high-level languages.
+Answer: a) A compiler translates the entire program into machine code, while an interpreter translates code line-by-line as it runs.
+
+22. What is the purpose of an assembler in software development?
+a) To convert assembly language code to machine language
+b) To execute instructions
+c) To store data in memory
+d) To decode instructions
+Answer: a) To convert assembly language code to machine language
+
+23. Which of the following is not a primary function of the computer system?
+a) Input
+b) Processing
+c) Output
+d) Networking
+Answer: d) Networking
+
+24. What is the purpose of the system clock in a computer system?
+a) To synchronize the operations of the processor and other system components
+b) To execute instructions
+c) To store data in memory
+d) To decode instructions
+Answer: a) To synchronize the operations of the processor and other system components
+
+25. What is the difference between RAM and ROM in a computer system?
+a) RAM is volatile, while ROM is non-volatile
+b) RAM is non-volatile, while ROM is volatile
+c) Both RAM and ROM are volatile
+d) Both RAM and ROM are non-volatile
+Answer: a) RAM is volatile, while ROM is non-volatile
+
+---

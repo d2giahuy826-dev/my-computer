@@ -1,0 +1,418 @@
+-----
+Chapter 6: Deadlocks
+----
+1. What is a deadlock in an operating system?
+a) When a process is unable to complete its execution because it is waiting for some resource held by another process.
+b) When a process has completed its execution and has exited the system.
+c) When a process is unable to start its execution because it is waiting for some resource.
+d) When a process has completed its execution and has returned control to the operating system.
+Answer: a) When a process is unable to complete its execution because it is waiting for some resource held by another process.
+
+2. Which of the following conditions must hold for a deadlock to occur?
+a) Mutual exclusion
+b) Hold and wait
+c) No preemption
+d) All of the above
+Answer: d) All of the above
+
+3. What is meant by mutual exclusion in the context of deadlocks?
+a) Two or more processes are holding some resources and are waiting for resources held by others.
+b) A process is holding a resource and is waiting for additional resources that are currently being held by another process.
+c) Only one process at a time can use a particular resource.
+d) None of the above
+Answer: c) Only one process at a time can use a particular resource.
+
+4. What is meant by hold and wait in the context of deadlocks?
+a) A process is holding a resource and is waiting for additional resources that are currently being held by another process.
+b) Two or more processes are holding some resources and are waiting for resources held by others.
+c) Only one process at a time can use a particular resource.
+d) None of the above
+Answer: a) A process is holding a resource and is waiting for additional resources that are currently being held by another process.
+
+5. What is meant by no preemption in the context of deadlocks?
+a) A process holding some resources cannot be forcibly removed from those resources.
+b) Two or more processes are holding some resources and are waiting for resources held by others.
+c) Only one process at a time can use a particular resource.
+d) None of the above
+Answer: a) A process holding some resources cannot be forcibly removed from those resources.
+
+6. Which of the following is not a strategy for handling deadlocks?
+a) Prevention
+b) Avoidance
+c) Detection and recovery
+d) All of the above are strategies for handling deadlocks.
+Answer: d) All of the above are strategies for handling deadlocks.
+
+7. What is the main disadvantage of prevention as a strategy for handling deadlocks?
+a) It is difficult to implement in practice.
+b) It requires significant computational resources.
+c) It may result in low system utilization.
+d) It may result in high overhead.
+Answer: c) It may result in low system utilization.
+
+8. Which of the following is not a condition for deadlock avoidance?
+a) A process must declare all the resources it will need before it starts running.
+b) The system must know in advance the maximum number of resources that any process may need.
+c) The resources must be organized in a hierarchical manner.
+d) All of the above are conditions for deadlock avoidance.
+Answer: d) All of the above are conditions for deadlock avoidance.
+
+9. What is the banker's algorithm?
+a) A deadlock prevention algorithm.
+b) A deadlock avoidance algorithm.
+c) A deadlock detection and recovery algorithm.
+d) None of the above.
+Answer: b) A deadlock avoidance algorithm.
+--
+10. What is a deadlock in operating systems?
+a) A condition where two processes are executing each other's code
+b) A condition where a process cannot proceed because it is waiting for a resource held by another process
+c) A condition where a process has been terminated unexpectedly
+d) A condition where the operating system has crashed and cannot recover
+Answer: b) A condition where a process cannot proceed because it is waiting for a resource held by another process.
+
+11. Which of the following is not one of the necessary conditions for a deadlock to occur?
+a) Mutual exclusion
+b) Hold and wait
+c) No preemption
+d) Concurrent execution
+Answer: d) Concurrent execution.
+
+12. Which of the following algorithms is used to detect deadlocks in operating systems?
+a) Banker's algorithm
+b) FIFO algorithm
+c) LRU algorithm
+d) None of the above
+Answer: a) Banker's algorithm.
+
+13. Which of the following is a way to prevent deadlocks in operating systems?
+a) Ignoring the problem and hoping it won't occur
+b) Using a deadlock detection algorithm
+c) Using a deadlock prevention algorithm
+d) Killing all processes when a deadlock is detected
+Answer: c) Using a deadlock prevention algorithm.
+
+14. Which of the following is not a deadlock prevention algorithm?
+a) Banker's algorithm
+b) Resource allocation graph algorithm
+c) Wait-for graph algorithm
+d) None of the above
+Answer: d) None of the above.
+
+15. Which of the following algorithms is used to recover from deadlocks in operating systems?
+a) Banker's algorithm
+b) FIFO algorithm
+c) LRU algorithm
+d) None of the above
+Answer: d) None of the above.
+
+16. Which of the following is a drawback of using the deadlock prevention algorithm?
+a) It requires a lot of processing power
+b) It can cause starvation
+c) It cannot prevent all deadlocks
+d) It is not scalable
+Answer: c) It cannot prevent all deadlocks.
+
+17. Which of the following is a drawback of using the deadlock detection algorithm?
+a) It can cause starvation
+b) It requires a lot of processing power
+c) It cannot prevent all deadlocks
+d) It is not scalable
+Answer: b) It requires a lot of processing power.
+
+18. Which of the following is a drawback of using the deadlock recovery algorithm?
+a) It is slow
+b) It can cause data loss
+c) It requires a lot of processing power
+d) It cannot prevent all deadlocks
+Answer: b) It can cause data loss.
+
+19. What is the Banker's algorithm used for?
+a) Detecting deadlocks
+b) Preventing deadlocks
+c) Recovering from deadlocks
+d) None of the above
+Answer: b) Preventing deadlocks.
+
+20. Which of the following is a condition required for the Banker's algorithm to work correctly?
+a) Processes must request all resources at once
+b) Processes must release all resources at once
+c) The total number of resources must be fixed
+d) Processes must always hold all resources they are granted
+Answer: c) The total number of resources must be fixed.
+
+21. What is the purpose of the resource allocation graph algorithm?
+a) To detect deadlocks
+b) To prevent deadlocks
+c) To recover from deadlocks
+d) None of the above
+Answer: a) To detect deadlocks.
+
+22. What is the purpose of the wait-for graph algorithm?
+a) To detect deadlocks
+b) To prevent deadlocks
+c) To recover from deadlocks
+d) None of the above
+Answer: a) To detect deadlocks
+---
+23. What is a deadlock in operating system?
+a) A situation where a process is waiting for a resource held by another process
+b) A situation where a process has finished executing but has not released resources
+c) A situation where a process is terminated unexpectedly
+d) A situation where a process is unable to allocate memory for its execution
+Answer: a) A situation where a process is waiting for a resource held by another process
+
+24. What are the necessary conditions for a deadlock to occur?
+a) Mutual exclusion, hold and wait, no preemption, and circular wait
+b) Mutual exclusion, hold and wait, preemption, and circular wait
+c) Mutual exclusion, hold and release, no preemption, and circular wait
+d) Mutual exclusion, hold and release, preemption, and circular wait
+Answer: a) Mutual exclusion, hold and wait, no preemption, and circular wait
+
+25. Which of the following algorithms can prevent a deadlock?
+a) Banker's algorithm
+b) Round-robin algorithm
+c) First-come, first-served algorithm
+d) Shortest job first algorithm
+Answer: a) Banker's algorithm
+
+26. What is the purpose of the Banker's algorithm?
+a) To prevent deadlock
+b) To allocate resources efficiently
+c) To improve CPU utilization
+d) To reduce the waiting time of processes
+Answer: a) To prevent deadlock
+
+27. Which of the following is not a resource allocation strategy in the Banker's algorithm?
+a) Request
+b) Release
+c) Check
+d) Allocate
+Answer: c) Check
+
+28. What is the drawback of the Banker's algorithm?
+a) It is computationally expensive
+b) It may result in starvation
+c) It may not prevent all deadlocks
+d) It requires a lot of memory
+Answer: c) It may not prevent all deadlocks
+
+29. What is the primary disadvantage of the FIFO allocation algorithm?
+a) It is not efficient
+b) It may result in deadlock
+c) It is difficult to implement
+d) It does not support multiple resources
+Answer: b) It may result in deadlock
+
+30. Which of the following is a preemption-based algorithm?
+a) FIFO
+b) Banker's algorithm
+c) Priority-based algorithm
+d) Round-robin algorithm
+Answer: c) Priority-based algorithm
+
+31. What is the purpose of the wait-for graph in the detection of deadlocks?
+a) To represent the allocation of resources to processes
+b) To identify the processes involved in the deadlock
+c) To determine the sequence of resource requests and releases
+d) To visualize the dependencies among processes
+Answer: b) To identify the processes involved in the deadlock
+
+32. Which of the following is a drawback of the wait-for graph algorithm?
+a) It may not be able to detect deadlocks in some cases
+b) It is computationally expensive
+c) It requires a lot of memory
+d) It cannot handle multiple resources
+Answer: c) It requires a lot of memory
+
+33. Which of the following is not a method for preventing deadlocks?
+a) Resource preemption
+b) Avoidance
+c) Recovery
+d) Termination
+Answer: c) Recovery
+
+34. What is the disadvantage of resource preemption?
+a) It may result in starvation
+b) It may cause deadlock
+c) It may lead to inefficiencies
+d) It may be difficult to implement
+Answer: a) It may result in starvation
+---
+
+35. What is a deadlock in Operating System?
+a) A situation in which a process is waiting for a resource that is held by another process
+b) A situation in which two processes are waiting for each other to release a resource
+c) A situation in which a process is waiting for a resource that will never be released
+d) A situation in which a process is waiting for a resource that is currently being used by another process
+Answer: b
+
+36. Which of the following is not a necessary condition for deadlock to occur?
+a) Mutual exclusion
+b) Hold and wait
+c) No preemption
+d) Resource allocation graph
+Answer: d
+
+37. What is meant by mutual exclusion in deadlock prevention?
+a) Only one process can use a resource at a time
+b) Multiple processes can use a resource at a time
+c) Processes can share a resource
+d) None of the above
+Answer: a
+
+38. Which of the following is a method for deadlock prevention?
+a) Banker's algorithm
+b) Resource allocation graph
+c) Both a and b
+d) None of the above
+Answer: c
+
+39. In which of the following conditions can a deadlock occur?
+a) Two processes are holding a resource that the other process is waiting for
+b) A process is holding a resource that it has not requested yet
+c) A process is waiting for a resource that it is currently holding
+d) None of the above
+Answer: a
+
+40. Which of the following is a method for deadlock detection?
+a) Banker's algorithm
+b) Resource allocation graph
+c) Both a and b
+d) None of the above
+Answer: b
+
+41. What is meant by hold and wait in deadlock prevention?
+a) A process holds a resource while waiting for another resource
+b) A process waits for all the resources it needs before starting execution
+c) A process holds all the resources it needs before starting execution
+d) None of the above
+Answer: a
+
+42. What is a resource allocation graph?
+a) A graph that shows the allocation of resources to processes
+b) A graph that shows the order in which processes are executed
+c) A graph that shows the dependencies between processes
+d) A graph that shows the communication between processes
+Answer: a
+
+43. Which of the following is not a resource allocation strategy for deadlock prevention?
+a) First-come, first-served
+b) Banker's algorithm
+c) Round-robin
+d) Priority
+Answer: c
+
+44. What is meant by no preemption in deadlock prevention?
+a) A process cannot be forced to release a resource before it has completed its task
+b) A process can be forced to release a resource before it has completed its task
+c) A process can be preempted only if it has not acquired any resources
+d) None of the above
+Answer: a
+
+45. Which of the following is a necessary condition for deadlock to occur?
+a) Mutual exclusion
+b) Hold and wait
+c) No preemption
+d) Circular wait
+Answer: d
+
+46. What is meant by circular wait in deadlock prevention?
+a) A process is waiting for a resource that is held by another process
+b) A process is waiting for a resource that will never be released
+c) Two or more processes are waiting for each other to release a resource
+d) None of the above
+Answer: c
+
+47. What is the Banker's algorithm?
+a) A method for deadlock prevention
+b) A method for deadlock detection
+c) A method for deadlock avoidance
+d) None of the above
+Answer: c
+---
+
+48. What is a deadlock in operating system?
+a) A condition where two or more processes are blocked, waiting for each other to release resources
+b) A condition where a process is blocked, waiting for a resource that is currently held by another process
+c) A condition where a process releases a resource before it has finished using it
+d) A condition where a process crashes due to insufficient resources
+Answer: a) A condition where two or more processes are blocked, waiting for each other to release resources
+
+49. Which of the following is not a necessary condition for a deadlock to occur?
+a) Mutual exclusion
+b) Hold and wait
+c) No preemption
+d) Resource allocation graph is acyclic
+Answer: d) Resource allocation graph is acyclic
+
+50. Which of the following is not a strategy for handling deadlocks?
+a) Prevention
+b) Avoidance
+c) Detection and recovery
+d) Ignoring the problem
+Answer: d) Ignoring the problem
+
+51. Which of the following deadlock prevention techniques ensures that there is always enough resources available for all processes to complete?
+a) Resource allocation
+b) Process termination
+c) Spooling
+d) Deadlock avoidance
+Answer: a) Resource allocation
+
+52. Which of the following is a disadvantage of deadlock prevention techniques?
+a) They can be complex and difficult to implement
+b) They can lead to unnecessary process termination
+c) They can lead to inefficient use of resources
+d) They can only be used in small systems
+Answer: a) They can be complex and difficult to implement
+
+53. Which of the following deadlock avoidance algorithms ensures that a process will not request more resources than it needs?
+a) Banker's algorithm
+b) Wait-die algorithm
+c) Wound-wait algorithm
+d) Coffman's algorithm
+Answer: a) Banker's algorithm
+
+54. Which of the following deadlock avoidance algorithms allows a process to request more resources than it needs?
+a) Banker's algorithm
+b) Wait-die algorithm
+c) Wound-wait algorithm
+d) Coffman's algorithm
+Answer: c) Wound-wait algorithm
+
+55. Which of the following deadlock detection algorithms uses a depth-first search to check for cycles in the resource allocation graph?
+a) Banker's algorithm
+b) Wait-die algorithm
+c) Wound-wait algorithm
+d) Coffman's algorithm
+Answer: d) Coffman's algorithm
+
+56. Which of the following is a limitation of deadlock detection algorithms?
+a) They can be computationally expensive
+b) They can only detect deadlocks, not prevent them
+c) They can lead to unnecessary process termination
+d) They can only be used in small systems
+Answer: a) They can be computationally expensive
+
+57. Which of the following is a way to break a deadlock?
+a) Process preemption
+b) Process termination
+c) Resource reallocation
+d) All of the above
+Answer: d) All of the above
+
+58. Which of the following is not a way to break a deadlock?
+a) Resource allocation
+b) Process termination
+c) Process migration
+d) Process suspension
+Answer: a) Resource allocation
+
+59. Which of the following is a disadvantage of process termination as a way to break a deadlock?
+a) It can lead to starvation
+b) It can be difficult to determine which process to terminate
+c) It can be expensive to restart terminated processes
+d) All of the above
+Answer: d) All of the above
+----

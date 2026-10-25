@@ -1,0 +1,229 @@
+
+--
+Chapter 6: External memory
+--
+
+1. Which of the following is not a type of external memory?
+a. Hard disk
+b. Flash drive
+c. ROM
+d. CD/DVD
+Answer: c
+
+2. What is the primary purpose of external memory in a computer system?
+a. To store data permanently
+b. To provide temporary storage for input/output operations
+c. To manage the flow of instructions
+d. To store program and data temporarily during processing
+Answer: a
+
+3. Which of the following is an example of non-volatile external memory?
+a. Hard disk
+b. RAM
+c. Cache
+d. Registers
+Answer: a
+
+4. Which of the following is an example of volatile external memory?
+a. Hard disk
+b. CD/DVD
+c. Flash drive
+d. None of the above
+Answer: d
+
+5. What is the typical access time for external memory?
+a. 1-2 ns
+b. 5-10 ns
+c. 50-100 ns
+d. 500-1000 ns
+Answer: c
+
+6. What is the typical capacity of a hard disk?
+a. 100-500 GB
+b. 1-2 TB
+c. 4-8 TB
+d. 16-32 TB
+Answer: b
+
+7. Which of the following is not a benefit of using hard disks for external memory?
+a. High capacity
+b. Low cost per byte
+c. Fast access time
+d. High durability
+Answer: c
+
+8. Which of the following is a type of solid-state drive (SSD)?
+a. SATA
+b. SAS
+c. M.2
+d. All of the above
+Answer: d
+
+9. Which of the following is not a benefit of using SSDs for external memory?
+a. High capacity
+b. Low power consumption
+c. Fast access time
+d. Low noise and heat generation
+Answer: a
+
+10. Which of the following is not a drawback of using SSDs for external memory?
+a. Higher cost per byte than hard disks
+b. Limited write endurance
+c. Limited capacity compared to hard disks
+d. Slower access time than hard disks
+Answer: d
+
+11. Which of the following is not a type of flash memory?
+a. NOR
+b. NAND
+c. SRAM
+d. All of the above
+Answer: c
+
+12. What is the typical capacity of a flash drive?
+a. 8-16 GB
+b. 32-64 GB
+c. 128-256 GB
+d. 512 GB - 1 TB
+Answer: b
+
+13. What is the primary advantage of using flash drives for external memory?
+a. High capacity
+b. Low cost per byte
+c. Fast access time
+d. Portability and ease of use
+Answer: d
+
+14. Which of the following is a type of optical disc used for external memory?
+a. CD
+b. DVD
+c. Blu-ray
+d. All of the above
+Answer: d
+
+15. What is the typical capacity of a single-layer DVD?
+a. 4.7 GB
+b. 8.5 GB
+c. 25 GB
+d. 50 GB
+Answer: a
+
+16. Which of the following is not a benefit of using optical discs for external memory?
+a. High capacity
+b. Low cost per byte
+c. Long-term storage stability
+d. Fast access time
+Answer: d
+
+17. What is the primary purpose of external memory in a computer system?
+a. To store data permanently
+b. To provide temporary storage for input/output operations
+c. To manage the flow of instructions
+d. To extend the capacity of internal memory
+Answer: a
+
+18. Which of the following is not an example of external memory?
+a. Hard drive
+b. USB flash drive
+c. CD-ROM
+d. RAM
+Answer: d
+
+19. Which of the following is an example of non-volatile external memory?
+a. Hard drive
+b. RAM
+c. Cache
+d. Registers
+Answer: a
+
+20. Which of the following is not a characteristic of external memory?
+a. Non-volatile
+b. Slower access time than internal memory
+c. Larger storage capacity than internal memory
+d. Higher cost per unit of storage than internal memory
+Answer: d
+
+21. Which of the following is the fastest type of external memory?
+a. Hard disk drive
+b. Solid-state drive
+c. CD-ROM
+d. USB flash drive
+Answer: b
+
+22. What is the typical capacity of a hard disk drive?
+a. 100-500 GB
+b. 1-2 TB
+c. 4-8 TB
+d. 16-32 TB
+Answer: b
+
+23. Which of the following is not a component of a hard disk drive?
+a. Platter
+b. Head
+c. Cache
+d. Flash memory
+Answer: d
+
+24. What is the typical rotational speed of a hard disk drive?
+a. 5400 RPM
+b. 7200 RPM
+c. 10000 RPM
+d. 15000 RPM
+Answer: b
+
+25. Which of the following is not a type of interface used to connect a hard disk drive to a computer system?
+a. SATA
+b. SCSI
+c. IDE
+d. USB
+Answer: d
+
+26. Which of the following is not a benefit of using solid-state drives (SSDs) over hard disk drives (HDDs)?
+a. Faster access time
+b. Lower power consumption
+c. Larger storage capacity
+d. More durable and reliable
+Answer: c
+
+27. What is the typical capacity of a solid-state drive?
+a. 100-500 GB
+b. 1-2 TB
+c. 4-8 TB
+d. 16-32 TB
+Answer: a
+
+28. Which of the following is not a type of flash memory used in solid-state drives?
+a. SLC
+b. MLC
+c. TLC
+d. QLC
+Answer: d
+
+29. What is the typical transfer rate of a CD-ROM drive?
+a. 1-2 MB/s
+b. 4-8 MB/s
+c. 16-32 MB/s
+d. 64-128 MB/s
+Answer: a
+
+30. Which of the following is not a type of optical disk?
+a. CD-ROM
+b. DVD
+c. Blu-ray
+d. SSD
+Answer: d
+
+31. What is the typical capacity of a DVD?
+a. 4.7 GB
+b. 8.5 GB
+c. 25 GB
+d. 50 GB
+Answer: b
+
+32. What is the typical capacity of a single-layer Blu-ray disc?
+a. 4.7 GB
+b. 8.5 GB
+c. 25 GB
+d. 50 GB
+Answer: c
+----

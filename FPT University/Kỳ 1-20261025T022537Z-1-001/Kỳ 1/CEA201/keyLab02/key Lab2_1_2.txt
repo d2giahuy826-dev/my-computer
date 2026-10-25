@@ -1,0 +1,75 @@
+;-------------------7-May-24
+;Lab2_2
+;Develop a program that will print out the nth element of the Fibonacci sequence.
+;
+include \masm32\include\masm32rt.inc
+.code
+start:
+    call main
+    exit
+main proc
+    LOCAL n:DWORD                ;initialize variable n
+    LOCAL t1:DWORD               ;initialize variable t1
+    LOCAL t2:DWORD               ;initialize variable t2
+    LOCAL COUNT:DWORD            ;initialize variable COUNT
+    LOCAL result:DWORD           ;initialize variable result
+    mov n, sval(input("Enter n: "))      ;allow users input value for n
+    mov ecx, n                           ;store n in ecx register
+    cmp ecx, 2                           ;compare n with 2
+    je equal2                            ;if n=2
+    jl less2                             ;if n<2
+    jmp greater2                         ;if n>2
+    equal2:
+        mov t1,1                         ;t1=1
+        print chr$("Result of fibo ")    ;print line "Result of fibo "
+        print str$(n)                    ;print value of n
+        print chr$(": ")                 
+        print str$(t1)                   ;print value of t1 (second fibo = 1)   
+        jmp STOP                         ;jump to STOP condition
+    less2:                                  
+        cmp ecx,1                        ;compare n with 1
+        je equal1                         ;if n=1
+        jl less1                         ;if n<1   
+        equal1:
+            mov t1,1                        ;t1=1
+            print chr$("Result of fibo ")   ;print line "Result of fibo "
+            print str$(n)                   ;print value of n
+            print chr$(": ")              
+            print str$(t1)                  ;print value of t1 (first fibo = 1)
+            jmp STOP                        ;jump to STOP condition
+        less1:
+            cmp ecx,0                       ;compare n with 0
+            je equal0                       ;n=0
+            jl less0                        ;n<0
+            equal0:
+                mov t1,0                      ;t1=0
+                print chr$("Result of fibo ") ;print line "Result of fibo "
+                print str$(n)                 ;print value of n
+                print chr$(": ")              
+                print str$(t1)                ;print value of t1 (fibo 0 = 0)  
+                jmp STOP                      ;jump to STOP condition
+            less0:
+                print chr$("Invalid input!",13,10) ;print line "Invalid input", it doesn't receive negative number
+                jmp STOP                           ;jump to STOP condition
+    greater2:
+        mov ecx, n                     ;store value of n in ecx register
+        sub ecx,2                      ;carry out sub operand in register ecx (n-2)
+        mov t1,1                       ;t1=1
+        mov t2,1                       ;t2=1
+        mov eax,t1                     ;store value of t1 in register eax
+        mov ebx,t2                     ;store value of t2 in register ebx
+        Fibo:                          ;Label of loop
+            mov edx, eax               ;store value in register eax in register edx (t1=1)
+            add edx, ebx               ;carry out add operand in register edx (t1+t2)
+            mov eax, ebx               ;store value in register ebx in eax (t2);
+            mov ebx, edx               ;store value in register edx in ebx (t1+t2)
+            LOOP Fibo                  ;loop until n=0
+        print chr$("Result of fibo ")  ;print line "Result of fibo "
+        print str$(n)                  ;print value of n
+        print chr$(": ")               
+        print str$(ebx)                ;print value of fibo nth
+        jmp STOP                       ;jump STOP condition
+    STOP:
+       ret                             ;return nothing
+main endp                              ;end main procedure
+end start                              ;end start

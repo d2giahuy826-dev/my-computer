@@ -1,0 +1,256 @@
+---
+Chapter 16: Instruction-level parallelism and SupperScalar processors
+---
+1. What is Instruction-Level Parallelism (ILP)?
+a) The ability of a processor to execute multiple instructions at the same time
+b) The ability of a processor to execute complex instructions
+c) The ability of a processor to handle a large instruction set
+d) The ability of a processor to handle complex data types
+Answer: a) The ability of a processor to execute multiple instructions at the same time
+
+2. Which of the following is an advantage of ILP?
+a) It reduces the complexity of the processor
+b) It improves compatibility with a wide range of software
+c) It increases the performance of the processor
+d) It reduces the power consumption of the processor
+Answer: c) It increases the performance of the processor
+
+3. Which of the following is a characteristic of Superscalar processors?
+a) They use a small instruction set
+b) They use a large instruction set
+c) They use a small data path
+d) They use a large data path
+Answer: d) They use a large data path
+
+4. Which of the following is a characteristic of VLIW processors?
+a) They use a small instruction set
+b) They use a large instruction set
+c) They use a small data path
+d) They use a large data path
+Answer: b) They use a large instruction set
+
+5. Which of the following is an advantage of Superscalar processors?
+a) They are more power-efficient than VLIW processors
+b) They can execute instructions in parallel
+c) They can execute complex instructions
+d) They are more compatible with a wide range of software
+Answer: b) They can execute instructions in parallel
+
+6. Which of the following is a disadvantage of Superscalar processors?
+a) They are more expensive to produce than VLIW processors
+b) They require more memory than VLIW processors
+c) They are less power-efficient than VLIW processors
+d) They cannot handle complex instructions
+Answer: b) They require more memory than VLIW processors
+
+7. Which of the following is an example of a Superscalar processor?
+a) Intel Pentium
+b) AMD Ryzen
+c) ARM Cortex-A53
+d) NVIDIA GeForce GTX
+Answer: a) Intel Pentium
+
+8. Which of the following is an example of a VLIW processor?
+a) Intel Pentium
+b) AMD Ryzen
+c) ARM Cortex-A53
+d) NVIDIA GeForce GTX
+Answer: d) NVIDIA GeForce GTX
+
+9. Which of the following is an advantage of VLIW processors?
+a) They are more power-efficient than Superscalar processors
+b) They can execute instructions in parallel
+c) They can execute complex instructions
+d) They are more compatible with a wide range of software
+Answer: a) They are more power-efficient than Superscalar processors
+
+10. Which of the following is a characteristic of branch prediction in Superscalar processors?
+a) It predicts which branch of an instruction will be executed
+b) It increases the performance of the processor
+c) It reduces the number of stages in the instruction pipeline
+d) It is not used in Superscalar processors
+Answer: a) It predicts which branch of an instruction will be executed
+
+11. What is the main advantage of Instruction-level Parallelism (ILP)?
+a) Increased clock speed
+b) Decreased power consumption
+c) Increased performance
+d) Decreased memory usage
+Answer: c) Increased performance
+
+12. Which of the following is a technique used to exploit ILP?
+a) Branch prediction
+b) Pipelining
+c) Instruction decoding
+d) Register renaming
+Answer: b) Pipelining
+
+13. Which of the following is a technique used to reduce the impact of branch instructions on ILP?
+a) Branch prediction
+b) Pipelining
+c) Instruction decoding
+d) Register renaming
+Answer: a) Branch prediction
+
+14. Which of the following is a technique used to eliminate data dependencies in ILP?
+a) Branch prediction
+b) Pipelining
+c) Instruction decoding
+d) Register renaming
+Answer: d) Register renaming
+
+15. Which of the following is a characteristic of Superscalar architecture?
+a) Use of microcode
+b) Emphasis on pipelining
+c) Use of a small instruction set
+d) Emphasis on instruction-level parallelism
+Answer: d) Emphasis on instruction-level parallelism
+
+16. Which of the following is an example of a Superscalar processor?
+a) Intel Pentium
+b) AMD Ryzen
+c) ARM Cortex-A53
+d) NVIDIA GeForce GTX
+Answer: a) Intel Pentium
+
+17. Which of the following is a characteristic of the instruction window in Superscalar architecture?
+a) It contains a single instruction
+b) It contains multiple instructions
+c) It is used for branch prediction
+d) It is used for register renaming
+Answer: b) It contains multiple instructions
+
+18. Which of the following is a characteristic of dynamic scheduling in Superscalar architecture?
+a) It is used to reduce memory usage
+b) It is used to increase clock speed
+c) It is used to exploit ILP
+d) It is used to eliminate data dependencies
+Answer: c) It is used to exploit ILP
+
+19. Which of the following is a technique used to eliminate instruction dependencies in Superscalar architecture?
+a) Branch prediction
+b) Pipelining
+c) Instruction decoding
+d) Out-of-order execution
+Answer: d) Out-of-order execution
+
+20. Which of the following is an example of a Superscalar instruction set architecture?
+a) x86
+b) ARM
+c) SPARC
+d) PowerPC
+Answer: a) x86
+
+21. Which of the following is a characteristic of the reservation station in Superscalar architecture?
+a) It is used for branch prediction
+b) It is used for register renaming
+c) It is used for pipelining
+d) It is used for instruction decoding
+Answer: b) It is used for register renaming
+
+22. Which of the following is a technique used to schedule instructions in Superscalar architecture?
+a) Pipelining
+b) Register renaming
+c) Dynamic scheduling
+d) Branch prediction
+Answer: c) Dynamic scheduling
+
+23. Which of the following is a characteristic of the reorder buffer in Superscalar architecture?
+a) It is used for branch prediction
+b) It is used for register renaming
+c) It is used for pipelining
+d) It is used for instruction decoding
+Answer: d) It is used for instruction decoding
+
+24. Which of the following is an advantage of Superscalar architecture over RISC architecture?
+a) Increased clock speed
+b) Decreased power consumption
+c) Increased performance
+d) Decreased memory usage
+Answer: c) Increased performance
+
+25. What is the main advantage of Instruction-level parallelism (ILP)?
+a) It allows for multiple instructions to be executed simultaneously
+b) It increases the clock speed of the processor
+c) It reduces the number of pipeline stages
+d) It reduces the size of the instruction set
+Answer: a) It allows for multiple instructions to be executed simultaneously
+
+26. Which of the following is an example of a Superscalar processor?
+a) Intel Pentium 4
+b) AMD Ryzen 7
+c) ARM Cortex-A53
+d) NVIDIA GeForce GTX 1080
+Answer: b) AMD Ryzen 7
+
+27. Which of the following is an example of a VLIW processor?
+a) Intel Pentium 4
+b) AMD Ryzen 7
+c) ARM Cortex-A53
+d) NVIDIA GeForce GTX 1080
+Answer: d) NVIDIA GeForce GTX 1080
+
+28. Which of the following is a characteristic of Instruction-level parallelism?
+a) It requires a large instruction set
+b) It allows for out-of-order execution
+c) It requires a complex microarchitecture
+d) It only executes one instruction at a time
+Answer: b) It allows for out-of-order execution
+
+29. Which of the following is a disadvantage of Superscalar architecture?
+a) It cannot execute multiple instructions simultaneously
+b) It is more expensive to produce than other architectures
+c) It is not compatible with a wide range of software
+d) It can increase power consumption and heat output
+Answer: d) It can increase power consumption and heat output
+
+30. Which of the following is a characteristic of VLIW architecture?
+a) It uses dynamic instruction scheduling
+b) It requires a small instruction set
+c) It allows for multiple instructions to be executed simultaneously
+d) It uses a complex microarchitecture
+Answer: c) It allows for multiple instructions to be executed simultaneously
+
+31. Which of the following is an example of a dynamic instruction scheduling technique?
+a) Tomasulo's algorithm
+b) Scoreboarding
+c) Trace scheduling
+d) Loop unrolling
+Answer: a) Tomasulo's algorithm
+
+32. Which of the following is an example of a static instruction scheduling technique?
+a) Tomasulo's algorithm
+b) Scoreboarding
+c) Trace scheduling
+d) Loop unrolling
+Answer: d) Loop unrolling
+
+33. Which of the following is an example of a hazard that can occur in a Superscalar processor?
+a) Data hazard
+b) Control hazard
+c) Load/store hazard
+d) Branch hazard
+Answer: a) Data hazard
+
+34. Which of the following is an example of a hazard that can occur in a VLIW processor?
+a) Data hazard
+b) Control hazard
+c) Load/store hazard
+d) Branch hazard
+Answer: a) Data hazard
+
+35. Which of the following is a characteristic of a Static VLIW processor?
+a) It has a large instruction set
+b) It requires a complex microarchitecture
+c) It uses static instruction scheduling
+d) It uses dynamic instruction scheduling
+Answer: c) It uses static instruction scheduling
+
+36. Which of the following is a characteristic of a Dynamic VLIW processor?
+a) It has a small instruction set
+b) It requires a complex microarchitecture
+c) It uses static instruction scheduling
+d) It uses dynamic instruction scheduling
+Answer: d) It uses dynamic instruction scheduling
+
+---

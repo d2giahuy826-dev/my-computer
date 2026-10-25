@@ -1,0 +1,83 @@
+  ;--------------6-May-24
+  ;Lab1_3
+  ;Write a program that will accept 3 numbers, then sum of them and their average will be printed out.
+  ;------------------------
+    .486                                    ; create 32 bit code
+    .model flat, stdcall                    ; 32 bit memory model
+    option casemap :none                    ; case sensitive
+ 
+    include \masm32\include\windows.inc     ; always first
+    include \masm32\macros\macros.asm       ; MASM support macros
+
+  ; -----------------------------------------------------------------
+  ; include files that have MASM format prototypes for function calls
+  ; -----------------------------------------------------------------
+    include \masm32\include\masm32.inc
+    include \masm32\include\gdi32.inc
+    include \masm32\include\user32.inc
+    include \masm32\include\kernel32.inc
+    include \masm32\include\msvcrt.inc
+
+  ; ------------------------------------------------
+  ; Library files that have definitions for function
+  ; exports and tested reliable prebuilt code.
+  ; ------------------------------------------------
+    includelib \masm32\lib\masm32.lib
+    includelib \masm32\lib\gdi32.lib
+    includelib \masm32\lib\user32.lib
+    includelib \masm32\lib\kernel32.lib
+    includelib \masm32\lib\msvcrt.lib
+
+    .code
+
+start:
+    call main
+    exit
+
+main proc
+    local num1: dword
+    local num2: dword
+    local num3: dword
+    local sum: dword
+    local dvsr: dword
+    local average: dword
+    local remainder: dword
+    
+    mov num1, sval(input("Enter first number: "))
+    mov num2, sval(input("Enter second number: "))
+    mov num3, sval(input("Enter third number: "))
+    
+    mov eax, num1
+    add eax, num2
+    add eax, num3
+    mov sum, eax
+    
+    print chr$("Sum: ")
+    print str$(sum)
+    print chr$(13, 10)
+    print chr$("Average: ")
+    
+    mov eax, sum
+    mov dvsr, 3
+    cdq
+    idiv dvsr
+    mov average, eax
+    mov remainder, edx
+
+    cmp remainder, 0
+    je equal
+    jmp not_equal
+
+equal:
+    print str$(average)
+    jmp over
+
+not_equal:
+    print str$(sum)
+    print chr$("/3")
+    
+over:
+    ret
+main endp
+
+end start

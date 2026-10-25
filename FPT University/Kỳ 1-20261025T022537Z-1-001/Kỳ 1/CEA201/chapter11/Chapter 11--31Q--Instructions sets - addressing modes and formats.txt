@@ -1,0 +1,223 @@
+
+---
+Chapter 11: Instructions sets - addressing modes and formats
+---
+
+1. What is an addressing mode?
+a. The way in which the operand of an instruction is specified
+b. The way in which the opcode of an instruction is specified
+c. The way in which the program counter is incremented
+d. The way in which the program counter is decremented
+Answer: a
+
+2. What is an immediate addressing mode?
+a. The operand is part of the instruction
+b. The operand is in a register
+c. The operand is in memory and is accessed using an offset
+d. The operand is in memory and is accessed using a base register
+Answer: a
+
+3. What is a direct addressing mode?
+a. The operand is in memory and is addressed directly
+b. The operand is in a register
+c. The operand is in memory and is accessed using an offset
+d. The operand is in memory and is accessed using a base register
+Answer: a
+
+4. What is an indirect addressing mode?
+a. The operand is in memory and is addressed indirectly through a register
+b. The operand is in a register
+c. The operand is in memory and is accessed using an offset
+d. The operand is in memory and is accessed using a base register
+Answer: a
+
+5. What is a register addressing mode?
+a. The operand is in a register
+b. The operand is in memory and is addressed directly
+c. The operand is in memory and is accessed using an offset
+d. The operand is in memory and is accessed using a base register
+Answer: a
+
+6. What is a memory indirect addressing mode?
+a. The operand is in memory and is addressed indirectly through a memory location
+b. The operand is in a register
+c. The operand is in memory and is addressed directly
+d. The operand is in memory and is accessed using an offset
+Answer: a
+
+7. What is a base addressing mode?
+a. The operand is in memory and is accessed using a base register and an offset
+b. The operand is in a register
+c. The operand is in memory and is addressed directly
+d. The operand is in memory and is addressed indirectly through a register
+Answer: a
+
+8. What is an index addressing mode?
+a. The operand is in memory and is accessed using an index register and an offset
+b. The operand is in a register
+c. The operand is in memory and is addressed directly
+d. The operand is in memory and is addressed indirectly through a register
+Answer: a
+
+9. What is a relative addressing mode?
+a. The operand is in memory and is addressed relative to the program counter
+b. The operand is in a register
+c. The operand is in memory and is addressed directly
+d. The operand is in memory and is addressed indirectly through a register
+Answer: a
+
+10. What is an instruction format?
+a. The way in which an instruction is represented in memory
+b. The way in which an instruction is executed by the processor
+c. The way in which an instruction is decoded by the processor
+d. The way in which an instruction is optimized by the compiler
+Answer: a
+
+11. What is a single operand format?
+a. The instruction has only one operand
+b. The instruction has two operands
+c. The instruction has three operands
+d. The instruction has four operands
+Answer: a
+
+12. What is a double operand format?
+a. The instruction has two operands
+b. The instruction has only one operand
+c. The instruction has three operands
+d. The instruction has four operands
+Answer: a
+
+13. What is an addressing mode?
+a. A method of specifying the location of an operand
+b. A method of specifying the operation to be performed
+c. A method of specifying the output to be produced
+d. A method of specifying the input to be used
+Answer: a
+
+14. What is an immediate addressing mode?
+a. An addressing mode where the operand is a constant value
+b. An addressing mode where the operand is the contents of a memory location
+c. An addressing mode where the operand is the contents of a register
+d. An addressing mode where the operand is the address of a memory location
+Answer: a
+
+15. What is a direct addressing mode?
+a. An addressing mode where the operand is the contents of a memory location
+b. An addressing mode where the operand is a constant value
+c. An addressing mode where the operand is the address of a memory location
+d. An addressing mode where the operand is the contents of a register
+Answer: a
+
+16. What is an indirect addressing mode?
+a. An addressing mode where the operand is the address of a memory location containing the actual operand
+b. An addressing mode where the operand is a constant value
+c. An addressing mode where the operand is the contents of a memory location
+d. An addressing mode where the operand is the contents of a register
+Answer: a
+
+17. What is a register addressing mode?
+a. An addressing mode where the operand is the contents of a register
+b. An addressing mode where the operand is a constant value
+c. An addressing mode where the operand is the address of a memory location
+d. An addressing mode where the operand is the contents of a memory location
+Answer: a
+
+18. What is an indexed addressing mode?
+a. An addressing mode where the operand is the contents of a memory location with an offset added to it
+b. An addressing mode where the operand is a constant value
+c. An addressing mode where the operand is the address of a memory location
+d. An addressing mode where the operand is the contents of a register
+Answer: a
+
+19. What is a base addressing mode?
+a. An addressing mode where the operand is the contents of a memory location with a base address added to it
+b. An addressing mode where the operand is a constant value
+c. An addressing mode where the operand is the address of a memory location
+d. An addressing mode where the operand is the contents of a register
+Answer: a
+
+20. What is a displacement addressing mode?
+a. An addressing mode where the operand is the contents of a memory location with a constant offset added to it
+b. An addressing mode where the operand is the address of a memory location
+c. An addressing mode where the operand is a constant value
+d. An addressing mode where the operand is the contents of a register
+Answer: a
+
+21. What is a stack addressing mode?
+a. An addressing mode where the operand is the contents of the top of the stack
+b. An addressing mode where the operand is the address of a memory location
+c. An addressing mode where the operand is a constant value
+d. An addressing mode where the operand is the contents of a register
+Answer: a
+
+22. What is an instruction format?
+a. The arrangement of fields in an instruction
+b. The number of instructions in an instruction set
+c. The type of addressing mode used in an instruction
+d. The length of an instruction in bits
+Answer: a
+
+23. What is an addressing mode?
+a. A way of specifying the address of an operand in an instruction
+b. A way of specifying the type of instruction to be executed
+c. A way of specifying the operation to be performed on an operand
+d. A way of specifying the output of an instruction
+Answer: a
+
+24. What is an immediate addressing mode?
+a. An addressing mode in which the operand is specified in the instruction
+b. An addressing mode in which the operand is in a register
+c. An addressing mode in which the operand is in memory
+d. An addressing mode in which the operand is the output of the previous instruction
+Answer: a
+
+25. What is a direct addressing mode?
+a. An addressing mode in which the operand is in memory and its address is in the instruction
+b. An addressing mode in which the operand is specified in the instruction
+c. An addressing mode in which the operand is in a register
+d. An addressing mode in which the operand is the output of the previous instruction
+Answer: a
+
+26. What is an indirect addressing mode?
+a. An addressing mode in which the operand is in memory and its address is in a register
+b. An addressing mode in which the operand is in memory and its address is in the instruction
+c. An addressing mode in which the operand is specified in the instruction
+d. An addressing mode in which the operand is in a register
+Answer: a
+
+27. What is a register addressing mode?
+a. An addressing mode in which the operand is in a register
+b. An addressing mode in which the operand is in memory and its address is in the instruction
+c. An addressing mode in which the operand is specified in the instruction
+d. An addressing mode in which the operand is the output of the previous instruction
+Answer: a
+
+28. What is a base addressing mode?
+a. An addressing mode in which the operand is in memory and its address is the sum of a base register and a displacement value
+b. An addressing mode in which the operand is in memory and its address is in the instruction
+c. An addressing mode in which the operand is specified in the instruction
+d. An addressing mode in which the operand is in a register
+Answer: a
+
+29. What is an indexed addressing mode?
+a. An addressing mode in which the operand is in memory and its address is the sum of an index register and a base address
+b. An addressing mode in which the operand is in memory and its address is in the instruction
+c. An addressing mode in which the operand is specified in the instruction
+d. An addressing mode in which the operand is in a register
+Answer: a
+
+30. What is a relative addressing mode?
+a. An addressing mode in which the operand is in memory and its address is the sum of the program counter and a displacement value
+b. An addressing mode in which the operand is in memory and its address is in the instruction
+c. An addressing mode in which the operand is specified in the instruction
+d. An addressing mode in which the operand is in a register
+Answer: a
+
+31. What is an indexed relative addressing mode?
+a. An addressing mode in which the operand is in memory and its address is the sum of the program counter, a displacement value, and an index register
+b. An addressing mode in which the operand is in memory and its address is in the instruction
+c. An addressing mode in which the operand is specified in the instruction
+d. An addressing mode in which the operand is in a register
+Answer: a
+
+--

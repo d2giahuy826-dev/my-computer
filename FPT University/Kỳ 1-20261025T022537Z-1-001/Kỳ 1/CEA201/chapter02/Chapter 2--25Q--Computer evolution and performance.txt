@@ -1,0 +1,244 @@
+
+--
+Chapter 2: Computer evolution and performance
+--
+
+1. Which of the following is not a characteristic of a first-generation computer?
+a) They used vacuum tubes
+b) They were large and expensive
+c) They were slow and had limited memory
+d) They were portable
+Answer: d) They were portable
+
+2. Which of the following is not an example of a second-generation computer technology?
+a) Magnetic core memory
+b) Transistors
+c) Vacuum tubes
+d) Magnetic tape
+Answer: c) Vacuum tubes
+
+3. Which of the following is not an advantage of integrated circuits (ICs)?
+a) They are smaller and more reliable than discrete circuits
+b) They are less expensive to produce than discrete circuits
+c) They allow for more complex circuitry
+d) They generate less heat than discrete circuits
+Answer: d) They generate less heat than discrete circuits
+
+4. Which of the following is not a factor that affects computer performance?
+a) Processor speed
+b) Memory capacity
+c) Storage capacity
+d) Number of peripherals
+Answer: d) Number of peripherals
+
+5. Which of the following is not a type of non-volatile memory?
+a) Magnetic disk
+b) Flash memory
+c) ROM
+d) EEPROM
+Answer: a) Magnetic disk
+
+6. Which of the following is not a type of volatile memory?
+a) RAM
+b) ROM
+c) Cache memory
+d) Virtual memory
+Answer: b) ROM
+
+7. What is the purpose of a cache memory?
+a) To store frequently accessed data for faster access
+b) To store permanent data even when the computer is turned off
+c) To store temporary data while the computer is running
+d) To store backup copies of important files
+Answer: a) To store frequently accessed data for faster access
+
+8. Which of the following is not a type of magnetic storage media?
+a) Hard disk
+b) Floppy disk
+c) Magnetic tape
+d) Optical disk
+Answer: d) Optical disk
+
+9. Which of the following is not a factor that affects processor performance?
+a) Clock speed
+b) Cache size
+c) Number of cores
+d) Amount of RAM
+Answer: d) Amount of RAM
+
+10. What is the primary function of the operating system?
+a) To provide a graphical user interface
+b) To manage system resources
+c) To run applications
+d) To connect to the internet
+Answer: b) To manage system resources
+
+11. Which of the following is not a type of computer software?
+a) System software
+b) Utility software
+c) Application software
+d) Keyboard software
+Answer: d) Keyboard software
+
+12. What is the purpose of a device driver?
+a) To allow the computer to communicate with peripherals
+b) To control the clock speed of the processor
+c) To manage the computer's memory
+d) To perform system maintenance tasks
+Answer: a) To allow the computer to communicate with peripherals
+
+13. Which of the following is not a type of high-level programming language?
+a) Java
+b) C++
+c) Assembly language
+d) Python
+Answer: c) Assembly language
+
+14. What is the purpose of a compiler?
+a) To translate high-level programming code into machine code
+b) To translate machine code into high-level programming code
+c) To manage system resources
+d) To connect to the internet
+Answer: a) To translate high-level programming code into machine code
+
+---
+15. When was the first electronic digital computer invented?
+a. 1945
+b. 1935
+c. 1955
+d. 1965
+Answer: a
+
+16. Which company designed the first microprocessor?
+a. Intel
+b. IBM
+c. Apple
+d. Microsoft
+Answer: a
+
+17. Which decade saw the development of the first supercomputers?
+a. 1940s
+b. 1950s
+c. 1960s
+d. 1970s
+Answer: d
+
+18. Which generation of computers used vacuum tubes as a key component?
+a. First generation
+b. Second generation
+c. Third generation
+d. Fourth generation
+Answer: a
+
+19. What was the first high-level programming language?
+a. FORTRAN
+b. COBOL
+c. BASIC
+d. Ada
+Answer: a
+
+20. Which generation of computers used transistors as a key component?
+a. First generation
+b. Second generation
+c. Third generation
+d. Fourth generation
+Answer: b
+
+21. Who developed the first computer virus?
+a. Steve Jobs
+b. Bill Gates
+c. John McAfee
+d. Robert Morris
+Answer: d
+
+22. Which company designed the first personal computer?
+a. IBM
+b. Apple
+c. Microsoft
+d. Intel
+Answer: b
+
+23. Which generation of computers used integrated circuits as a key component?
+a. First generation
+b. Second generation
+c. Third generation
+d. Fourth generation
+Answer: c
+
+24. Which company developed the first graphical user interface (GUI)?
+a. Apple
+b. Microsoft
+c. IBM
+d. Xerox
+Answer: d
+
+25. Which generation of computers is characterized by the use of microprocessors?
+a. First generation
+b. Second generation
+c. Third generation
+d. Fourth generation
+Answer: d
+
+26. Who invented the World Wide Web (WWW)?
+a. Bill Gates
+b. Tim Berners-Lee
+c. Steve Jobs
+d. Mark Zuckerberg
+Answer: b
+
+27. What is the name of the first commercially successful personal computer?
+a. IBM PC
+b. Apple II
+c. Commodore 64
+d. Atari 800
+Answer: a
+
+28. Which generation of computers is characterized by the use of artificial intelligence (AI) and machine learning?
+a. First generation
+b. Second generation
+c. Third generation
+d. Fourth generation
+Answer: d
+
+29. Who developed the first spreadsheet program?
+a. Bill Gates
+b. Steve Jobs
+c. Dan Bricklin
+d. Gary Kildall
+Answer: c
+
+30. Which company developed the first 64-bit microprocessor?
+a. IBM
+b. Intel
+c. AMD
+d. Motorola
+Answer: b
+
+31. Which generation of computers is characterized by the use of parallel processing and distributed systems?
+a. First generation
+b. Second generation
+c. Third generation
+d. Fourth generation
+Answer: d
+
+32. Who developed the first email program?
+a. Ray Tomlinson
+b. Tim Berners-Lee
+c. Bill Gates
+d. Steve Jobs
+Answer: a
+
+33. What is the name of the first computer to beat a human at chess?
+a. Deep Blue
+b. Watson
+c. HAL 9000
+d. Colossus
+Answer: a
+
+34. Which generation of computers is characterized by the use of quantum computing?
+a. First generation
+b. Second generation
+c. Third generation
+d. Fourth generation
+Answer: d
+---

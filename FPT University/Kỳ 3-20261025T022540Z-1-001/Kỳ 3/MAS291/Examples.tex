@@ -1,0 +1,51 @@
+\documentclass[12pt,a4paper]{article}
+
+% Math
+\usepackage{amsmath,amssymb,amsfonts,amsthm,mathtools}
+\usepackage{physics}
+\usepackage{bm}
+
+% Tables
+\usepackage{array,booktabs,multirow,multicol,longtable,tabularx}
+\usepackage{colortbl,xcolor}
+
+% Figures
+\usepackage{graphicx,float,subcaption}
+
+% TikZ
+\usepackage{tikz,pgfplots}
+\pgfplotsset{compat=1.18}
+
+% Layout
+\usepackage[a4paper,margin=1.5cm]{geometry}
+%\usepackage{anysize}
+%\marginsize{1.5cm}{1.5cm}{1.5cm}{1.5cm}
+
+% Utilities
+\usepackage{enumitem}
+\usepackage{makecell}
+\usepackage{hyperref}
+
+% Vietnamese
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnamese]{babel}
+
+\title{\textbf{Introduction to \LaTeX}}
+\author{VyNHT}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle 
+	% \begin{center}
+		% 	\LARGE{\textbf{Introduction to \LaTeX}}\\ \vspace{2mm}
+		% 	\large{VyNHT}
+		% \end{center}
+	
+	The Fourier series of a periodic function \(f(x)\) can be represented as
+	\[f(x) = a_0 + \sum_{n=1}^{\infty} \left( a_n \cos\left(\frac{2\pi n x}{T}\right) + b_n \sin\left(\frac{2\pi n x}{T}\right) \right)\]
+	where \(a_n,\ b_n\) are the Fourier coefficients, calculated as follows
+	\[a_n = \frac{2}{T} \displaystyle\int_0^T f(x) \cos\left(\frac{2\pi n x}{T}\right)\; \mathrm{d}x,\quad b_n = \frac{2}{T} \displaystyle\int_0^T f(x) \sin\left(\frac{2\pi n x}{T}\right)\; \mathrm{d}x.\]
+
+\end{document}

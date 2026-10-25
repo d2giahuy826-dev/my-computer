@@ -1,0 +1,27 @@
+mkdir Name
+ls
+cd Name
+
+
+mkdir OS_N
+cd OS_N
+mkdir OS N
+
+cd OS
+mkdir HW
+echo "He dieu hanh"> test1
+
+cd ..
+cd N
+mkdir HW
+mkdir Assgn
+touch test5
+
+cp ../OS/test1 test4
+
+rm ../OS/test1
+
+echo "Noi dung bo sung">> test5
+nano test5
+
+cd/

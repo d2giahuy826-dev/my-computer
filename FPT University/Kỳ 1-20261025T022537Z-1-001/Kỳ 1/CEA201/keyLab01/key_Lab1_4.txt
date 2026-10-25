@@ -1,0 +1,72 @@
+ ;-----------------7-May-24
+ ;Lab1_4
+ ;Write a MASM program that will solve the equation ax+b=0
+ ;--------------------------
+  .486                                    ; create 32 bit code
+    .model flat, stdcall                    ; 32 bit memory model
+    option casemap :none                    ; case sensitive
+ 
+    include \masm32\include\windows.inc     ; always first
+    include \masm32\macros\macros.asm       ; MASM support macros
+
+  ; -----------------------------------------------------------------
+  ; include files that have MASM format prototypes for function calls
+  ; -----------------------------------------------------------------
+    include \masm32\include\masm32.inc
+    include \masm32\include\gdi32.inc
+    include \masm32\include\user32.inc
+    include \masm32\include\kernel32.inc
+    include \masm32\include\msvcrt.inc
+
+  ; ------------------------------------------------
+  ; Library files that have definitions for function
+  ; exports and tested reliable prebuilt code.
+  ; ------------------------------------------------
+    includelib \masm32\lib\masm32.lib
+    includelib \masm32\lib\gdi32.lib
+    includelib \masm32\lib\user32.lib
+    includelib \masm32\lib\kernel32.lib
+    includelib \masm32\lib\msvcrt.lib
+
+    .code
+
+start:
+    call main
+    exit
+
+main proc
+    local a: dword
+    local b: dword
+    local q: dword
+    local r: dword
+    
+    print chr$("This program solves the equation ax + b = 0.", 13, 10)
+    mov a, sval(input("Enter a: "))
+    mov b, sval(input("Enter b: "))
+    print chr$("x = ")
+    
+    mov eax, b
+    imul eax, -1
+    mov b, eax
+    cdq
+    idiv a
+    mov q, eax
+    mov r, edx
+    
+    cmp r, 0
+    je equal
+    jmp not_equal
+
+equal:
+    print str$(q)
+    jmp over
+
+not_equal:
+    print str$(b)
+    print chr$("/")
+    print str$(a)
+
+over:
+    ret
+main endp
+end start

@@ -1,0 +1,381 @@
+---
+Chapter 2: Processes and Threads
+-----
+1. What is a process in an operating system?
+a) A program in execution
+b) A program in storage
+c) A program in input/output
+d) A program in compilation
+Answer: a) A program in execution
+
+2. Which of the following is not a state of a process?
+a) Running
+b) Blocked
+c) Sleeping
+d) Debugging
+Answer: d) Debugging
+
+3. What is a thread in an operating system?
+a) A program in execution
+b) A lightweight process
+c) A process in input/output
+d) A process in compilation
+Answer: b) A lightweight process
+
+4. Which of the following is not a benefit of multithreading?
+a) Improved responsiveness
+b) Efficient use of resources
+c) Reduced context switching
+d) Simplified program design
+Answer: c) Reduced context switching
+
+5. What is the purpose of a process scheduler in an operating system?
+a) To allocate CPU time to processes
+b) To manage threads within a process
+c) To manage input/output operations
+d) To manage memory allocation
+Answer: a) To allocate CPU time to processes
+
+6. What is the difference between a user-level thread and a kernel-level thread?
+a) User-level threads are faster than kernel-level threads
+b) User-level threads are managed by the operating system, while kernel-level threads are managed by the user
+c) User-level threads are invisible to the operating system, while kernel-level threads are visible
+d) User-level threads are less efficient than kernel-level threads
+Answer: c) User-level threads are invisible to the operating system, while kernel-level threads are visible
+
+7. Which of the following is not a type of process synchronization mechanism?
+a) Semaphores
+b) Monitors
+c) Locks
+d) Threads
+Answer: d) Threads
+
+8. What is a critical section in a process?
+a) A section of code that must be executed atomically
+b) A section of code that is not important
+c) A section of code that is executed before the main program
+d) A section of code that is executed after the main program
+Answer: a) A section of code that must be executed atomically
+
+9. Which of the following is not a deadlock prevention technique?
+a) Resource allocation graph
+b) Banker's algorithm
+c) Timeouts
+d) Starvation avoidance
+Answer: d) Starvation avoidance
+
+10. What is the purpose of a mutex?
+a) To prevent deadlocks
+b) To protect shared resources
+c) To manage threads
+d) To manage processes
+Answer: b) To protect shared resources
+
+11. Which of the following is not a type of thread synchronization mechanism?
+a) Semaphores
+b) Monitors
+c) Locks
+d) Preemption
+Answer: d) Preemption
+
+12. What is a context switch in an operating system?
+a) When a process voluntarily gives up the CPU
+b) When a process is interrupted and the CPU switches to another process
+c) When a process is terminated
+d) When a process is created
+Answer: b) When a process is interrupted and the CPU switches to another process
+
+13. Which of the following is not a reason why processes may need to communicate with each other?
+a) Sharing data
+b) Coordination
+c) Load balancing
+d) Debugging
+Answer: d) Debugging
+---
+14. What is a process?
+a) An executable program
+b) A thread of execution
+c) A unit of computation
+d) All of the above
+Answer: d) All of the above
+
+15. What is a thread?
+a) A unit of computation
+b) A lightweight process
+c) A program
+d) A device driver
+Answer: b) A lightweight process
+
+16. Which of the following is true about a process?
+a) It has its own memory space
+b) It shares memory space with other processes
+c) It shares memory space with its threads
+d) None of the above
+Answer: a) It has its own memory space
+
+17. Which of the following is true about a thread?
+a) It has its own memory space
+b) It shares memory space with other threads in the same process
+c) It shares memory space with other processes
+d) None of the above
+Answer: b) It shares memory space with other threads in the same process
+
+18. What is the purpose of a process control block (PCB)?
+a) To store information about a process
+b) To allocate memory to a process
+c) To execute a process
+d) To schedule a process
+Answer: a) To store information about a process
+
+19. What is the purpose of a thread control block (TCB)?
+a) To store information about a thread
+b) To allocate memory to a thread
+c) To execute a thread
+d) To schedule a thread
+Answer: a) To store information about a thread
+
+20. Which of the following is true about context switching?
+a) It occurs when a process is created
+b) It occurs when a process is terminated
+c) It occurs when a process is suspended
+d) It occurs when a process is resumed
+Answer: c) It occurs when a process is suspended
+
+21. What is the difference between a user-level thread and a kernel-level thread?
+a) A user-level thread is managed by the operating system, while a kernel-level thread is managed by the application.
+b) A user-level thread is faster than a kernel-level thread.
+c) A user-level thread is less efficient than a kernel-level thread.
+d) A user-level thread is not visible to the operating system, while a kernel-level thread is.
+Answer: d) A user-level thread is not visible to the operating system, while a kernel-level thread is.
+
+22. Which of the following is true about a multi-threaded process?
+a) It has multiple processes
+b) It has multiple threads
+c) It has multiple CPUs
+d) It has multiple memory spaces
+Answer: b) It has multiple threads
+
+23. What is thread synchronization?
+a) The ability of multiple threads to access shared resources without interference
+b) The ability of a single thread to access multiple resources simultaneously
+c) The ability of multiple threads to run in parallel
+d) The ability of a single thread to execute multiple instructions simultaneously
+Answer: a) The ability of multiple threads to access shared resources without interference
+
+24. What is a critical section?
+a) A section of code that only one thread can execute at a time
+b) A section of code that all threads can execute at the same time
+c) A section of code that only kernel-level threads can execute
+d) A section of code that only user-level threads can execute
+Answer: a) A section of code that only one thread can execute at a time
+--
+25. What is a process in an operating system?
+a) A program that is loaded into memory and ready to execute
+b) A program that is still in the secondary storage
+c) A program that has been terminated
+d) A program that is not allowed to run on the operating system
+Answer: a
+
+26. What is a thread in an operating system?
+a) A lightweight process that can run in parallel with other threads
+b) A process that is loaded into memory and ready to execute
+c) A process that has been terminated
+d) A process that is not allowed to run on the operating system
+Answer: a
+
+27. What is the main difference between a process and a thread?
+a) A process can contain multiple threads, while a thread can only belong to one process
+b) A process is executed on the CPU, while a thread is executed on the GPU
+c) A process and a thread are the same thing
+d) A thread can contain multiple processes, while a process can only belong to one thread
+Answer: a
+
+28. What is context switching in an operating system?
+a) The process of switching between processes or threads to allow them to run
+b) The process of switching between users to allow them to access the system
+c) The process of switching between CPUs to improve performance
+d) The process of switching between storage devices to improve data access
+Answer: a
+
+29. What is a process control block (PCB)?
+a) A data structure that contains information about a process, such as its state, priority, and resource usage
+b) A data structure that contains information about a thread, such as its state, priority, and resource usage
+c) A data structure that contains information about the operating system, such as its version and installed applications
+d) A data structure that contains information about the computer hardware, such as its CPU and memory capacity
+Answer: a
+
+30. What is a thread control block (TCB)?
+a) A data structure that contains information about a thread, such as its state, priority, and resource usage
+b) A data structure that contains information about a process, such as its state, priority, and resource usage
+c) A data structure that contains information about the operating system, such as its version and installed applications
+d) A data structure that contains information about the computer hardware, such as its CPU and memory capacity
+Answer: a
+
+31. What is a semaphore in an operating system?
+a) A synchronization tool used to manage access to shared resources between processes or threads
+b) A tool used to measure the performance of the CPU
+c) A tool used to measure the performance of the memory
+d) A tool used to measure the performance of the network
+Answer: a
+
+32. What is a mutex in an operating system?
+a) A synchronization tool used to manage access to shared resources between threads
+b) A tool used to measure the performance of the CPU
+c) A tool used to measure the performance of the memory
+d) A tool used to measure the performance of the network
+Answer: a
+
+33. What is a critical section in an operating system?
+a) A portion of code that accesses a shared resource and needs to be synchronized
+b) A portion of code that does not access a shared resource and does not need to be synchronized
+c) A portion of code that is not allowed to execute on the CPU
+d) A portion of code that is not allowed to execute on the GPU
+Answer: a
+---
+34. What is the primary difference between a process and a thread in an operating system?
+a. A process is a unit of execution, while a thread is a unit of scheduling.
+b. A process is a unit of scheduling, while a thread is a unit of execution.
+c. A process is a separate program, while a thread is a subset of a process.
+d. A process is a subset of a thread, while a thread is a separate program.
+Answer: c.
+
+35. Which of the following statements is true about threads?
+a. Threads share the same memory space with other threads in the same process.
+b. Threads have their own separate memory space in the operating system.
+c. Threads are isolated from other threads in the same process.
+d. Threads can only run on one processor at a time.
+Answer: a.
+
+36. What is the benefit of using threads in an operating system?
+a. Threads allow for efficient use of memory resources.
+b. Threads allow for better use of the CPU.
+c. Threads allow for better security.
+d. Threads allow for easier debugging.
+Answer: b.
+
+37. What is the difference between a user-level thread and a kernel-level thread?
+a. User-level threads are managed by the operating system, while kernel-level threads are managed by the user.
+b. User-level threads are faster than kernel-level threads.
+c. User-level threads are less secure than kernel-level threads.
+d. User-level threads are managed by the user, while kernel-level threads are managed by the operating system.
+Answer: d.
+
+38. How are processes and threads related to each other in an operating system?
+a. A process can have multiple threads, but a thread cannot have multiple processes.
+b. A process and a thread are the same thing in an operating system.
+c. A process is always made up of multiple threads.
+d. A thread can have multiple processes, but a process cannot have multiple threads.
+Answer: a.
+
+39. What is a context switch in an operating system?
+a. A process switching between different threads.
+b. A thread switching between different processes.
+c. An interrupt that causes a process to switch to a different thread.
+d. A system call that causes a process to switch to a different process.
+Answer: b.
+
+40. Which of the following is an example of a multithreaded operating system?
+a. Windows XP
+b. MS-DOS
+c. Mac OS X
+d. Linux
+Answer: d.
+
+41. What is a thread pool in an operating system?
+a. A group of threads that are assigned to a specific task.
+b. A group of threads that are assigned to different tasks.
+c. A group of processes that share a common memory space.
+d. A group of processes that are assigned to a specific task.
+Answer: a.
+
+42. What is the difference between a process switch and a thread switch?
+a. A process switch involves switching between different processes, while a thread switch involves switching between different threads.
+b. A process switch involves switching between different threads, while a thread switch involves switching between different processes.
+c. A process switch and a thread switch are the same thing.
+d. A process switch and a thread switch are not possible in the same operating system.
+Answer: a.
+
+43. What is a deadlock in an operating system?
+a. A situation where two or more processes or threads are waiting for each other to release a resource.
+b. A situation where a process or thread is waiting for a resource that is not available.
+c. A situation where a process or thread has used up all available memory.
+d. A situation where a process or thread has been terminated unexpectedly.
+Answer: a.
+---
+44. What is a process in an operating system?
+a) A program in execution
+b) A file stored on the hard drive
+c) A data structure in RAM
+d) A peripheral device connected to the computer
+Answer: a) A program in execution
+
+45. What is a thread in an operating system?
+a) A separate program running in the background
+b) A unit of execution within a process
+c) A type of file stored on the hard drive
+d) A peripheral device connected to the computer
+Answer: b) A unit of execution within a process
+
+46. Which of the following is not an advantage of using threads in an operating system?
+a) Increased responsiveness
+b) Better resource utilization
+c) Improved scalability
+d) Reduced complexity
+Answer: d) Reduced complexity
+
+47. Which of the following is not a characteristic of a process in an operating system?
+a) Has its own address space
+b) Can have multiple threads
+c) Can communicate with other processes
+d) Is always executed sequentially
+Answer: d) Is always executed sequentially
+
+48. What is process scheduling in an operating system?
+a) The order in which processes are loaded into memory
+b) The order in which processes are executed by the CPU
+c) The process of terminating a process
+d) The process of creating a new process
+Answer: b) The order in which processes are executed by the CPU
+
+49. Which of the following scheduling algorithms gives priority to processes with higher CPU burst times?
+a) Round-robin scheduling
+b) Shortest Job First (SJF) scheduling
+c) Priority scheduling
+d) First Come First Serve (FCFS) scheduling
+Answer: c) Priority scheduling
+
+50. What is a context switch in an operating system?
+a) The process of switching between user mode and kernel mode
+b) The process of saving the current state of a process and restoring the state of a different process
+c) The process of moving a process from the ready queue to the running queue
+d) The process of loading a process into memory
+Answer: b) The process of saving the current state of a process and restoring the state of a different process
+
+51. What is a deadlock in an operating system?
+a) A situation where two or more processes are waiting for each other to release resources
+b) A situation where a process is stuck in an infinite loop
+c) A situation where a process tries to access a resource that is already being used by another process
+d) A situation where a process terminates abnormally
+Answer: a) A situation where two or more processes are waiting for each other to release resources
+
+52. What is a semaphore in an operating system?
+a) A hardware device used to synchronize processes
+b) A software tool used to manage system resources
+c) A process for allocating memory to a process
+d) A file system used to store data
+Answer: b) A software tool used to manage system resources
+
+53. What is mutual exclusion in an operating system?
+a) A technique used to prevent deadlocks
+b) A technique used to prevent starvation
+c) A technique used to prevent multiple processes from accessing a shared resource simultaneously
+d) A technique used to prevent context switches
+Answer: c) A technique used to prevent multiple processes from accessing a shared resource simultaneously
+
+54. Which of the following is not a type of synchronization mechanism used in operating systems?
+a) Mutex
+b) Semaphore
+c) Monitor
+d) Loop
+Answer: d) Loop
+---

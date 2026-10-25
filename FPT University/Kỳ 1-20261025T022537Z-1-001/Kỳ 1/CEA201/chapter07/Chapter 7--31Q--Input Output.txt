@@ -1,0 +1,263 @@
+
+--
+Chapter 7: Input and Output
+--
+1. Which of the following is not a common input device?
+a. Keyboard
+b. Mouse
+c. Monitor
+d. Scanner
+Answer: c
+
+2. Which of the following is not a common output device?
+a. Printer
+b. Monitor
+c. Speakers
+d. Scanner
+Answer: d
+
+3. Which of the following is not a type of keyboard?
+a. QWERTY
+b. AZERTY
+c. Dvorak
+d. OLED
+Answer: d
+
+4. Which of the following is not a type of mouse?
+a. Optical
+b. Laser
+c. Trackball
+d. Touchscreen
+Answer: d
+
+5. Which of the following is not a type of printer?
+a. Laser
+b. Inkjet
+c. Dot-matrix
+d. OLED
+Answer: d
+
+6. Which of the following is not a common type of scanner?
+a. Flatbed
+b. Sheet-fed
+c. Drum
+d. Pen
+Answer: d
+
+7. Which of the following is not a common type of monitor?
+a. CRT
+b. LCD
+c. LED
+d. OLED
+Answer: a
+
+8. Which of the following is not a type of display technology used in monitors?
+a. Plasma
+b. LCD
+c. OLED
+d. LED
+Answer: a
+
+9. Which of the following is not a type of connector used to connect a monitor to a computer system?
+a. VGA
+b. DVI
+c. HDMI
+d. USB
+Answer: d
+
+10. Which of the following is not a common type of audio output device?
+a. Speakers
+b. Headphones
+c. Microphone
+d. Sound card
+Answer: c
+
+11. Which of the following is not a type of sound card?
+a. PCI
+b. USB
+c. Onboard
+d. VGA
+Answer: d
+
+12. Which of the following is not a common type of microphone?
+a. Condenser
+b. Dynamic
+c. Ribbon
+d. Laser
+Answer: d
+
+13. Which of the following is not a common type of game controller?
+a. Joystick
+b. Gamepad
+c. Steering wheel
+d. Touchpad
+Answer: d
+
+14. Which of the following is not a common type of storage device used for digital cameras?
+a. SD card
+b. CompactFlash
+c. USB flash drive
+d. Hard disk drive
+Answer: d
+
+15. Which of the following is not a common type of barcode scanner?
+a. Laser
+b. CCD
+c. Wand
+d. OLED
+Answer: d
+
+16. Which of the following is not a common type of magnetic stripe reader?
+a. Swipe reader
+b. Insert reader
+c. Contactless reader
+d. OLED reader
+Answer: d
+
+17. Which of the following is not a common type of smart card reader?
+a. Contact reader
+b. Contactless reader
+c. Barcode reader
+d. Magnetic stripe reader
+Answer: c
+
+18. Which of the following is not a common type of biometric scanner?
+a. Fingerprint scanner
+b. Iris scanner
+c. Facial recognition scanner
+d. Barcode scanner
+Answer: d
+
+19. Which of the following is not a common type of touch screen?
+a. Resistive
+b. Capacitive
+c. OLED
+d. Infrared
+Answer: c
+
+20. Which of the following is not a common type of digital pen?
+a. Active pen
+b. Passive pen
+c. Smart pen
+d. Laser pen
+Answer: d
+--
+21. What is the main purpose of input devices?
+a. To provide output to the user
+b. To receive input from the user
+c. To process data
+d. To store data
+Answer: b
+
+22. Which of the following is an example of an input device?
+a. Monitor
+b. Keyboard
+c. Printer
+d. Speaker
+Answer: b
+
+23. Which of the following is not an example of an input device?
+a. Mouse
+b. Scanner
+c. Touchscreen
+d. Monitor
+Answer: d
+
+24. Which of the following is not a type of keyboard layout?
+a. QWERTY
+b. AZERTY
+c. QWERTZ
+d. ZYXWVU
+Answer: d
+
+25. Which of the following is not a type of mouse?
+a. Trackball
+b. Optical
+c. Mechanical
+d. Laser
+Answer: c
+
+26. Which of the following is not a type of scanner?
+a. Flatbed
+b. Sheet-fed
+c. Drum
+d. Bubble jet
+Answer: d
+
+27. What is the primary purpose of output devices?
+a. To receive input from the user
+b. To process data
+c. To provide output to the user
+d. To store data
+Answer: c
+
+28. Which of the following is an example of an output device?
+a. Keyboard
+b. Printer
+c. Scanner
+d. Mouse
+Answer: b
+
+29. Which of the following is not an example of an output device?
+a. Monitor
+b. Speaker
+c. Touchscreen
+d. Keyboard
+Answer: d
+
+30. Which of the following is not a type of printer?
+a. Inkjet
+b. Laser
+c. Dot matrix
+d. CRT
+Answer: d
+
+31. Which of the following is not a characteristic of inkjet printers?
+a. Produce high-quality color output
+b. Use liquid ink cartridges
+c. Produce fast printing speeds
+d. Can print on a variety of media types
+Answer: c
+
+32. Which of the following is not a characteristic of laser printers?
+a. Produce high-quality black and white output
+b. Use toner cartridges
+c. Produce fast printing speeds
+d. Can print on a variety of media types
+Answer: d
+
+33. Which of the following is not a characteristic of dot matrix printers?
+a. Produce high-quality color output
+b. Use ribbons to transfer ink onto paper
+c. Produce slow printing speeds
+d. Can print on continuous paper
+Answer: a
+
+34. Which of the following is not a characteristic of CRT monitors?
+a. Produce high-quality color output
+b. Use a cathode ray tube to display images
+c. Produce low resolution output
+d. Use a refresh rate to eliminate flicker
+Answer: a
+
+35. Which of the following is not a type of flat panel display?
+a. LCD
+b. LED
+c. CRT
+d. OLED
+Answer: c
+
+36. Which of the following is not a characteristic of LCD monitors?
+a. Produce high-quality color output
+b. Use a liquid crystal display to display images
+c. Produce high resolution output
+d. Use backlighting to illuminate the display
+Answer: a
+
+37. Which of the following is not a characteristic of LED monitors?
+a. Produce high-quality color output
+b. Use a light-emitting diode to illuminate the display
+c. Produce high resolution output
+d. Use backlighting to illuminate the display
+Answer: a
+---

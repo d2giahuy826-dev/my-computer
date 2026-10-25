@@ -1,0 +1,221 @@
+
+--
+Chapter 3: A top level view of computer function and interconnection
+---
+1. What is the function of the central processing unit (CPU) in a computer?
+a. To store data
+b. To process data
+c. To input data
+d. To output data
+Answer: b
+
+2. What is the function of the input/output (I/O) system in a computer?
+a. To process data
+b. To store data
+c. To input data
+d. To output data
+Answer: d
+
+3. What is the function of the memory system in a computer?
+a. To process data
+b. To store data
+c. To input data
+d. To output data
+Answer: b
+
+4. Which component of a computer is responsible for controlling the flow of data between the CPU and other components?
+a. Memory
+b. I/O system
+c. Bus system
+d. Power supply
+Answer: c
+
+5. What is the function of the system clock in a computer?
+a. To regulate the temperature of the CPU
+b. To control the flow of data between components
+c. To synchronize the timing of operations
+d. To provide power to the CPU
+Answer: c
+
+6. What is the purpose of the cache memory in a computer?
+a. To store frequently used data for quick access
+b. To store all data processed by the CPU
+c. To act as a backup for the main memory
+d. To control the flow of data between components
+Answer: a
+
+7. Which type of memory is non-volatile, meaning it retains its data even when power is turned off?
+a. RAM
+b. ROM
+c. Cache
+d. Virtual memory
+Answer: b
+
+8. Which type of memory is volatile, meaning it loses its data when power is turned off?
+a. RAM
+b. ROM
+c. Cache
+d. Virtual memory
+Answer: a
+
+9. Which type of memory is used to temporarily store data when the main memory is full?
+a. RAM
+b. ROM
+c. Cache
+d. Virtual memory
+Answer: d
+
+10. What is the function of the system bus in a computer?
+a. To control the flow of data between the CPU and other components
+b. To regulate the temperature of the CPU
+c. To provide power to the CPU
+d. To store data
+Answer: a
+
+11. What is the function of the northbridge chip in a computer?
+a. To control the flow of data between the CPU and memory
+b. To control the flow of data between the CPU and I/O system
+c. To regulate the temperature of the CPU
+d. To store data
+Answer: a
+
+12. What is the function of the southbridge chip in a computer?
+a. To control the flow of data between the CPU and memory
+b. To control the flow of data between the CPU and I/O system
+c. To regulate the temperature of the CPU
+d. To store data
+Answer: b
+
+13. What is the purpose of a device driver in a computer?
+a. To control the flow of data between the CPU and memory
+b. To control the flow of data between the CPU and I/O system
+c. To regulate the temperature of the CPU
+d. To store data
+Answer: b
+
+14. What is the purpose of a firmware in a computer?
+a. To control the flow of data between the CPU and memory
+b. To control the flow of data between the CPU and I/O system
+c. To regulate the temperature of the CPU
+d. To provide low-level control of hardware components
+Answer: d
+---
+15. What is the function of the CPU in a computer system?
+a. Storage
+b. Processing
+c. Input
+d. Output
+Answer: b
+
+16. What is the purpose of the control unit in the CPU?
+a. To perform arithmetic operations
+b. To manage the flow of instructions
+c. To store data
+d. To handle input/output operations
+Answer: b
+
+17. Which component is responsible for temporarily storing data that the CPU needs to access quickly?
+a. RAM
+b. ROM
+c. Hard Drive
+d. CPU cache
+Answer: d
+
+18. What is the purpose of the motherboard in a computer system?
+a. To provide power to the system
+b. To connect all the components together
+c. To store data
+d. To display output
+Answer: b
+
+19. Which component is responsible for converting digital signals to analog signals for communication over phone lines?
+a. Modem
+b. Network card
+c. Sound card
+d. Graphics card
+Answer: a
+
+20. What is the purpose of the BIOS in a computer system?
+a. To manage the flow of instructions
+b. To store data
+c. To perform arithmetic operations
+d. To initialize the system hardware
+Answer: d
+
+21. Which component is responsible for displaying graphics and video on a computer screen?
+a. CPU
+b. RAM
+c. Graphics card
+d. Hard drive
+Answer: c
+
+22. What is the purpose of the power supply unit (PSU) in a computer system?
+a. To manage the flow of instructions
+b. To store data
+c. To provide power to the system components
+d. To display output
+Answer: c
+
+23. Which component is responsible for storing data permanently?
+a. RAM
+b. ROM
+c. Hard drive
+d. CPU cache
+Answer: c
+
+24. What is the purpose of the input/output (I/O) devices in a computer system?
+a. To perform arithmetic operations
+b. To store data
+c. To display output
+d. To communicate with external devices
+Answer: d
+
+25. Which component is responsible for managing communication between different components of the computer system?
+a. Control unit
+b. ALU
+c. Motherboard
+d. Hard drive
+Answer: c
+
+26. What is the purpose of the clock in a computer system?
+a. To manage the flow of instructions
+b. To store data
+c. To perform arithmetic operations
+d. To synchronize the operation of different components
+Answer: d
+
+27. Which component is responsible for providing audio output on a computer system?
+a. Network card
+b. Sound card
+c. Graphics card
+d. Modem
+Answer: b
+
+28. What is the purpose of the system bus in a computer system?
+a. To manage the flow of instructions
+b. To store data
+c. To provide communication between components
+d. To display output
+Answer: c
+
+29. Which component is responsible for providing network connectivity on a computer system?
+a. Network card
+b. Sound card
+c. Graphics card
+d. Modem
+Answer: a
+
+30. What is the purpose of the cache in a computer system?
+a. To manage the flow of instructions
+b. To store data
+c. To provide temporary storage for frequently accessed data
+d. To display output
+Answer: c
+
+31. Which component is responsible for providing power to the system when it is turned off?
+a. PSU
+b. CPU
+c. RAM
+d. Graphics card
+Answer: a
+---

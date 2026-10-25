@@ -1,0 +1,298 @@
+
+--
+Chapter 14: Processor structure and Function
+--
+1. What is the role of the control unit in a processor?
+a. To perform arithmetic and logic operations
+b. To fetch instructions from memory and execute them
+c. To store data in registers
+d. To provide a clock signal to the rest of the system
+Answer: b. To fetch instructions from memory and execute them
+
+2. What is the function of the ALU in a processor?
+a. To fetch instructions from memory
+b. To execute arithmetic and logic operations
+c. To store data in registers
+d. To provide a clock signal to the rest of the system
+Answer: b. To execute arithmetic and logic operations
+
+3. What is the purpose of the program counter in a processor?
+a. To store the result of arithmetic or logic operations
+b. To keep track of the current instruction being executed
+c. To hold the address of the next instruction to be fetched
+d. To synchronize the operation of different components in the processor
+Answer: c. To hold the address of the next instruction to be fetched
+
+4. Which of the following is not a type of processor register?
+a. General-purpose registers
+b. Special-purpose registers
+c. Cache registers
+d. Instruction registers
+Answer: c. Cache registers
+
+5. What is the difference between a RISC and a CISC processor?
+a. RISC processors have more instructions than CISC processors.
+b. RISC processors are slower than CISC processors.
+c. RISC processors have simpler instructions and fewer addressing modes than CISC processors.
+d. RISC processors use a more complex instruction set than CISC processors.
+Answer: c. RISC processors have simpler instructions and fewer addressing modes than CISC processors.
+
+6. What is the role of the system bus in a processor?
+a. To fetch instructions from memory
+b. To execute arithmetic and logic operations
+c. To provide a clock signal to the rest of the system
+d. To transfer data between different components in the system
+Answer: d. To transfer data between different components in the system
+
+7. What is pipelining in a processor?
+a. The process of fetching and executing multiple instructions simultaneously
+b. The process of executing a single instruction multiple times
+c. The process of interrupting the execution of an instruction to perform another task
+d. The process of synchronizing the operation of different components in the processor
+Answer: a. The process of fetching and executing multiple instructions simultaneously
+
+8. Which of the following is not a hazard that can occur in pipelining?
+a. Structural hazard
+b. Data hazard
+c. Instruction hazard
+d. Control hazard
+Answer: c. Instruction hazard
+
+9. What is a cache in a processor?
+a. A type of instruction register
+b. A type of special-purpose register
+c. A small, fast memory that stores frequently accessed data
+d. A type of ALU
+Answer: c. A small, fast memory that stores frequently accessed data
+
+10. What is the purpose of branch prediction in a processor?
+a. To predict which instruction will be executed next
+b. To predict whether a conditional branch will be taken or not
+c. To predict the outcome of an arithmetic or logic operation
+d. To predict the size of a data item
+Answer: b. To predict whether a conditional branch will be taken or not
+
+11. Which of the following is not a type of memory used in a processor?
+a. Cache memory
+b. Virtual memory
+c. Main memory
+d. I/O memory
+Answer: d. I/O memory
+
+12. What is a processor?
+a) A device that processes food
+b) A device that processes data
+c) A device that processes electricity
+d) A device that processes water
+Answer: b) A device that processes data
+
+13. What is the function of the processor?
+a) To store data
+b) To process data
+c) To display data
+d) To connect to the internet
+Answer: b) To process data
+
+14. Which of the following is not a component of a processor?
+a) Control unit
+b) Arithmetic logic unit
+c) Memory
+d) Input/output unit
+Answer: c) Memory
+
+15. Which of the following is responsible for executing instructions in a processor?
+a) Control unit
+b) Arithmetic logic unit
+c) Memory
+d) Input/output unit
+Answer: a) Control unit
+
+16. Which of the following is responsible for performing arithmetic and logical operations in a processor?
+a) Control unit
+b) Arithmetic logic unit
+c) Memory
+d) Input/output unit
+Answer: b) Arithmetic logic unit
+
+17. Which of the following is responsible for temporarily storing data in a processor?
+a) Control unit
+b) Arithmetic logic unit
+c) Memory
+d) Input/output unit
+Answer: c) Memory
+
+18. What is clock speed in a processor?
+a) The rate at which data is transferred between components
+b) The rate at which data is processed by the processor
+c) The rate at which instructions are executed by the processor
+d) The rate at which data is stored in memory
+Answer: c) The rate at which instructions are executed by the processor
+
+19. Which of the following is not a type of processor architecture?
+a) CISC
+b) RISC
+c) SIMD
+d) ASMD
+Answer: d) ASMD
+
+20. Which of the following is a characteristic of CISC architecture?
+a) Simple instructions
+b) Large instruction set
+c) Parallel processing
+d) Reduced power consumption
+Answer: b) Large instruction set
+
+21. Which of the following is a characteristic of RISC architecture?
+a) Simple instructions
+b) Large instruction set
+c) Parallel processing
+d) Reduced power consumption
+Answer: a) Simple instructions
+
+22. Which of the following is a characteristic of SIMD architecture?
+a) Simple instructions
+b) Large instruction set
+c) Parallel processing
+d) Reduced power consumption
+Answer: c) Parallel processing
+
+23. Which of the following is not a factor that affects processor performance?
+a) Clock speed
+b) Cache size
+c) Memory size
+d) Input/output speed
+Answer: d) Input/output speed
+
+24. What is cache memory in a processor?
+a) Permanent storage for data
+b) Temporary storage for data
+c) A type of RAM
+d) A type of ROM
+Answer: b) Temporary storage for data
+
+25. Which of the following is not a level of cache memory in a processor?
+a) L1
+b) L2
+c) L3
+d) L4
+Answer: d) L4
+
+26. What is the purpose of pipelining in a processor?
+a) To increase clock speed
+b) To decrease clock speed
+c) To decrease instruction throughput
+d) To increase instruction throughput
+Answer: d) To increase instruction throughput
+
+27. Which of the following is not a technique used to improve processor performance?
+a) Pipelining
+b) Parallel processing
+c) Overclocking
+d) Multithreading
+Answer: c) Overclocking
+
+28. What is the main function of a processor?
+a) To store data
+b) To process data
+c) To output data
+d) To connect to the internet
+Answer: b) To process data
+
+29. Which component of a processor is responsible for performing arithmetic and logic operations?
+a) Control unit
+b) ALU
+c) Cache memory
+d) Register
+Answer: b) ALU
+
+30. Which component of a processor manages the flow of data within the processor and between the processor and memory?
+a) Control unit
+b) ALU
+c) Cache memory
+d) Register
+Answer: a) Control unit
+
+31. Which component of a processor stores instructions and data that the processor is currently working on?
+a) Control unit
+b) ALU
+c) Cache memory
+d) Register
+Answer: d) Register
+
+32. Which type of processor architecture uses a single, powerful core to perform all processing tasks?
+a) Multi-core
+b) Single-core
+c) Dual-core
+d) Quad-core
+Answer: b) Single-core
+
+33. Which type of processor architecture uses multiple cores to perform processing tasks simultaneously?
+a) Multi-core
+b) Single-core
+c) Dual-core
+d) Quad-core
+Answer: a) Multi-core
+
+34. What is the purpose of cache memory in a processor?
+a) To store frequently used data and instructions for faster access
+b) To store large amounts of data
+c) To control the flow of data within the processor
+d) To perform arithmetic and logic operations
+Answer: a) To store frequently used data and instructions for faster access
+
+35. What is clock speed in a processor?
+a) The number of cores in the processor
+b) The amount of cache memory in the processor
+c) The speed at which the processor performs instructions
+d) The size of the processor
+Answer: c) The speed at which the processor performs instructions
+
+36. Which unit is used to measure clock speed in a processor?
+a) Hertz (Hz)
+b) Bytes (B)
+c) Megabytes (MB)
+d) Gigabytes (GB)
+Answer: a) Hertz (Hz)
+
+37. What is the purpose of a heat sink in a processor?
+a) To control the flow of data within the processor
+b) To store frequently used data and instructions for faster access
+c) To prevent the processor from overheating
+d) To perform arithmetic and logic operations
+Answer: c) To prevent the processor from overheating
+
+38. Which type of processor uses RISC architecture?
+a) Intel
+b) AMD
+c) ARM
+d) NVIDIA
+Answer: c) ARM
+
+39. Which type of processor uses CISC architecture?
+a) Intel
+b) AMD
+c) ARM
+d) NVIDIA
+Answer: a) Intel
+
+40. What is the purpose of virtualization technology in a processor?
+a) To improve the performance of the processor
+b) To allow multiple operating systems to run on a single processor
+c) To increase the clock speed of the processor
+d) To store frequently used data and instructions for faster access
+Answer: b) To allow multiple operating systems to run on a single processor
+
+41. Which type of processor is typically used in smartphones and tablets?
+a) Intel
+b) AMD
+c) ARM
+d) NVIDIA
+Answer: c) ARM
+
+42. Which type of processor is typically used in desktop and laptop computers?
+a) Intel
+b) AMD
+c) ARM
+d) NVIDIA
+Answer: a) Intel
+----

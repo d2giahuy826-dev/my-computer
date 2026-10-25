@@ -1,0 +1,243 @@
+
+---
+Chapter 10: Instructions - Characteristics and functions
+---
+
+1. What is an instruction in a computer system?
+a. A command given to the computer to perform a specific task
+b. A file that contains data to be processed by the computer
+c. A device used to input data into the computer
+d. A program used to control the computer's operation
+Answer: a
+
+2. What is the instruction set architecture (ISA)?
+a. The set of instructions that a computer can understand and execute
+b. The hardware components that make up a computer
+c. The software programs that run on a computer
+d. The input/output devices of a computer
+Answer: a
+
+3. What is the purpose of the instruction register (IR) in a computer system?
+a. To hold the current instruction being executed
+b. To store data that is being processed by the computer
+c. To act as the primary memory for the computer
+d. To store the next instruction to be executed
+Answer: a
+
+4. Which of the following is not a characteristic of instructions?
+a. Opcode
+b. Operand
+c. Address
+d. Flow
+Answer: d
+
+5. What is an opcode?
+a. The operation code that specifies the operation to be performed
+b. The data that is being operated on
+c. The address of the data that is being operated on
+d. The condition for executing the instruction
+Answer: a
+
+6. What is an operand?
+a. The data that is being operated on
+b. The operation code that specifies the operation to be performed
+c. The address of the data that is being operated on
+d. The condition for executing the instruction
+Answer: a
+
+7. What is an address?
+a. The location of the data that is being operated on
+b. The operation code that specifies the operation to be performed
+c. The data that is being operated on
+d. The condition for executing the instruction
+Answer: a
+
+8. What is the purpose of the program counter (PC) in a computer system?
+a. To hold the address of the next instruction to be executed
+b. To hold the current instruction being executed
+c. To store data that is being processed by the computer
+d. To act as the primary memory for the computer
+Answer: a
+
+9. What is a control unit?
+a. The component of a computer system that manages the execution of instructions
+b. The component of a computer system that performs arithmetic operations
+c. The component of a computer system that performs logical operations
+d. The component of a computer system that stores data
+Answer: a
+
+10. What is a clock signal?
+a. A signal that synchronizes the operations of a computer system
+b. A signal that provides power to the computer system
+c. A signal that carries data between components of a computer system
+d. A signal that performs a specific operation in the computer system
+Answer: a
+
+11. What is a branch instruction?
+a. An instruction that changes the program flow based on a condition
+b. An instruction that performs an arithmetic operation
+c. An instruction that performs a logical operation
+d. An instruction that stores data in memory
+Answer: a
+
+12. What is a jump instruction?
+a. An instruction that transfers control to a different part of the program
+b. An instruction that performs an arithmetic operation
+c. An instruction that performs a logical operation
+d. An instruction that stores data in memory
+Answer: a
+
+13. What is an instruction?
+a. A statement that tells the computer what to do
+b. A program that runs on the computer
+c. A device that stores data
+d. A device that performs a logic operation
+Answer: a
+
+14. What is an opcode?
+a. The part of the instruction that specifies the operation to be performed
+b. The part of the instruction that specifies the data to be used in the operation
+c. The part of the instruction that specifies the memory location to be used in the operation
+d. The part of the instruction that specifies the type of input device to be used
+Answer: a
+
+15. What is an operand?
+a. The part of the instruction that specifies the data to be used in the operation
+b. The part of the instruction that specifies the operation to be performed
+c. The part of the instruction that specifies the memory location to be used in the operation
+d. The part of the instruction that specifies the type of input device to be used
+Answer: a
+
+16. What is an addressing mode?
+a. The way in which an operand is specified in an instruction
+b. The way in which an opcode is specified in an instruction
+c. The way in which a memory location is specified in an instruction
+d. The way in which an input device is specified in an instruction
+Answer: a
+
+17. What is direct addressing mode?
+a. The operand is specified by a memory address
+b. The operand is specified by a register
+c. The operand is specified by a constant value
+d. The operand is specified by an offset from the current memory location
+Answer: a
+
+18. What is immediate addressing mode?
+a. The operand is specified by a constant value
+b. The operand is specified by a memory address
+c. The operand is specified by a register
+d. The operand is specified by an offset from the current memory location
+Answer: a
+
+19. What is indirect addressing mode?
+a. The operand is specified by a memory location that contains the address of the actual operand
+b. The operand is specified by a register
+c. The operand is specified by a constant value
+d. The operand is specified by an offset from the current memory location
+Answer: a
+
+20. What is indexed addressing mode?
+a. The operand is specified by an offset from a base memory location
+b. The operand is specified by a register
+c. The operand is specified by a constant value
+d. The operand is specified by a memory location that contains the address of the actual operand
+Answer: a
+
+21. What is relative addressing mode?
+a. The operand is specified by an offset from the current memory location
+b. The operand is specified by a register
+c. The operand is specified by a constant value
+d. The operand is specified by a memory location that contains the address of the actual operand
+Answer: a
+
+22. What is a control instruction?
+a. An instruction that changes the flow of control in the program
+b. An instruction that performs a mathematical operation
+c. An instruction that moves data from one memory location to another
+d. An instruction that performs a logical operation
+Answer: a
+
+23. What is a branch instruction?
+a. An instruction that changes the flow of control in the program to a specified memory location
+b. An instruction that performs a mathematical operation
+c. An instruction that moves data from one memory location to another
+d. An instruction that performs a logical operation
+Answer: a
+
+24. What is an instruction?
+a. A set of bits that tells the computer what operation to perform
+b. A set of bits that tells the computer where to store data
+c. A set of bits that tells the computer which input to use
+d. A set of bits that tells the computer which output to produce
+Answer: a
+
+25. What is an opcode?
+a. The part of an instruction that tells the computer what operation to perform
+b. The part of an instruction that tells the computer where to store data
+c. The part of an instruction that tells the computer which input to use
+d. The part of an instruction that tells the computer which output to produce
+Answer: a
+
+26. What is an operand?
+a. The part of an instruction that specifies the data to be used in an operation
+b. The part of an instruction that specifies the location of data to be stored
+c. The part of an instruction that specifies the location of data to be loaded
+d. The part of an instruction that specifies the location of the output
+Answer: a
+
+27. What is an instruction set?
+a. The set of instructions that a computer can execute
+b. The set of registers that a computer has
+c. The set of I/O devices that a computer has
+d. The set of memory locations that a computer can access
+Answer: a
+
+28. What is a machine language?
+a. The language that a computer can directly execute
+b. The language that a programmer uses to write a program
+c. The language that a compiler translates a high-level language program to
+d. The language that an interpreter executes
+Answer: a
+
+29. What is an assembly language?
+a. A low-level programming language that uses mnemonic codes for instructions
+b. A high-level programming language that uses English-like statements
+c. A programming language that is used for web development
+d. A programming language that is used for scientific computing
+Answer: a
+
+30. What is a high-level language?
+a. A programming language that uses English-like statements
+b. A programming language that uses mnemonic codes for instructions
+c. A programming language that is used for web development
+d. A programming language that is used for scientific computing
+Answer: a
+
+31. What is a compiler?
+a. A program that translates a high-level language program to machine language
+b. A program that executes a high-level language program
+c. A program that translates a machine language program to a high-level language
+d. A program that optimizes a high-level language program
+Answer: a
+
+32. What is an interpreter?
+a. A program that executes a high-level language program
+b. A program that translates a high-level language program to machine language
+c. A program that translates a machine language program to a high-level language
+d. A program that optimizes a high-level language program
+Answer: a
+
+33. What is a program counter?
+a. A register that contains the address of the next instruction to be executed
+b. A register that contains the data to be used in an operation
+c. A register that contains the address of the data to be stored
+d. A register that contains the address of the output
+Answer: a
+
+34. What is a branch instruction?
+a. An instruction that changes the value of the program counter
+b. An instruction that performs an arithmetic or logical operation
+c. An instruction that loads data into a register
+d. An instruction that stores data from a register
+Answer: a
+---

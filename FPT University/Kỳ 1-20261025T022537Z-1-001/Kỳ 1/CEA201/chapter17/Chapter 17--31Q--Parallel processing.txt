@@ -1,0 +1,178 @@
+---
+Chapter 17: Parallel processing
+---
+1. What is parallel processing?
+a) A technique used to increase the clock speed of a processor
+b) A technique used to improve the performance of a program by dividing it into smaller tasks that can be executed simultaneously
+c) A technique used to reduce the size of the instruction set
+d) A technique used to reduce the number of pipeline stages
+Answer: b) A technique used to improve the performance of a program by dividing it into smaller tasks that can be executed simultaneously
+
+2. Which of the following is an example of a parallel processing architecture?
+a) SIMD
+b) VLIW
+c) Superscalar
+d) RISC
+Answer: a) SIMD
+
+3. Which of the following is a characteristic of SIMD architecture?
+a) It allows for dynamic instruction scheduling
+b) It uses a large instruction set
+c) It executes the same instruction on multiple data items simultaneously
+d) It requires a complex microarchitecture
+Answer: c) It executes the same instruction on multiple data items simultaneously
+
+4. Which of the following is a disadvantage of SIMD architecture?
+a) It is not scalable to a large number of processing elements
+b) It is not efficient for data-parallel applications
+c) It requires a complex microarchitecture
+d) It cannot execute multiple instructions simultaneously
+Answer: a) It is not scalable to a large number of processing elements
+
+5. Which of the following is a characteristic of MIMD architecture?
+a) It executes the same instruction on multiple data items simultaneously
+b) It allows for dynamic instruction scheduling
+c) It can be used for data-parallel as well as task-parallel applications
+d) It requires a small instruction set
+Answer: c) It can be used for data-parallel as well as task-parallel applications
+
+6. Which of the following is a disadvantage of MIMD architecture?
+a) It cannot execute multiple instructions simultaneously
+b) It is not efficient for data-parallel applications
+c) It is not scalable to a large number of processing elements
+d) It requires a complex microarchitecture
+Answer: c) It is not scalable to a large number of processing elements
+
+7. Which of the following is an example of a shared-memory parallel system?
+a) Beowulf cluster
+b) Grid computing
+c) Cloud computing
+d) Distributed computing
+Answer: a) Beowulf cluster
+
+8. Which of the following is a disadvantage of a shared-memory parallel system?
+a) It is not efficient for data-parallel applications
+b) It requires a complex communication network
+c) It can be expensive to implement
+d) It cannot handle large amounts of data
+Answer: c) It can be expensive to implement
+
+9. Which of the following is an example of a distributed-memory parallel system?
+a) Beowulf cluster
+b) Grid computing
+c) Cloud computing
+d) Shared-memory multiprocessor
+Answer: b) Grid computing
+
+10. Which of the following is a disadvantage of a distributed-memory parallel system?
+a) It can be expensive to implement
+b) It requires a complex communication network
+c) It is not efficient for data-parallel applications
+d) It cannot handle large amounts of data
+Answer: b) It requires a complex communication network
+
+11. Which of the following is an example of a task-parallel application?
+a) Matrix multiplication
+b) Image processing
+c) Sorting algorithms
+d) Numerical integration
+Answer: d) Numerical integration
+
+12. Which of the following is an example of a data-parallel application?
+a) Numerical integration
+b) Image processing
+c) Sorting algorithms
+d) Matrix multiplication
+Answer: d) Matrix multiplication
+
+13. Which of the following best describes parallel processing?
+a) The execution of multiple programs on a single processor
+b) The execution of a single program on multiple processors
+c) The execution of a single program on a single processor
+d) The execution of a single instruction on multiple processors
+Answer: b) The execution of a single program on multiple processors
+
+14. Which of the following is not an advantage of parallel processing?
+a) Faster execution time
+b) Lower cost
+c) Improved reliability
+d) Scalability
+Answer: b) Lower cost
+
+15. Which of the following is a type of parallel processing?
+a) Distributed processing
+b) Sequential processing
+c) Batch processing
+d) Interactive processing
+Answer: a) Distributed processing
+
+16. Which of the following is a characteristic of a shared memory architecture?
+a) Each processor has its own memory
+b) Processors communicate with each other through a network
+c) All processors share a common memory
+d) Processors do not communicate with each other
+Answer: c) All processors share a common memory
+
+17. Which of the following is a characteristic of a distributed memory architecture?
+a) Each processor has its own memory
+b) Processors communicate with each other through a network
+c) All processors share a common memory
+d) Processors do not communicate with each other
+Answer: a) Each processor has its own memory
+
+18. Which of the following is an example of a shared memory parallel processing system?
+a) Beowulf cluster
+b) SIMD machine
+c) MIMD machine
+d) GPU
+Answer: d) GPU
+
+19. Which of the following is an example of a distributed memory parallel processing system?
+a) Beowulf cluster
+b) SIMD machine
+c) MIMD machine
+d) GPU
+Answer: a) Beowulf cluster
+
+20. Which of the following is a type of parallelism that can be exploited in parallel processing systems?
+a) Data parallelism
+b) Control parallelism
+c) Task parallelism
+d) All of the above
+Answer: d) All of the above
+
+21. Which of the following is a characteristic of data parallelism?
+a) Multiple tasks are executed simultaneously
+b) A single task is executed on multiple processors
+c) A single task is divided into smaller subtasks
+d) A single task is executed sequentially
+Answer: b) A single task is executed on multiple processors
+
+22. Which of the following is a characteristic of control parallelism?
+a) Multiple tasks are executed simultaneously
+b) A single task is executed on multiple processors
+c) A single task is divided into smaller subtasks
+d) A single task is executed sequentially
+Answer: a) Multiple tasks are executed simultaneously
+
+23. Which of the following is a characteristic of task parallelism?
+a) Multiple tasks are executed simultaneously
+b) A single task is executed on multiple processors
+c) A single task is divided into smaller subtasks
+d) A single task is executed sequentially
+Answer: c) A single task is divided into smaller subtasks
+
+24. Which of the following is a challenge of parallel processing?
+a) Scalability
+b) Load balancing
+c) Synchronization
+d) All of the above
+Answer: d) All of the above
+
+25. Which of the following is a technique for load balancing in parallel processing systems?
+a) Dynamic scheduling
+b) Static scheduling
+c) Task partitioning
+d) All of the above
+Answer: d) All of the above
+---

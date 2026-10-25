@@ -1,0 +1,432 @@
+----
+Chapter 5- Input Output
+----
+1. What is the purpose of I/O operations in an operating system?
+a) To transfer data between different processes
+b) To transfer data between the CPU and memory
+c) To transfer data between external devices and the computer
+d) To transfer data between different networks
+Answer: c) To transfer data between external devices and the computer
+
+2. Which of the following is not a type of I/O device?
+a) Keyboard
+b) Monitor
+c) Hard disk
+d) Processor
+Answer: d) Processor
+
+3. Which of the following is not a characteristic of I/O operations?
+a) They are slower than CPU operations
+b) They are independent of the CPU
+c) They require the use of interrupt signals
+d) They can cause contention for system resources
+Answer: b) They are independent of the CPU
+
+4. What is the role of device drivers in I/O operations?
+a) To manage the transfer of data between external devices and the computer
+b) To manage the allocation of system resources to different processes
+c) To manage the execution of CPU instructions
+d) To manage the scheduling of I/O requests
+Answer: a) To manage the transfer of data between external devices and the computer
+
+5. Which of the following is not a method of I/O device communication?
+a) Programmed I/O
+b) Interrupt-driven I/O
+c) Direct memory access (DMA)
+d) Multi-core processing
+Answer: d) Multi-core processing
+
+6. Which of the following I/O scheduling algorithms prioritizes I/O requests based on their arrival time?
+a) First-Come, First-Serve (FCFS)
+b) Shortest Seek Time First (SSTF)
+c) SCAN
+d) C-LOOK
+Answer: a) First-Come, First-Serve (FCFS)
+
+7. Which of the following I/O scheduling algorithms prioritizes I/O requests based on the shortest seek time?
+a) First-Come, First-Serve (FCFS)
+b) Shortest Seek Time First (SSTF)
+c) SCAN
+d) C-LOOK
+Answer: b) Shortest Seek Time First (SSTF)
+
+8. Which of the following I/O scheduling algorithms prioritizes I/O requests based on their location on the disk?
+a) First-Come, First-Serve (FCFS)
+b) Shortest Seek Time First (SSTF)
+c) SCAN
+d) C-LOOK
+Answer: c) SCAN
+
+9. Which of the following I/O scheduling algorithms prioritizes I/O requests based on their location on the disk and their direction of movement?
+a) First-Come, First-Serve (FCFS)
+b) Shortest Seek Time First (SSTF)
+c) SCAN
+d) C-LOOK
+Answer: d) C-LOOK
+
+10. Which of the following I/O scheduling algorithms is designed to prevent starvation?
+a) First-Come, First-Serve (FCFS)
+b) Shortest Seek Time First (SSTF)
+c) SCAN
+d) Deadline-based scheduling
+Answer: d) Deadline-based scheduling
+
+11. Which of the following I/O buffering techniques stores data in a first-in, first-out (FIFO) queue?
+a) Block buffering
+b) Character buffering
+c) Line buffering
+d) None of the above
+Answer: b) Character buffering
+
+12. Which of the following I/O buffering techniques stores data in fixed-size blocks?
+a) Block buffering
+b) Character buffering
+c) Line buffering
+d) None of the above
+Answer: a) Block buffering
+---
+13. What is Input/Output (I/O) in an operating system?
+a) The process of executing instructions in a CPU
+b) The process of transferring data between memory and the CPU
+c) The process of transferring data between peripheral devices and the CPU
+d) The process of managing files and directories in a file system
+Answer: c) The process of transferring data between peripheral devices and the CPU
+
+14. Which of the following is a common I/O device?
+a) CPU
+b) RAM
+c) Printer
+d) Cache
+Answer: c) Printer
+
+15. Which of the following is not a type of I/O device?
+a) Block device
+b) Character device
+c) Network device
+d) Process device
+Answer: d) Process device
+
+16. Which of the following is not a function of the I/O manager in an operating system?
+a) Providing a standard interface for device drivers
+b) Managing I/O requests from user applications
+c) Allocating memory to device drivers
+d) Performing I/O operations on behalf of user applications
+Answer: c) Allocating memory to device drivers
+
+17. Which of the following is not a component of the I/O subsystem in an operating system?
+a) Device drivers
+b) I/O manager
+c) Interrupt handler
+d) Virtual memory manager
+Answer: d) Virtual memory manager
+
+18. Which of the following is a type of I/O operation?
+a) Open
+b) Close
+c) Read
+d) All of the above
+Answer: d) All of the above
+
+19. Which of the following I/O operations reads data from a device into memory?
+a) Open
+b) Close
+c) Read
+d) Write
+Answer: c) Read
+
+20. Which of the following I/O operations writes data from memory to a device?
+a) Open
+b) Close
+c) Read
+d) Write
+Answer: d) Write
+
+21. Which of the following is a type of I/O request?
+a) Synchronous
+b) Asynchronous
+c) Interrupt-driven
+d) All of the above
+Answer: d) All of the above
+
+22. Which of the following I/O request types requires the CPU to wait for the I/O operation to complete?
+a) Synchronous
+b) Asynchronous
+c) Interrupt-driven
+d) None of the above
+Answer: a) Synchronous
+
+23. Which of the following I/O request types allows the CPU to continue executing while the I/O operation is in progress?
+a) Synchronous
+b) Asynchronous
+c) Interrupt-driven
+d) None of the above
+Answer: b) Asynchronous
+
+24. Which of the following is a disadvantage of synchronous I/O?
+a) It can block the CPU, reducing system performance
+b) It can result in lost data if the I/O operation fails
+c) It can cause device conflicts if multiple devices are accessed simultaneously
+d) All of the above
+Answer: a) It can block the CPU, reducing system performance
+
+25. Which of the following is a disadvantage of asynchronous I/O?
+a) It can lead to data inconsistency if multiple I/O operations are in progress simultaneously
+b) It can result in increased overhead due to the need to manage multiple I/O operations
+c) It can cause device conflicts if multiple devices are accessed simultaneously
+d) None of the above
+Answer: b) It can result in increased overhead due to the need to manage multiple I/O operations
+--
+26. What is the purpose of an input/output (I/O) system in an operating system?
+a) To manage the communication between the CPU and the memory
+b) To manage the communication between the CPU and the peripherals
+c) To manage the communication between the memory and the peripherals
+d) To manage the communication between the peripherals and the network
+Answer: b) To manage the communication between the CPU and the peripherals
+
+27. Which of the following is an example of an I/O device?
+a) CPU
+b) RAM
+c) Hard drive
+d) Cache memory
+Answer: c) Hard drive
+
+28. Which of the following is not a type of I/O operation?
+a) Read
+b) Write
+c) Execute
+d) Open
+Answer: c) Execute
+
+29. Which of the following is not a method for performing I/O operations?
+a) Programmed I/O
+b) Interrupt-driven I/O
+c) Direct memory access (DMA)
+d) Multi-threaded I/O
+Answer: d) Multi-threaded I/O
+
+30. Which of the following is a disadvantage of programmed I/O?
+a) It is slower than interrupt-driven I/O
+b) It requires more CPU time than interrupt-driven I/O
+c) It cannot handle large data transfers
+d) It cannot handle multiple I/O devices at once
+Answer: b) It requires more CPU time than interrupt-driven I/O
+
+31. Which of the following I/O operations requires the least amount of overhead?
+a) Programmed I/O
+b) Interrupt-driven I/O
+c) DMA
+d) All I/O operations have the same amount of overhead
+Answer: c) DMA
+
+32. Which of the following is an advantage of interrupt-driven I/O?
+a) It allows the CPU to perform other tasks while waiting for I/O to complete
+b) It is faster than programmed I/O
+c) It can handle multiple I/O devices at once
+d) It requires less memory than programmed I/O
+Answer: a) It allows the CPU to perform other tasks while waiting for I/O to complete
+
+33. Which of the following is a disadvantage of interrupt-driven I/O?
+a) It requires more CPU time than programmed I/O
+b) It cannot handle large data transfers
+c) It can cause interrupts to be missed if too many I/O devices are active at once
+d) It requires the use of DMA
+Answer: c) It can cause interrupts to be missed if too many I/O devices are active at once
+
+34. Which of the following is not a benefit of using DMA?
+a) It reduces the amount of CPU overhead required for I/O operations
+b) It allows for larger data transfers
+c) It allows for multiple I/O devices to be active at once
+d) It reduces the time required for I/O operations
+Answer: c) It allows for multiple I/O devices to be active at once
+
+35. Which of the following is a disadvantage of using DMA?
+a) It requires more CPU time than programmed I/O
+b) It is slower than interrupt-driven I/O
+c) It can cause data corruption if not implemented correctly
+d) It cannot handle large data transfers
+Answer: c) It can cause data corruption if not implemented correctly
+
+35. Which of the following is not a type of device driver?
+a) Block device driver
+b) Character device driver
+c) Interrupt handler
+d) Network device driver
+Answer: c) Interrupt handler
+
+37. Which of the following is an example of a block device?
+a) Keyboard
+b) Mouse
+c) Printer
+d) Hard drive
+Answer: d) Hard drive
+---
+38. Which of the following is not an example of an I/O device?
+a) Hard disk
+b) Keyboard
+c) CPU
+d) Printer
+Answer: c) CPU
+
+39. Which of the following is not a function of an I/O system?
+a) Buffering
+b) Caching
+c) Scheduling
+d) Multitasking
+Answer: d) Multitasking
+
+40. Which of the following I/O scheduling algorithms prioritizes I/O requests based on their arrival time?
+a) FCFS (First Come First Serve)
+b) SSTF (Shortest Seek Time First)
+c) SCAN
+d) C-SCAN
+Answer: a) FCFS (First Come First Serve)
+
+41. Which of the following I/O scheduling algorithms prioritizes I/O requests based on the shortest seek time?
+a) FCFS (First Come First Serve)
+b) SSTF (Shortest Seek Time First)
+c) SCAN
+d) C-SCAN
+Answer: b) SSTF (Shortest Seek Time First)
+
+42. Which of the following is a disadvantage of the FCFS (First Come First Serve) scheduling algorithm?
+a) It can lead to long waiting times for I/O requests with large seek times
+b) It can prioritize I/O requests based on their arrival time, which may not be the most efficient
+c) It can cause starvation for low-priority I/O requests
+d) It can be complex and difficult to implement
+Answer: a) It can lead to long waiting times for I/O requests with large seek times
+
+43. Which of the following I/O scheduling algorithms scans the disk from one end to the other, servicing all requests in between?
+a) FCFS (First Come First Serve)
+b) SSTF (Shortest Seek Time First)
+c) SCAN
+d) C-SCAN
+Answer: c) SCAN
+
+44. Which of the following I/O scheduling algorithms scans the disk from one end to the other, but only services requests in one direction, then jumps back to the beginning and repeats the process?
+a) FCFS (First Come First Serve)
+b) SSTF (Shortest Seek Time First)
+c) SCAN
+d) C-SCAN
+Answer: d) C-SCAN
+
+45. Which of the following I/O techniques is used to increase the efficiency of disk accesses by temporarily storing frequently accessed data in memory?
+a) Caching
+b) Buffering
+c) Spooling
+d) Paging
+Answer: a) Caching
+
+46. Which of the following I/O techniques is used to temporarily store data that is being transferred between devices to reduce the overhead of frequent device accesses?
+a) Caching
+b) Buffering
+c) Spooling
+d) Paging
+Answer: b) Buffering
+
+47. Which of the following I/O techniques is used to temporarily store data that is waiting to be printed, so that the process that requested the print can continue executing?
+a) Caching
+b) Buffering
+c) Spooling
+d) Paging
+Answer: c) Spooling
+
+48. Which of the following is not an advantage of spooling?
+a) It can reduce the time required to access a device
+b) It can allow multiple processes to share a single device
+c) It can allow a process to continue executing while waiting for I/O
+d) It can be used for any type of device
+Answer: d) It can be used for any type of device
+----
+49. What is Input/Output (I/O) in operating system?
+a) The process of loading and executing a program
+b) The process of managing the memory of a system
+c) The process of exchanging data between a computer and its peripherals
+d) The process of scheduling tasks in a system
+Answer: c) The process of exchanging data between a computer and its peripherals
+
+50. Which of the following is not a type of I/O device?
+a) Printer
+b) Keyboard
+c) CPU
+d) Mouse
+Answer: c) CPU
+
+51. Which of the following is not a type of I/O operation?
+a) Input
+b) Output
+c) Memory access
+d) Interrupt
+Answer: c) Memory access
+
+52. Which of the following is not a function of an I/O device controller?
+a) Convert data between different formats
+b) Perform error detection and correction
+c) Manage the transfer of data between the device and the computer
+d) Execute the instructions of the operating system
+Answer: d) Execute the instructions of the operating system
+
+53. Which of the following is not a method of I/O data transfer?
+a) Programmed I/O
+b) Interrupt-driven I/O
+c) Direct Memory Access (DMA)
+d) Central Processing Unit (CPU) scheduling
+Answer: d) Central Processing Unit (CPU) scheduling
+
+54. Which of the following I/O techniques is most suitable for transferring a large amount of data?
+a) Programmed I/O
+b) Interrupt-driven I/O
+c) Direct Memory Access (DMA)
+d) Bus mastering
+Answer: c) Direct Memory Access (DMA)
+
+55. Which of the following is not a benefit of using DMA for I/O operations?
+a) Reduced CPU utilization
+b) Increased system performance
+c) Simpler device drivers
+d) Reduced I/O latency
+Answer: c) Simpler device drivers
+
+56. Which of the following is not a type of I/O scheduling algorithm?
+a) First-Come, First-Served (FCFS)
+b) Shortest Job First (SJF)
+c) Round Robin (RR)
+d) Last-In, First-Out (LIFO)
+Answer: b) Shortest Job First (SJF)
+
+57. Which of the following I/O scheduling algorithms provides equal access to all processes in the system?
+a) First-Come, First-Served (FCFS)
+b) Shortest Job First (SJF)
+c) Round Robin (RR)
+d) Priority scheduling
+Answer: c) Round Robin (RR)
+
+58. Which of the following I/O scheduling algorithms favors processes with high I/O requirements?
+a) First-Come, First-Served (FCFS)
+b) Shortest Job First (SJF)
+c) Round Robin (RR)
+d) Priority scheduling
+Answer: d) Priority scheduling
+
+59. Which of the following is not a factor that affects I/O performance?
+a) Data transfer rate
+b) Device characteristics
+c) User interaction
+d) CPU speed
+Answer: d) CPU speed
+
+60. Which of the following is not a type of I/O device driver?
+a) Block device driver
+b) Character device driver
+c) Network device driver
+d) CPU device driver
+Answer: d) CPU device driver
+
+61. Which of the following is not a function of an I/O system call?
+a) Requesting a device operation
+b) Waiting for an I/O operation to complete
+c) Registering an interrupt handler
+d) Copying data between user space and kernel space
+Answer: c) Registering an interrupt handler
+---
+
+

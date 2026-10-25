@@ -1,0 +1,490 @@
+------
+Chapter 4: File systems
+---
+1. Which of the following is a common file system used in Windows?
+a) NTFS
+b) Ext4
+c) HFS+
+d) ZFS
+Answer: a) NTFS
+
+2. Which file system was originally designed for use with floppy disks?
+a) FAT16
+b) FAT32
+c) NTFS
+d) Ext4
+Answer: a) FAT16
+
+3. Which of the following file systems is used in macOS?
+a) NTFS
+b) FAT32
+c) APFS
+d) Ext4
+Answer: c) APFS
+
+4. Which of the following file systems is commonly used in Linux?
+a) NTFS
+b) FAT32
+c) Ext4
+d) APFS
+Answer: c) Ext4
+
+5. Which file system is designed for use with solid-state drives (SSDs)?
+a) NTFS
+b) FAT32
+c) HFS+
+d) F2FS
+Answer: d) F2FS
+
+6. Which of the following is a distributed file system used for storing large amounts of data?
+a) NTFS
+b) FAT32
+c) HDFS
+d) Ext4
+Answer: c) HDFS
+
+7. Which file system was designed for use in embedded systems and small devices?
+a) FAT32
+b) JFFS2
+c) NTFS
+d) HFS+
+Answer: b) JFFS2
+
+8. Which file system was designed specifically for use with CD-ROMs?
+a) ISO 9660
+b) NTFS
+c) FAT32
+d) Ext4
+Answer: a) ISO 9660
+
+9. Which of the following is a file system commonly used in digital cameras and other portable devices?
+a) FAT16
+b) FAT32
+c) HFS+
+d) Ext4
+Answer: b) FAT32
+
+10. Which file system is used for optical media, such as DVDs and Blu-ray discs?
+a) ISO 9660
+b) UDF
+c) NTFS
+d) Ext4
+Answer: b) UDF
+
+11. Which of the following file systems is commonly used in Android smartphones?
+a) NTFS
+b) FAT32
+c) Ext4
+d) APFS
+Answer: c) Ext4
+
+12. Which file system is used in many network-attached storage (NAS) devices?
+a) NTFS
+b) HFS+
+c) ZFS
+d) XFS
+Answer: c) ZFS
+
+13. Which file system is designed to provide fault tolerance and high availability?
+a) NTFS
+b) Ext4
+c) RAID
+d) Btrfs
+Answer: c) RAID
+
+14. Which file system is designed to provide better performance with large files?
+a) NTFS
+b) Ext4
+c) XFS
+d) JFS
+Answer: c) XFS
+
+15. Which file system was designed to support journaling and improve data consistency in the event of power failure or system crash?
+a) NTFS
+b) FAT32
+c) Ext4
+d) JFS
+Answer: c) Ext4
+
+16. Which of the following file systems is commonly used in Apple's Time Machine backup software?
+a) NTFS
+b) FAT32
+c) APFS
+d) HFS+
+Answer: d) HFS+
+
+17. Which file system is used in many Unix-like operating systems, including macOS and Linux?
+a) NTFS
+b) HFS+
+c) Ext4
+d) UFS
+Answer: d) UFS
+
+---
+18. What is a file system?
+A) A collection of programs and data
+B) A collection of files and directories
+C) A collection of hardware components
+D) A collection of network protocols
+Answer: B
+
+19. Which file system is used by default on Windows operating systems?
+A) NTFS
+B) FAT32
+C) HFS+
+D) ext4
+Answer: A
+
+20. What is the maximum file size supported by the FAT32 file system?
+A) 4GB
+B) 8GB
+C) 16GB
+D) 32GB
+Answer: D
+
+21. What is the maximum file size supported by the NTFS file system?
+A) 2GB
+B) 4GB
+C) 16GB
+D) 16TB
+Answer: D
+
+22. Which file system is commonly used in Linux operating systems?
+A) NTFS
+B) FAT32
+C) HFS+
+D) ext4
+Answer: D
+
+23. What is a partition?
+A) A collection of files and directories
+B) A logical section of a hard drive
+C) A hardware component of a computer
+D) A network protocol
+Answer: B
+
+24. What is the purpose of a journaling file system?
+A) To optimize file access speed
+B) To reduce the risk of data loss in the event of a power outage or system crash
+C) To allow for remote access to files
+D) To compress file data
+Answer: B
+
+25. Which file system is used by macOS operating systems?
+A) NTFS
+B) FAT32
+C) HFS+
+D) ext4
+Answer: C
+
+26. What is a cluster?
+A) A group of computers connected by a network
+B) A group of files stored together on a hard drive
+C) A group of processes running on a computer
+D) A group of network protocols
+Answer: B
+
+27. What is fragmentation?
+A) The process of compressing files
+B) The process of moving files to a different location on a hard drive
+C) The process of breaking files into smaller pieces and storing them in non-contiguous locations on a hard drive
+D) The process of encrypting files
+Answer: C
+
+28. What is a file allocation table (FAT)?
+A) A table that maps the physical location of files on a hard drive
+B) A table that lists all the files on a hard drive
+C) A table that lists all the directories on a hard drive
+D) A table that maps the logical location of files on a hard drive
+Answer: A
+
+29. What is a directory?
+A) A group of files stored together on a hard drive
+B) A logical section of a hard drive
+C) A hardware component of a computer
+D) A collection of network protocols
+Answer: A
+
+30. Which file system is commonly used in embedded systems?
+A) FAT32
+B) ext4
+C) JFFS2
+D) HFS+
+Answer: C
+
+31. What is a mount point?
+A) The physical location of a hard drive
+B) The logical location of a hard drive
+C) The physical location of a file on a hard drive
+D) The logical location of a file on a hard drive
+Answer: B
+
+32. What is a symbolic link?
+A) A link between two files with the same name
+B) A link between two files with different names
+C) A link between two directories
+D) A link between a file and a directory
+Answer: B
+---
+33. What is a file system?
+a) The part of an operating system that manages files
+b) The physical storage medium for data
+c) The application used to create and edit files
+d) The software that manages networked storage devices
+Answer: a) The part of an operating system that manages files
+
+34. Which of the following is not a common file system used in modern operating systems?
+a) NTFS
+b) FAT32
+c) EXT4
+d) CIFS
+Answer: d) CIFS
+
+35. What is the maximum file size supported by the FAT32 file system?
+a) 2 GB
+b) 4 GB
+c) 16 GB
+d) 32 GB
+Answer: d) 32 GB
+
+36. Which file system is used by default in macOS?
+a) NTFS
+b) HFS+
+c) EXT4
+d) FAT32
+Answer: b) HFS+
+
+37. Which of the following is not a characteristic of a journaling file system?
+a) It records changes to the file system before they are made
+b) It allows for faster file access times
+c) It can recover from system crashes or power failures
+d) It can improve the overall stability of the file system
+Answer: b) It allows for faster file access times
+
+38. Which file system is commonly used on removable flash drives and memory cards?
+a) NTFS
+b) HFS+
+c) FAT32
+d) EXT4
+Answer: c) FAT32
+
+39. What is the maximum file size supported by the NTFS file system?
+a) 2 GB
+b) 4 GB
+c) 16 GB
+d) 16 TB
+Answer: d) 16 TB
+
+40. Which of the following file systems is commonly used in Linux-based operating systems?
+a) NTFS
+b) HFS+
+c) EXT4
+d) FAT32
+Answer: c) EXT4
+
+41. Which file system was developed by Sun Microsystems for use in its Unix-based operating system?
+a) NTFS
+b) HFS+
+c) UFS
+d) FAT32
+Answer: c) UFS
+
+42. Which file system is commonly used for optical discs like CDs and DVDs?
+a) NTFS
+b) HFS+
+c) ISO 9660
+d) FAT32
+Answer: c) ISO 9660
+
+43. Which of the following is not a characteristic of a distributed file system?
+a) It allows for files to be stored across multiple servers
+b) It can improve file access times
+c) It can improve overall system stability
+d) It can only be accessed from a single computer
+Answer: d) It can only be accessed from a single computer
+
+44. Which file system was developed by Microsoft for use in its Windows operating system?
+a) NTFS
+b) HFS+
+c) EXT4
+d) FAT32
+Answer: a) NTFS
+
+45. Which of the following is not a common file system used in embedded systems?
+a) FAT
+b) JFFS2
+c) UBIFS
+d) HFS+
+Answer: d) HFS+
+
+46. Which file system is commonly used in solid-state drives (SSDs)?
+a) NTFS
+b) HFS+
+c) EXT4
+d) TRIM
+Answer: d) TRIM
+
+47. Which file system is commonly used in digital cameras?
+a) NTFS
+b) HFS+
+c) EXT4
+d) DCF
+Answer: d) DCF
+--------
+
+48. What is a file system in Linux?
+a. A collection of files and directories
+b. A type of hard disk drive
+c. An operating system kernel
+d. A programming language
+Answer: a. A collection of files and directories
+
+49. Which file system is the default for most Linux distributions?
+a. NTFS
+b. HFS+
+c. ext4
+d. FAT32
+Answer: c. ext4
+
+50. What is the maximum file size supported by the ext4 file system?
+a. 2 GB
+b. 4 GB
+c. 16 TB
+d. 32 TB
+Answer: d. 32 TB
+
+------
+
+Which file system is commonly used for removable storage devices such as USB drives?
+a. FAT32
+b. ext4
+c. NTFS
+d. HFS+
+Answer: a. FAT32
+
+What is the maximum file name length in ext4 file system?
+a. 256 characters
+b. 512 characters
+c. 1024 characters
+d. 2048 characters
+Answer: a. 256 characters
+
+Which file system is used by default for CD-ROMs and DVDs in Linux?
+a. ISO 9660
+b. ext4
+c. FAT32
+d. NTFS
+Answer: a. ISO 9660
+
+What is the purpose of a journaling file system?
+a. To store user data
+b. To prevent data loss in case of power failure or system crash
+c. To compress files and directories
+d. To encrypt files and directories
+Answer: b. To prevent data loss in case of power failure or system crash
+
+Which file system is commonly used for network file sharing in Linux?
+a. NFS
+b. SMB
+c. FTP
+d. SSHFS
+Answer: a. NFS
+
+Which file system is commonly used for solid-state drives (SSDs) in Linux?
+a. ext4
+b. NTFS
+c. Btrfs
+d. F2FS
+Answer: d. F2FS
+
+Which file system is commonly used for archiving files in Linux?
+a. tar
+b. cpio
+c. gzip
+d. bzip2
+Answer: a. tar
+
+What is the maximum number of subdirectories supported by the ext4 file system?
+a. 512
+b. 1024
+c. 32768
+d. 65536
+Answer: c. 32768
+
+Which file system is commonly used for encrypted storage in Linux?
+a. LUKS
+b. dm-crypt
+c. ecryptfs
+d. TrueCrypt
+Answer: a. LUKS
+
+Which file system is commonly used for virtual memory in Linux?
+a. swap
+b. ext4
+c. NTFS
+d. FAT32
+Answer: a. swap
+
+Which file system is commonly used for large-scale storage in Linux?
+a. ZFS
+b. XFS
+c. Btrfs
+d. JFS
+Answer: b. XFS
+
+What is the maximum file size supported by the XFS file system?
+a. 2 GB
+b. 16 TB
+c. 100 GB
+d. 10 TB
+Answer: b. 16 TB
+
+Which file system is commonly used for multimedia devices in Linux?
+a. exFAT
+b. NTFS
+c. HFS+
+d. UDF
+Answer: d. UDF
+----
+Which file system is most commonly used in Linux?
+a) ext2
+b) ext4
+c) NTFS
+d) FAT32
+Answer: b) ext4
+
+Which file system was the default for older versions of Ubuntu?
+a) ext2
+b) ext4
+c) XFS
+d) ReiserFS
+Answer: a) ext2
+
+Which file system is designed to work best with solid-state drives (SSDs)?
+a) ext2
+b) ext4
+c) Btrfs
+d) XFS
+Answer: c) Btrfs
+
+Which file system was originally developed by Sun Microsystems for use in their Solaris operating system?
+a) ZFS
+b) ext4
+c) NTFS
+d) XFS
+Answer: a) ZFS
+
+Which file system supports journaling to improve data integrity in the event of a power failure or system crash?
+a) ext2
+b) ext4
+c) XFS
+d) JFS
+Answer: b) ext4
+
+Which file system is designed to work best with large files and high-speed data transfer?
+a) ext4
+b) Btrfs
+c) XFS
+d) ReiserFS
+Answer: c) XFS
+------

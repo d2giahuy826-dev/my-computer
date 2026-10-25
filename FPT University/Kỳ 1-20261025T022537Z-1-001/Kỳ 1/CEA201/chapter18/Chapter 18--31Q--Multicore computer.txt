@@ -1,0 +1,205 @@
+---
+Chapter 18: Multicore computer
+---
+1. What is a multicore computer?
+a) A computer with multiple processors
+b) A computer with multiple cores on a single processor
+c) A computer with multiple GPUs
+d) A computer with multiple memory modules
+Answer: b) A computer with multiple cores on a single processor
+
+2. Which of the following is not an advantage of multicore computers?
+a) Improved performance
+b) Increased power consumption
+c) Lower cost
+d) Improved reliability
+Answer: b) Increased power consumption
+
+3. What is a core?
+a) A type of memory
+b) A processing unit on a multicore processor
+c) A type of input/output device
+d) A type of storage device
+Answer: b) A processing unit on a multicore processor
+
+4. What is a thread?
+a) A type of memory
+b) A processing unit on a multicore processor
+c) A unit of execution within a process
+d) A type of storage device
+Answer: c) A unit of execution within a process
+
+5. Which of the following is not a type of multicore architecture?
+a) Homogeneous multicore
+b) Heterogeneous multicore
+c) Asymmetric multicore
+d) Distributed multicore
+Answer: d) Distributed multicore
+
+5. Which of the following is an example of a homogeneous multicore architecture?
+a) Intel Core i7
+b) Apple M1
+c) Qualcomm Snapdragon
+d) Nvidia Tegra
+Answer: a) Intel Core i7
+
+7. Which of the following is an example of a heterogeneous multicore architecture?
+a) Intel Core i7
+b) Apple M1
+c) Qualcomm Snapdragon
+d) Nvidia Tegra
+Answer: b) Apple M1
+
+8. Which of the following is a challenge of multicore programming?
+a) Load balancing
+b) Synchronization
+c) Scalability
+d) All of the above
+Answer: d) All of the above
+
+9. Which of the following is a technique for load balancing in multicore systems?
+a) Dynamic scheduling
+b) Static scheduling
+c) Thread partitioning
+d) All of the above
+Answer: d) All of the above
+
+10. Which of the following is a technique for synchronization in multicore systems?
+a) Message passing
+b) Locking
+c) Barrier synchronization
+d) All of the above
+Answer: d) All of the above
+
+11. Which of the following is a technique for improving scalability in multicore systems?
+a) Cache partitioning
+b) Cache coherence
+c) Thread affinity
+d) All of the above
+Answer: d) All of the above
+
+12. Which of the following is a technique for improving performance in multicore systems?
+a) Task parallelism
+b) Data parallelism
+c) Instruction-level parallelism
+d) All of the above
+Answer: d) All of the above
+
+13. What is cache coherence?
+a) The process of ensuring that multiple caches contain consistent data
+b) The process of partitioning the cache among multiple threads
+c) The process of ensuring that the cache contains the most frequently used data
+d) The process of ensuring that the cache is empty
+Answer: a) The process of ensuring that multiple caches contain consistent data
+
+14. What is thread affinity?
+a) The tendency of threads to stay on the same core
+b) The tendency of threads to move to different cores
+c) The tendency of threads to access the same memory location
+d) The tendency of threads to be scheduled at the same time
+Answer: a) The tendency of threads to stay on the same core
+What is a multicore processor?
+a) A processor with multiple cores on a single chip
+b) A processor with multiple chips on a single board
+c) A processor with multiple boards in a single cabinet
+d) A processor with multiple cabinets in a data center
+Answer: a) A processor with multiple cores on a single chip
+
+15. Which of the following is not an advantage of multicore processors?
+a) Increased performance
+b) Reduced power consumption
+c) Lower cost
+d) Improved reliability
+Answer: c) Lower cost
+
+16. What is the term used to describe a program that can be divided into parallel tasks?
+a) Multitasking
+b) Multithreading
+c) Multiprocessing
+d) Parallelization
+Answer: d) Parallelization
+
+17. What is the term used to describe a program that can be executed on multiple cores simultaneously?
+a) Parallel program
+b) Multithreaded program
+c) Multiprocess program
+d) Distributed program
+Answer: b) Multithreaded program
+
+18. Which of the following is not a type of thread?
+a) User thread
+b) Kernel thread
+c) Lightweight thread
+d) Heavyweight thread
+Answer: d) Heavyweight thread
+
+19. What is the term used to describe the ability of a program to execute multiple threads simultaneously?
+a) Concurrency
+b) Parallelism
+c) Multitasking
+d) Multiprocessing
+Answer: a) Concurrency
+
+20. Which of the following is not a challenge of multicore programming?
+a) Load balancing
+b) Synchronization
+c) Data sharing
+d) Multitasking
+Answer: d) Multitasking
+
+21. Which of the following is a technique for load balancing in multicore systems?
+a) Static partitioning
+b) Dynamic partitioning
+c) Round-robin scheduling
+d) Priority scheduling
+Answer: b) Dynamic partitioning
+
+22. Which of the following is a technique for synchronization in multicore systems?
+a) Message passing
+b) Locking
+c) Barrier synchronization
+d) All of the above
+Answer: d) All of the above
+
+23. Which of the following is a technique for data sharing in multicore systems?
+a) Message passing
+b) Locking
+c) Shared memory
+d) All of the above
+Answer: c) Shared memory
+
+24. Which of the following is not a type of memory architecture in multicore systems?
+a) Shared memory
+b) Distributed memory
+c) Hybrid memory
+d) None of the above
+Answer: d) None of the above
+
+25. Which of the following is a characteristic of a homogeneous multicore system?
+a) All cores are identical
+b) Cores have different clock speeds
+c) Cores have different instruction sets
+d) Cores have different memory sizes
+Answer: a) All cores are identical
+
+26. Which of the following is a characteristic of a heterogeneous multicore system?
+a) All cores are identical
+b) Cores have different clock speeds
+c) Cores have different instruction sets
+d) Cores have different memory sizes
+Answer: c) Cores have different instruction sets
+
+27. What is the term used to describe the ability of a program to scale its performance as the number of cores increases?
+a) Scalability
+b) Load balancing
+c) Synchronization
+d) Concurrency
+Answer: a) Scalability
+
+28. What is the term used to describe a program that is designed to be executed on a specific number of cores?
+a) Fixed program
+b) Static program
+c) Single-threaded program
+d) None of the above
+Answer: c) Single-thread program
+---

@@ -1,0 +1,53 @@
+;----------------7-May-24
+;Lab2_1
+;Develop a program that will perform n times, for each time, 2 integers will be accepted then sum of them is printed out. Value of n is received from user.
+;---------------------------------------
+;
+include \masm32\include\masm32rt.inc
+  sum PROTO :DWORD, :DWORD
+.code
+start:
+    call main
+    exit
+main proc               ;initial main procedure
+    LOCAL var1:DWORD    ;initial variable v1
+    LOCAL var2:DWORD    ;initial variable v2
+    LOCAL result:DWORD  ;initial variable result 
+    LOCAL COUNT:DWORD   ;initial variable COUNT
+    LOCAL n: DWORD      ;initial variable n
+    mov n, sval(input("Enter n: "))  ;allow users to input n (n is the time to carry out sum procedure)
+    mov edx, n                       ;store the value of n in register edx
+    mov COUNT, edx                   ;move the value of edx (n) to variable COUNT   
+    mov ebx, n                       ;store value of n in register ebx
+    add ebx, 1                       ;carry out the add operand in register ebx (n+1)
+    print chr$("Program will compute sum of 2 integers: ")    ;print line "Program will compute sum of 2 integers: "
+    print str$(COUNT)                                         ;print the value of COUNT (number of times to carry out)
+    print chr$(" times", 13,10)                               ;print " times"
+    CONTD:
+        cmp COUNT, 0                                          ;compare the value of COUNT and 0 
+        je STOP                                               ;if COUNT = 0, we stop the program and return nothing
+        print chr$("Time ")                                   ;print line "Time "
+        mov eax, ebx                                          ;move the value of register ebx (N+1) to register eax
+        SUB eax, COUNT                                        ;carry out substraction in register eax (N+1-COUNT)
+        print str$(eax)                                       ;Print the value in eax register (Turn to carry out the sum procedure))
+        print chr$(":", 13,10)                                
+        
+        mov var1,sval(input("Enter number 1: "))              ;allow users to input a value for var1
+        mov var2,sval(input("Enter number 2: "))              ;allow users to input a value for var2
+        invoke sum, var1, var2                                ;carry out the sum procedure by 2 input var1,var2
+        mov result, eax                                       ;store result in register eax
+        print chr$("Sum of them: ")                           ;print line "Sum of them: "
+        print str$(result)                                    ;print result
+        print chr$(13,10)                                    
+        DEC COUNT                                             ;COUNT = COUNT - 1
+        JMP CONTD
+    STOP:
+        ret                                                   ;return nothing
+main endp                                                     ;end main procedure
+
+sum proc v1: DWORD, v2:DWORD                                  ;initialize sum procedure with 2 parameters v1, v2
+    mov eax, v1                                               ;eax register store value of v1                  
+    add eax, v2                                               ;carry out add operand in eax register (v1+v2)
+    ret
+sum endp                                                      ;end sum procedure
+end start                                                     ;end program

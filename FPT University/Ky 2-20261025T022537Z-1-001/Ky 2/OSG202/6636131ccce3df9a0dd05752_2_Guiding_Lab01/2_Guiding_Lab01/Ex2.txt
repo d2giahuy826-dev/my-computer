@@ -1,0 +1,43 @@
+1 dpkg
+
+Trình quản lý gói phần mềm của các hệ Debian/Ubuntu.
+
+Dùng để cài đặt, gỡ bỏ và quản lý các gói .deb.
+
+2 free
+
+Hiển thị tình trạng sử dụng bộ nhớ RAM và swap của hệ thống.
+
+Cho biết tổng bộ nhớ, đã dùng và còn trống.
+
+3 hostname
+
+Hiển thị hoặc thiết lập tên của máy tính (host) trong mạng.
+
+4 ipconfig
+
+Dùng để xem và cấu hình các giao diện mạng (network interface).
+
+Hiển thị thông tin như địa chỉ IP, trạng thái mạng.
+
+5 sudo
+
+Cho phép người dùng chạy lệnh với quyền quản trị (root).
+
+test: sudo apt update
+
+6 cat /proc/cpuinfo
+
+Hiển thị thông tin chi tiết về CPU của máy.
+
+Bao gồm tên CPU, số lõi, tốc độ, và thông tin phần cứng.
+
+7 free -m
+
+Giống lệnh free nhưng hiển thị dung lượng bộ nhớ theo đơn vị MB (megabyte).
+
+8 fdisk -l
+
+Liệt kê các ổ đĩa và phân vùng trong hệ thống.
+
+Hiển thị kích thước ổ đĩa, các phân vùng và loại hệ thống tệp.

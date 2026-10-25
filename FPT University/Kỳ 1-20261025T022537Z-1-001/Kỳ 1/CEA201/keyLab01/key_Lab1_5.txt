@@ -1,0 +1,92 @@
+;-----------------------7-May-24
+;Lab1_5
+;    Write a MASM program that will accept 2 numbers, v1, v2 then print out v1+v2, v1-v2, v1*v2, v1/v2.
+;    Attention: The case in which v2=0 must be managed.
+;
+;---------------------------
+;
+.486                                    ; create 32 bit code
+    .model flat, stdcall                    ; 32 bit memory model
+    option casemap :none                    ; case sensitive
+ 
+    include \masm32\include\windows.inc     ; always first
+    include \masm32\macros\macros.asm       ; MASM support macro
+
+  ; -----------------------------------------------------------------
+  ; include files that have MASM format prototypes for function calls
+  ; -----------------------------------------------------------------
+    include \masm32\include\masm32.inc
+    include \masm32\include\gdi32.inc
+    include \masm32\include\user32.inc
+    include \masm32\include\kernel32.inc
+    include \masm32\include\msvcrt.inc
+
+  ; ------------------------------------------------
+  ; Library files that have definitions for function
+  ; exports and tested reliable prebuilt code.
+  ; ------------------------------------------------
+    includelib \masm32\lib\masm32.lib
+    includelib \masm32\lib\gdi32.lib
+    includelib \masm32\lib\user32.lib
+    includelib \masm32\lib\kernel32.lib
+    includelib \masm32\lib\msvcrt.lib
+
+    .code
+
+start:
+    call main
+    exit
+
+main proc
+    local v1: dword
+    local v2: dword
+    local res: dword
+    local rmd: dword
+
+    mov v1, sval(input("Enter value 1: "))
+    mov v2, sval(input("Enter value 2: "))
+
+    mov eax, v1
+    add eax, v2
+    mov res, eax
+    print chr$("v1 + v2 = ")
+    print str$(res)
+    print chr$(13, 10)
+
+    mov eax, v1
+    sub eax, v2
+    mov res, eax
+    print chr$("v1 - v2 = ")
+    print str$(res)
+    print chr$(13, 10)
+
+    mov eax, v1
+    imul v2
+    mov res, eax
+    print chr$("v1 * v2 = ")
+    print str$(res)
+    print chr$(13, 10)
+
+    cmp v2, 0
+    je div_zero
+    jmp not_zero
+
+div_zero:
+    print chr$("Cannot compute v1 / v2, division by 0.")
+    jmp over
+
+not_zero:
+    mov eax, v1
+    cdq
+    idiv v2
+    mov res, eax
+    mov rmd, edx
+    
+    print chr$("v1 / v2 = ")
+    print str$(res)
+    print chr$(", remainder = ")
+    print str$(rmd)
+over:
+    ret
+main endp
+end start

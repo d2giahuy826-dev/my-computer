@@ -1,0 +1,229 @@
+
+--
+Chapter 5: Internal memory
+--
+1. What is the main purpose of internal memory in a computer system?
+a. To store frequently accessed data for faster access
+b. To provide temporary storage for input/output operations
+c. To manage the flow of instructions
+d. To store data permanently
+Answer: d
+
+2. Which type of internal memory is volatile in nature?
+a. RAM
+b. ROM
+c. Flash memory
+d. Cache memory
+Answer: a
+
+3. Which type of internal memory is non-volatile in nature?
+a. RAM
+b. ROM
+c. Flash memory
+d. Cache memory
+Answer: b
+
+4. What is the purpose of random access memory (RAM)?
+a. To store data permanently
+b. To store frequently accessed data for faster access
+c. To provide temporary storage for input/output operations
+d. To manage the flow of instructions
+Answer: b
+
+5. What is the typical size of RAM in modern computer systems?
+a. 2-4 GB
+b. 4-8 GB
+c. 16-32 GB
+d. 64-128 GB
+Answer: c
+
+6. Which type of RAM is the most common in modern computer systems?
+a. DRAM
+b. SRAM
+c. SDRAM
+d. DDR RAM
+Answer: d
+
+7. Which type of RAM is faster and more expensive than DRAM?
+a. SRAM
+b. SDRAM
+c. DDR RAM
+d. Flash memory
+Answer: a
+
+8. What is the purpose of read-only memory (ROM)?
+a. To store frequently accessed data for faster access
+b. To provide temporary storage for input/output operations
+c. To manage the flow of instructions
+d. To store data permanently
+Answer: d
+
+9. What is the typical size of ROM in modern computer systems?
+a. 2-4 MB
+b. 4-8 MB
+c. 16-32 MB
+d. 64-128 MB
+Answer: b
+
+10. Which type of ROM is used to store the basic input/output system (BIOS) in a computer system?
+a. PROM
+b. EPROM
+c. EEPROM
+d. Flash memory
+Answer: d
+
+11. What is the purpose of flash memory?
+a. To store frequently accessed data for faster access
+b. To provide temporary storage for input/output operations
+c. To manage the flow of instructions
+d. To store data permanently and allow updates
+Answer: d
+
+12. Which type of memory is used in solid state drives (SSDs)?
+a. RAM
+b. ROM
+c. Flash memory
+d. Cache memory
+Answer: c
+
+13. What is the typical size of flash memory in modern computer systems?
+a. 16-32 GB
+b. 64-128 GB
+c. 256-512 GB
+d. 1-2 TB
+Answer: c
+
+14. What is the purpose of dynamic random access memory (DRAM)?
+a. To store data permanently
+b. To store frequently accessed data for faster access
+c. To provide temporary storage for input/output operations
+d. To manage the flow of instructions
+Answer: b
+
+15. What is the typical latency of DRAM in modern computer systems?
+a. 10-20 ns
+b. 30-40 ns
+c. 50-60 ns
+d. 70-80 ns
+Answer: b
+
+16. Which type of RAM is used in graphics processing units (GPUs) for faster access to graphics data?
+a. GDDR RAM
+b. DDR RAM
+c. SRAM
+d. SDRAM
+Answer: a
+
+17. What is the primary purpose of internal memory in a computer system?
+a. To store data permanently
+b. To provide temporary storage for input/output operations
+c. To manage the flow of instructions
+d. To store program and data temporarily during processing
+Answer: d
+
+18. Which of the following is not a type of internal memory?
+a. ROM
+b. RAM
+c. Cache
+d. External hard drive
+Answer: d
+
+19. Which of the following is an example of volatile memory?
+a. ROM
+b. Flash memory
+c. Hard drive
+d. RAM
+Answer: d
+
+20. Which of the following is an example of non-volatile memory?
+a. ROM
+b. Cache
+c. RAM
+d. Registers
+Answer: a
+
+21. Which of the following is not a characteristic of RAM?
+a. Volatile
+b. Fast access time
+c. Random access
+d. Non-erasable
+Answer: d
+
+22. What is the typical access time for RAM?
+a. 1-2 ns
+b. 5-10 ns
+c. 50-100 ns
+d. 500-1000 ns
+Answer: b
+
+23. Which of the following is not a type of RAM?
+a. SRAM
+b. DRAM
+c. SDRAM
+d. ROM
+Answer: d
+
+24. What is the main difference between SRAM and DRAM?
+a. SRAM is faster but more expensive than DRAM
+b. DRAM is faster but more expensive than SRAM
+c. SRAM is volatile while DRAM is non-volatile
+d. DRAM is volatile while SRAM is non-volatile
+Answer: a
+
+25. Which of the following is a type of DRAM commonly used in modern computer systems?
+a. FPM DRAM
+b. EDO DRAM
+c. SDRAM
+d. DDR3
+Answer: d
+
+26. What is the main advantage of DDR (Double Data Rate) RAM?
+a. Higher clock speed than SDRAM
+b. Higher storage capacity than SDRAM
+c. Lower power consumption than SDRAM
+d. Faster data transfer rate than SDRAM
+Answer: d
+
+27. Which of the following is not a type of SDRAM?
+a. SDR SDRAM
+b. DDR SDRAM
+c. DDR2 SDRAM
+d. DDR4 SDRAM
+Answer: b
+
+28. What is the typical capacity of internal memory in modern computer systems?
+a. 1-2 GB
+b. 4-8 GB
+c. 16-32 GB
+d. 64-128 GB
+Answer: c
+
+29. What is the purpose of virtual memory in a computer system?
+a. To store data permanently
+b. To provide temporary storage for input/output operations
+c. To manage the flow of instructions
+d. To extend the capacity of internal memory by using hard disk space
+Answer: d
+
+30. What is the typical size of a page in virtual memory?
+a. 1-2 KB
+b. 4-8 KB
+c. 16-32 KB
+d. 64-128 KB
+Answer: b
+
+31. Which of the following is not a benefit of using virtual memory?
+a. Increased memory capacity
+b. Better memory performance
+c. Reduced cost of internal memory
+d. Better utilization of memory resources
+Answer: c
+
+32. Which of the following is not a drawback of using virtual memory?
+a. Slower memory access
+b. Increased disk I/O
+c. Fragmentation of memory
+d. Higher power consumption
+Answer: d
+----
+

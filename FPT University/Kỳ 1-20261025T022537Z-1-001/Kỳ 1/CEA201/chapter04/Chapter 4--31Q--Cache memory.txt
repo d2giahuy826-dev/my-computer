@@ -1,0 +1,207 @@
+
+---
+Chapter 4: Cache memory
+---
+1. What is the purpose of cache memory in a computer system?
+a. To store data permanently
+b. To provide temporary storage for frequently accessed data
+c. To manage the flow of instructions
+d. To display output
+Answer: b
+
+2. What is the relationship between the CPU and cache memory?
+a. The CPU is responsible for managing cache memory
+b. Cache memory is an extension of the CPU
+c. Cache memory is a separate component from the CPU
+d. Cache memory and the CPU are not related
+Answer: b
+
+3. What are the two types of cache memory in a computer system?
+a. Primary and secondary
+b. RAM and ROM
+c. L1 and L2
+d. Hard disk and solid-state drive
+Answer: c
+
+4. Which level of cache memory is the closest to the CPU?
+a. L1
+b. L2
+c. L3
+d. Secondary
+Answer: a
+
+5. What is the purpose of the cache controller in a computer system?
+a. To manage the flow of instructions
+b. To store data
+c. To manage cache memory operations
+d. To display output
+Answer: c
+
+6. Which component is responsible for controlling the access of the CPU to cache memory?
+a. Cache controller
+b. RAM
+c. Hard drive
+d. CPU
+Answer: a
+
+7. Which level of cache memory is usually the largest in size?
+a. L1
+b. L2
+c. L3
+d. Secondary
+Answer: c
+
+8. What is the purpose of the write-back policy in cache memory management?
+a. To immediately update the main memory whenever data is changed in the cache
+b. To update the main memory only when the cache block is replaced
+c. To store data permanently in the cache
+d. To prevent the CPU from accessing the cache memory
+Answer: b
+
+9. Which component is responsible for storing data permanently in a computer system?
+a. Cache memory
+b. RAM
+c. Hard drive
+d. CPU
+Answer: c
+
+10. What is the purpose of the read-ahead policy in cache memory management?
+a. To immediately retrieve data from main memory whenever the cache is empty
+b. To retrieve additional data from main memory when a cache block is accessed
+c. To prevent the CPU from accessing the cache memory
+d. To store data permanently in the cache
+Answer: b
+
+11. Which type of cache memory is usually larger in size?
+a. Instruction cache
+b. Data cache
+c. L1 cache
+d. L2 cache
+Answer: b
+
+12. What is the purpose of the cache miss penalty in cache memory management?
+a. To ensure that the CPU does not access the cache memory too frequently
+b. To delay the CPU's access to main memory when a cache miss occurs
+c. To prevent the cache from being flushed
+d. To store data permanently in the cache
+Answer: b
+
+13. What is the purpose of the cache hit rate in cache memory management?
+a. To measure the effectiveness of the cache memory system
+b. To limit the size of the cache memory
+c. To prevent the CPU from accessing the cache memory too frequently
+d. To manage the flow of instructions
+Answer: a
+
+14. Which component is responsible for replacing cache blocks when the cache is full?
+a. Cache controller
+b. RAM
+c. Hard drive
+d. CPU
+Answer: a
+
+15. What is the main purpose of cache memory in a computer system?
+a. To store data permanently
+b. To store frequently accessed data for faster access
+c. To provide temporary storage for input/output operations
+d. To manage the flow of instructions
+Answer: b
+
+16. What type of cache is integrated within the CPU chip?
+a. L1 cache
+b. L2 cache
+c. L3 cache
+d. External cache
+Answer: a
+
+17. Which level of cache is usually the largest in terms of size?
+a. L1 cache
+b. L2 cache
+c. L3 cache
+d. External cache
+Answer: c
+
+18. What is the typical size of L1 cache in modern CPUs?
+a. 1-2 KB
+b. 4-8 KB
+c. 16-32 KB
+d. 64-128 KB
+Answer: c
+
+19. Which cache level has the shortest access time?
+a. L1 cache
+b. L2 cache
+c. L3 cache
+d. External cache
+Answer: a
+
+20. Which cache level has the longest access time?
+a. L1 cache
+b. L2 cache
+c. L3 cache
+d. External cache
+Answer: d
+
+21. What is the purpose of cache coherency protocols?
+a. To ensure that data is stored permanently in the cache
+b. To ensure that different levels of cache have consistent copies of the same data
+c. To manage the flow of instructions
+d. To provide temporary storage for input/output operations
+Answer: b
+
+22. Which cache level is shared between multiple CPU cores?
+a. L1 cache
+b. L2 cache
+c. L3 cache
+d. External cache
+Answer: c
+
+23. What is the typical size of L3 cache in modern CPUs?
+a. 2-4 MB
+b. 4-8 MB
+c. 16-32 MB
+d. 64-128 MB
+Answer: b
+
+24. What is the purpose of a cache miss?
+a. To ensure that data is stored permanently in the cache
+b. To ensure that different levels of cache have consistent copies of the same data
+c. To manage the flow of instructions
+d. To retrieve data from a lower level of cache or main memory
+Answer: d
+
+25. Which cache level has the highest miss rate?
+a. L1 cache
+b. L2 cache
+c. L3 cache
+d. External cache
+Answer: d
+
+26. What is the typical size of external cache in modern computer systems?
+a. 2-4 MB
+b. 4-8 MB
+c. 16-32 MB
+d. 64-128 MB
+Answer: c
+
+27. Which cache level has the lowest latency?
+a. L1 cache
+b. L2 cache
+c. L3 cache
+d. External cache
+Answer: a
+
+28. What is the typical latency of L1 cache in modern CPUs?
+a. 1-2 ns
+b. 4-8 ns
+c. 16-32 ns
+d. 64-128 ns
+Answer: a
+
+29. Which cache level is the most expensive to implement in terms of hardware cost?
+a. L1 cache
+b. L2 cache
+c. L3 cache
+d. External cache
+Answer: a
+---
