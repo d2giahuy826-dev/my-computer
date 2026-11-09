@@ -1,0 +1,17 @@
+1
+Samsung, Apple, OnePlus, PixelX, iPhoneX, Xiaomi, Huawei, Realme, Oppo, Vivo, Nokia, LG  
+799, 1099, 599, 899, 1199, 299, 449, 199, 349, 399, 150, 50
+128, 256, 128, 512, 256, 64, 128, 64, 128, 128, 32, 32
+2
+Z, 899, 128
+Samsung, Apple, OnePlus, PixelX, iPhoneX, Xiaomi, Huawei, Realme, Oppo, Vivo, Nokia, LG  
+799, 1099, 599, 899, 1199, 299, 449, 199, 349, 399, 150, 50
+128, 256, 128, 512, 256, 64, 128, 64, 128, 128, 32, 32
+3
+Samsung, Apple, OnePlus, PixelX, iPhoneX, Xiaomi, Huawei, Realme, Oppo, Vivo, Nokia, LG  
+799, 1099, 599, 899, 1199, 299, 449, 199, 349, 399, 150, 50
+128, 256, 128, 512, 256, 64, 128, 64, 128, 128, 32, 32
+4
+Samsung, Apple, OnePlus, PixelX, iPhoneX, Xiaomi, Huawei, Realme, Oppo, Vivo, Nokia, LG  
+799, 1099, 599, 899, 1199, 299, 449, 199, 349, 399, 150, 50
+128, 256, 128, 512, 256, 64, 128, 64, 128, 128, 32, 32

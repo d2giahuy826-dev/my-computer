@@ -1,0 +1,21 @@
+line 0 - The next line is line 1 (f1)
+ A  S  W T  D  E  H  X  Y       A
+ -7  90 99 14  81  2 -6  4  16  7 
+ 7  2  4 99  1  2 6  41  6       7
+ 9  4  3 99  6  5  7  60  8      9
+line 5 - The next line is line 6 (f2)
+ A  S  W T  D  E  H  X  Y       A
+ -7  90 99 14  81  2 -6  4  16  7 
+ 7  2  4 99  1  2 6  41  6       7
+ 9  4  3 99  6  5  7  60  8      9
+line 10 - The next line is line 11 (f3)
+ A  S  W T  D  E  H  X  Y       A
+ -7  90 99 14  81  2 -6  4  16  7 
+ 7  2  4 99  1  2 6  41  6       7
+ 9  4  3 99  3  5  7  60  8      9
+line 15 - The next line is line 16 (f4)
+ A  S  W T  D  E  H  X  Y       A
+ -7  90 99 14  81  2 -6  4  16  7 
+ 7  2  4 99  1  2 6  41  6       7
+ 9  4  3 99  6  5  7  60  8      9
+END OF DATA

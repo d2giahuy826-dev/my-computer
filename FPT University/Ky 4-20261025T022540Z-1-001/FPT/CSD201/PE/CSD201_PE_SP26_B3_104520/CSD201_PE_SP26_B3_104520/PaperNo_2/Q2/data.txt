@@ -1,0 +1,21 @@
+line 0 - The next line is line 1 (f1)
+ A  S  T  D  E  H  X  Y
+ 7  90  14  81  2 -6  4  16 
+ 7  2  4  1  2 6  41  6 
+ 9  4  3  6  5  7  60  8
+line 5 - The next line is line 6 (f2)
+ C  D  E  F  G  H  I  J  K
+ 180  620  900  20  7  12  300  5  440
+ 10  20  90  12  7  22  30  5  44
+ 2  10  4  3  8  17  9  51  61
+line 10 - The next line is line 11 (f3)
+ C  D  E  F  G  H  I  J  K
+ 180  620  900  20  7  12  300  5  440
+ 10  20  90  12  7  22  30  5  44
+ 2  60  4  3  8  3000  9  5  6100
+line 15 - The next line is line 16 (f4)
+ C  D  E  F  G  H  I  J  K
+ 180  620  900  20  7  12  300  5  440
+10  20  90  12  7  22  30  5  44
+ 2  2345  4  3  8  3000  9  5  6100
+END OF DATA
