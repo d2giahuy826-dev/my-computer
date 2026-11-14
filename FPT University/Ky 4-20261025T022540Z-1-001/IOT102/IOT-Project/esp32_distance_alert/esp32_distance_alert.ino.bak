@@ -1,0 +1,94 @@
+#include <WiFi.h>
+#include <Firebase_ESP_Client.h>
+
+// Thông tin Wi-Fi
+#define WIFI_SSID "TEN_WIFI_CUA_BAN"
+#define WIFI_PASSWORD "MAT_KHAU_WIFI"
+
+// Thông tin Firebase
+#define API_KEY "API_KEY_FIREBASE_CUA_BAN"
+#define DATABASE_URL "URL_DATABASE_FIREBASE" // Ví dụ: https://ten-project.firebaseio.com/
+
+// Chân kết nối phần cứng
+#define TRIG_PIN 5
+#define ECHO_PIN 18
+#define LED_PIN 2
+#define BUZZER_PIN 4
+
+// Đối tượng Firebase
+FirebaseData fbdo;
+FirebaseAuth auth;
+FirebaseConfig config;
+
+unsigned long sendDataPrevMillis = 0;
+int distance = 0;
+
+void setup() {
+  Serial.begin(115200);
+  
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  pinMode(LED_PIN, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
+
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+  Serial.print("Dang ket noi Wi-Fi");
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(".");
+    delay(300);
+  }
+  Serial.println();
+  Serial.print("Da ket noi, IP: ");
+  Serial.println(WiFi.localIP());
+
+  config.api_key = API_KEY;
+  config.database_url = DATABASE_URL;
+
+  Firebase.reconnectWiFi(true);
+  Firebase.begin(&config, &auth);
+}
+
+void loop() {
+  // Đo khoảng cách
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+  
+  long duration = pulseIn(ECHO_PIN, HIGH);
+  distance = duration * 0.034 / 2;
+
+  Serial.print("Khoang cach: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+
+  // Cảnh báo dựa trên khoảng cách
+  if (distance < 10) {
+    digitalWrite(LED_PIN, HIGH);
+    tone(BUZZER_PIN, 1000);
+  } else if (distance < 30) {
+    digitalWrite(LED_PIN, HIGH);
+    noTone(BUZZER_PIN);
+    delay(100);
+    digitalWrite(LED_PIN, LOW);
+    delay(100);
+  } else {
+    digitalWrite(LED_PIN, LOW);
+    noTone(BUZZER_PIN);
+  }
+
+  // Gửi dữ liệu lên Firebase mỗi 5 giây
+  if (Firebase.ready() && (millis() - sendDataPrevMillis > 5000 || sendDataPrevMillis == 0)) {
+    sendDataPrevMillis = millis();
+    
+    if (Firebase.setInt(fbdo, "sensor/distance", distance)) {
+      Serial.println("Da gui du lieu thanh cong");
+    } else {
+      Serial.print("Loi gui du lieu: ");
+      Serial.println(fbdo.errorReason());
+    }
+  }
+
+  delay(100);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Distance Alert</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f4f4f9; }
+        .container { max-width: 400px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        .distance-box { font-size: 48px; font-weight: bold; color: #2c3e50; margin: 20px 0; }
+        .status { font-size: 24px; padding: 10px; border-radius: 5px; }
+        .safe { color: green; }
+        .warning { color: orange; }
+        .danger { color: red; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Khoảng cách hiện tại</h1>
+        <div id="distance" class="distance-box">Đang tải...</div>
+        <div id="status" class="status">Trạng thái</div>
+    </div>
+
+    <!-- Cấu hình Firebase -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+        import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js";
+
+        // TODO: Thay thế bằng thông tin Firebase của bạn
+        const firebaseConfig = {
+            apiKey: "API_KEY_CUA_BAN",
+            authDomain: "PROJECT_ID.firebaseapp.com",
+            databaseURL: "https://PROJECT_ID.firebaseio.com",
+            projectId: "PROJECT_ID",
+            storageBucket: "PROJECT_ID.appspot.com",
+            messagingSenderId: "SENDER_ID",
+            appId: "APP_ID"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+        const distanceRef = ref(db, 'sensor/distance');
+
+        onValue(distanceRef, (snapshot) => {
+            const data = snapshot.val();
+            const distanceEl = document.getElementById('distance');
+            const statusEl = document.getElementById('status');
+
+            if (data !== null) {
+                distanceEl.innerText = data + " cm";
+                
+                if (data < 10) {
+                    statusEl.innerText = "NGUY HIỂM! DỪNG LẠI";
+                    statusEl.className = "status danger";
+                } else if (data < 30) {
+                    statusEl.innerText = "Cẩn thận";
+                    statusEl.className = "status warning";
+                } else {
+                    statusEl.innerText = "An toàn";
+                    statusEl.className = "status safe";
+                }
+            } else {
+                distanceEl.innerText = "Chưa có dữ liệu";
+            }
+        });
+    </script>
+</body>
+</html>

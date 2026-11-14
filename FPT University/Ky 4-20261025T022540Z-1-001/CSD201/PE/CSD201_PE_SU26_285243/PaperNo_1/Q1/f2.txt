@@ -1,0 +1,6 @@
+Current Waiting Queue:
+(C01,Anna,2)(C02,Bob,3)(C03,Chris,1)(C04,Daisy,2)(C05,Ethan,3)(C06,Frank,1)
+Removed customer:
+(C01,Anna,2)
+Queue after dequeue:
+(C02,Bob,3)(C03,Chris,1)(C04,Daisy,2)(C05,Ethan,3)(C06,Frank,1)

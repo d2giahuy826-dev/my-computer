@@ -1,0 +1,10 @@
+
+ 1. Test f1 (1 mark)
+ 2. Test f2 (1 mark)
+ 0. Exit
+    Your selection (0 -> 2): 1
+Your output:
+ Content of the file f1.txt:
+  B A E F C D G H 
+  D[2] H[2] 
+

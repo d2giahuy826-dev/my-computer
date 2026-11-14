@@ -1,0 +1,127 @@
+#include <Wire.h>
+#include <Adafruit_LiquidCrystal.h>
+
+Adafruit_LiquidCrystal lcd(0); 
+
+const int TRIG = 9;
+const int ECHO = 10;
+
+// Chân kết nối LED
+const int LED_G = 2; // Xanh lá - An toàn (100cm - 200cm)
+const int LED_Y = 3; // Vàng    - Cảnh báo (50cm - 100cm)
+const int LED_R = 4; // Đỏ      - Nguy hiểm (0cm - 50cm)
+
+// Chân còi
+const int BUZZER = 8;
+
+// Biến điều khiển nháy đèn đỏ siêu nhanh
+unsigned long lastBlinkTime = 0;
+bool redState = false;
+unsigned long lastLcdUpdate = 0;
+
+void setup() {
+  pinMode(TRIG, OUTPUT);
+  pinMode(ECHO, INPUT);
+
+  pinMode(LED_G, OUTPUT);
+  pinMode(LED_Y, OUTPUT);
+  pinMode(LED_R, OUTPUT);
+  pinMode(BUZZER, OUTPUT);
+
+  Serial.begin(9600);
+
+  lcd.begin(16, 2);
+  lcd.setBacklight(1);
+  lcd.setCursor(0, 0);
+  lcd.print("CAM BIEN LUI XE");
+  lcd.setCursor(0, 1);
+  lcd.print("IOT202 - NHOM 3");
+  delay(800);
+  lcd.clear();
+}
+
+long getDistance() {
+  digitalWrite(TRIG, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG, LOW);
+
+  // Timeout 20ms (~3.4m) giúp vòng lặp đọc cực nhanh không bị lag
+  long duration = pulseIn(ECHO, HIGH, 20000); 
+  if (duration == 0) return 999;
+  return duration * 0.034 / 2;
+}
+
+void loop() {
+  long d = getDistance();
+  unsigned long currentMillis = millis();
+
+  // --- 1. VÙNG AN TOÀN (100cm - 200cm): Chỉ LED XANH sáng dứt khoát ---
+  if (d >= 100 && d <= 200) {
+    digitalWrite(LED_G, HIGH); // Sáng liền
+    digitalWrite(LED_Y, LOW);  // Tắt ngay
+    digitalWrite(LED_R, LOW);  // Tắt ngay
+    noTone(BUZZER);
+  }
+  // --- 2. VÙNG CẢNH BÁO (50cm - 100cm): Chỉ LED VÀNG sáng dứt khoát ---
+  else if (d >= 50 && d < 100) {
+    digitalWrite(LED_G, LOW);  // Tắt ngay
+    digitalWrite(LED_Y, HIGH); // Sáng liền
+    digitalWrite(LED_R, LOW);  // Tắt ngay
+    noTone(BUZZER);
+  }
+  // --- 3. VÙNG NGUY HIỂM (0cm - 50cm): ĐÈN ĐỎ NHÁY SIÊU NHANH + CÒI BÍP DỒN DẬP ---
+  else if (d >= 0 && d < 50) {
+    digitalWrite(LED_G, LOW);  // Tắt ngay
+    digitalWrite(LED_Y, LOW);  // Tắt ngay
+
+    // Chớp tắt mỗi 70ms (siêu nhanh)
+    if (currentMillis - lastBlinkTime >= 70) {
+      lastBlinkTime = currentMillis;
+      redState = !redState;
+      digitalWrite(LED_R, redState ? HIGH : LOW);
+      
+      if (redState) {
+        tone(BUZZER, 1500); // Âm thanh báo động theo nhịp đèn
+      } else {
+        noTone(BUZZER);
+      }
+    }
+  }
+  // --- 4. NGOÀI KHOẢNG ĐO (> 200cm): Tắt sạch đèn và còi ---
+  else {
+    digitalWrite(LED_G, LOW);
+    digitalWrite(LED_Y, LOW);
+    digitalWrite(LED_R, LOW);
+    noTone(BUZZER);
+  }
+
+  // Cập nhật LCD mượt mà, không bị nghẽn chip
+  if (currentMillis - lastLcdUpdate >= 100) {
+    lastLcdUpdate = currentMillis;
+
+    lcd.setCursor(0, 0);
+    lcd.print("Khoang cach:    ");
+    lcd.setCursor(12, 0);
+    if (d == 999 || d > 200) {
+      lcd.print("--- ");
+    } else {
+      lcd.print(d);
+      lcd.print("cm ");
+    }
+
+    lcd.setCursor(0, 1);
+    if (d >= 100 && d <= 200) {
+      lcd.print("AN TOAN (XANH)  ");
+    } else if (d >= 50 && d < 100) {
+      lcd.print("CANH BAO (VANG) ");
+    } else if (d >= 0 && d < 50) {
+      lcd.print("NGUY HIEM (DO)! ");
+    } else {
+      lcd.print("NGOAI VUNG DO!  ");
+    }
+  }
+
+  delay(20); // Độ trễ siêu nhỏ 20ms giúp phản hồi ngay tức thì khi kéo thanh trượt
+}

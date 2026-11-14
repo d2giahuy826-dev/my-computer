@@ -1,0 +1,4 @@
+Current VIP Customers:
+(V01,Jack,1)(V03,Leo,1)(V05,Ivy,2)(V07,Mia,2)(V09,Kate,3)(V05,Noah,3)
+Highest-priority VIP:
+(V01,Jack,1)

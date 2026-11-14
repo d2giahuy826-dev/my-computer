@@ -1,0 +1,90 @@
+#include <Wire.h>
+#include <Adafruit_LiquidCrystal.h>
+
+// Khai báo đúng thư viện và địa chỉ LCD như mạch của bạn
+Adafruit_LiquidCrystal lcd(0); 
+
+const int TRIG = 9;
+const int ECHO = 10;
+
+// Chân kết nối LED trên mạch của bạn
+const int LED_G = 2; // Xanh lá - An toàn
+const int LED_Y = 3; // Vàng    - Cảnh báo
+const int LED_R = 4; // Đỏ      - Nguy hiểm
+
+void setup() {
+  pinMode(TRIG, OUTPUT);
+  pinMode(ECHO, INPUT);
+
+  // Cấu hình chân LED là đầu ra
+  pinMode(LED_G, OUTPUT);
+  pinMode(LED_Y, OUTPUT);
+  pinMode(LED_R, OUTPUT);
+
+  Serial.begin(9600);
+
+  // Khởi tạo LCD
+  lcd.begin(16, 2);
+  lcd.setBacklight(1);
+  lcd.print("TEST LED MODE");
+  delay(1000);
+  lcd.clear();
+}
+
+long getDistance() {
+  digitalWrite(TRIG, LOW); delayMicroseconds(2);
+  digitalWrite(TRIG, HIGH); delayMicroseconds(10);
+  digitalWrite(TRIG, LOW);
+
+  long duration = pulseIn(ECHO, HIGH, 30000);
+  if (duration == 0) return 400; // Nếu không gặp vật thể
+  return duration * 0.034 / 2;
+}
+
+void loop() {
+  long d = getDistance();
+
+  // --- LOGIC ĐIỀU KHIỂN LED ---
+
+  // 1. Vùng AN TOÀN: 100cm - 200cm -> Chỉ LED XANH sáng
+  if (d >= 100 && d <= 200) {
+    digitalWrite(LED_G, HIGH);
+    digitalWrite(LED_Y, LOW);
+    digitalWrite(LED_R, LOW);
+  }
+
+  // 2. Vùng CẢNH BÁO: 50cm - 100cm -> Chỉ LED VÀNG sáng
+  else if (d >= 50 && d < 100) {
+    digitalWrite(LED_G, LOW);
+    digitalWrite(LED_Y, HIGH);
+    digitalWrite(LED_R, LOW);
+  }
+
+  // 3. Vùng NGUY HIỂM: 0cm - 50cm -> Chỉ LED ĐỎ sáng
+  else if (d > 0 && d < 50) {
+    digitalWrite(LED_G, LOW);
+    digitalWrite(LED_Y, LOW);
+    digitalWrite(LED_R, HIGH);
+  }
+
+  // 4. Ngoài vùng đo hoặc Lỗi (> 200cm) -> Tắt hết LED
+  else {
+    digitalWrite(LED_G, LOW);
+    digitalWrite(LED_Y, LOW);
+    digitalWrite(LED_R, LOW);
+  }
+
+  // Hiển thị lên LCD và Serial để bạn dễ debug
+  lcd.setCursor(0, 0);
+  lcd.print("Dist: "); lcd.print(d); lcd.print(" cm   ");
+
+  lcd.setCursor(0, 1);
+  if (d >= 100 && d <= 200) lcd.print("LED: GREEN (SAFE)");
+  else if (d >= 50 && d < 100) lcd.print("LED: YELLOW (WARN)");
+  else if (d > 0 && d < 50) lcd.print("LED: RED (DANGER)");
+  else lcd.print("LED: OFF (OUT)   ");
+
+  Serial.print("Distance: "); Serial.print(d); Serial.println(" cm");
+
+  delay(100); // Delay nhỏ để ổn định giá trị đọc
+}

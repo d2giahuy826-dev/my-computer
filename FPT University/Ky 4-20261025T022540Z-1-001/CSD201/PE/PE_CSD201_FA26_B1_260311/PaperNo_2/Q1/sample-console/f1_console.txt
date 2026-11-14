@@ -1,0 +1,11 @@
+
+ 1. Test f1 (1 mark)
+ 2. Test f2 (1 mark)
+ 3. Test f3 (1 mark)
+ 4. Test f4 (1 mark)
+ 0. Exit
+    Your selection (0 -> 4): 1
+Your output:
+ Content of the file f1.txt:
+  (Milo,3,4) (Luna,5,2) (Kiki,4,6) (Rex,5,5) (Nala,2,9) (Ollie,5,5) (Zoe,4,6) (Toby,3,1) 
+
